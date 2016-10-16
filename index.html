@@ -7,30 +7,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
 <title>Flying Tomato Airlines CS3382 CityU Hong Kong :: this is not a real site</title>
 <meta name="google-site-verification" content="N-RZ2fYCcIZQz1qpg2EL9A8FyivEAdFVgPeBm0HDk3s" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Flying Tomato Airlines is a great and cheap service provided by Team 6 of the CS3382 CityU Hong Kong course. Flying tomato airlines cs3382 CityU"/>
-=======
-<title>Flying tomato Airlines CS3382 CityU Hong Kong</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
->>>>>>> origin/master
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css files -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/icons.css" rel="stylesheet" type="text/css" media="all" />
 <!-- /css files -->
 <!-- font files -->
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 <!-- /font files -->
 <!-- js files -->
 
@@ -52,40 +44,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="service.html">Services</a></li>
-				<li><a href="work.html">Our Work</a></li>
-				<li><a href="process.html">Process</a></li>
-				<li><a href="typo.html">Typography</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li class="active"><a href="#">Home</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-truck" aria-hidden="true"></i> Track Order<b class="caret"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flight Info<b class="caret"></b></a>
 					<div class="dropdown-menu">
-						<div class="track-w3ls">
-							<h3>Enter Your Tracking Code</h3>
-							<form action="process.html" method="post">
-								<input type="text" name="trackcode" placeholder="Enter Tracking Code" required />
-								<button type="submit" class="btn btn-primary">Track</button>
-							</form>
-							<p class="track-p1">Contact Us :</p>
-							<p class="track-p2"><a href="mailto:mail@example.com">mail@example.com</a></p>
-						</div>
+						<ul>
+							<li><a href="#">Flight Tracker</a></li>
+							<li><a href="#">Arrival & Departure</a></li>
+							<li><a href="#">Where We Fly</a></li>
+						</ul>
 					</div>
 				</li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lock" aria-hidden="true"></i> Login<b class="caret"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan<b class="caret"></b></a>
 					<div class="dropdown-menu">
-						<div class="login-w3ls">
-							<h3>Login To Your Account</h3>
-							<form action="#" method="post">
-								<input type="text" name="email1" placeholder="Username or email" required />
-								<input type="password" name='password' placeholder="Password" required> 
-								<input type="submit" name="submit" value="Continue">
-							</form>
-						</div>
+						<ul>
+							<li><a href="#">Search Flight</a></li>
+							<li><a href="planner.html">Travel Planner</a></li>
+						</ul>
 					</div>
 				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">My Flight</a></li>
+							<li><a href="#">Help Info</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -94,114 +82,387 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- banner section -->
 <section class="banner-w3ls">
 	<div class='header'>
-		<div class="banner-w3layouts">
+		<div class="banner-w3layouts w3-row ">
 			<div class="container">
-				<h2 class="text-center w3 w3l agileinfo">Enabling Courier Store</h2>	
-				<p class="text-center w3 w3l agileinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+				<div class="slogan">
+					<h1>Your trip starts here.</h1>
+				</div>
+				<div class="intro">
+					<div class="intro-main">
+						<h3>Book Now!</h3>
+						<div class="form-group">
+							<input list="place" name="place" class="form-control" id="text1" placeholder="Departure from...">
+							<datalist id="place">	
+								<option>HKG Hong Kong</option>
+								<option>NAA Tokyo, Japan</option>
+								<option>Osaka</option>
+								<option>Okinawa</option>
+								<option>Seoul</option>
+							</datalist>
+						</div>
+						<div class="form-group">
+							<input list="place" name="place" class="form-control" id="text1" placeholder="Going to...">
+							<datalist id="place">	
+								<option>Hong Kong</option>
+								<option>NAA Tokyo, Japan</option>
+								<option>Osaka</option>
+								<option>Okinawa</option>
+								<option>Seoul</option>
+							</datalist>
+						</div>
+						<div class="form-group">
+							<input type="date" name="date" class="form-control" id="text1">
+							<input type="date" name="date" class="form-control" id="text1">
+						</div>
+						<div class=" numofppl form-group">
+							<label for="adult">Adults (12+) :</label>
+							<label for="kid">Kids (2-11) :</label>
+							<label for="infant">  Infants (< 2) :</label>
+							<select class="form-control" id="adult">
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4</option>
+							</select>
+							<select class="form-control" id="kid">
+							    <option>0</option>
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4</option>
+							</select>
+							<select class="form-control" id="infant">
+							    <option>0</option>
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn-outline">Search Flight</button>
+						</div>
+
+					</div>
+				</div>
+				
+				<div class="intro">
+					<div class="intro-main">
+						<h3>Plan Now!</h3>
+						<p>Don't Know where to go? <br>We can help you find your beloved destination!</p>
+						<div class="form-group">
+							<button type="submit" class="btn-outline">Go Plan It !</button>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
 </section>
+<div class="clearfix"></div>
 <!-- /banner section -->
+
 <!-- specialization section -->
 <section class="special-w3layouts">
 	<div class="container">
-		<h3 class="text-center wthree w3-agileits">Our Specialities</h3>
-		<p class="text-center wthree w3-agileits">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<i class="fa fa-dollar" aria-hidden="true"></i>
+		<h3 class="text-center wthree w3-agileits">Special Promotions!</h3>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<img src="images/eye.png" alt="" class="img-responsive">
-			<h4 class="text-center">Automated Tracking</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="promo">
+				<div class="promo-main">
+					<h4>Tokyo</h4>
+					<p>From Hong Kong</p>
+					<p>Nov 2016</p>
+					<p class="price">$888</p>
+					<div class="form-group">
+						<button type="submit" class="btn-outline">Book Now</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<img src="images/monitor.png" alt="" class="img-responsive">
-			<h4 class="text-center">Tracking API</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="promo">
+				<div class="promo-main">
+					<h4>Tokyo</h4>
+					<p>From Hong Kong</p>
+					<p>Nov 2016</p>
+					<p class="price">$888</p>
+					<div class="form-group">
+						<button type="submit" class="btn-outline">Book Now</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<img src="images/shop.png" alt="" class="img-responsive">
-			<h4 class="text-center">Ecommerce Integration</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="promo">
+				<div class="promo-main">
+					<h4>Tokyo</h4>
+					<p>From Hong Kong</p>
+					<p>Nov 2016</p>
+					<p class="price">$888</p>
+					<div class="form-group">
+						<button type="submit" class="btn-outline">Book Now</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<img src="images/truck.png" alt="" class="img-responsive">
-			<h4 class="text-center">Delivered In Time</h4>
-			<p class="special-p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="promo">
+				<div class="promo-main">
+					<h4>Tokyo</h4>
+					<p>From Hong Kong</p>
+					<p>Nov 2016</p>
+					
+					<div class="form-group">
+						<p class="price">$888</p>
+						<button type="submit" class="btn-outline">Book Now</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="clearfix"></div>
 	</div>
 </section>
 <!-- /specialization section -->
+
 <!-- 2nd banner section -->
 <section class="banner-w3ls2">
 	<div class="container">
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Giving The Best Solutions</h3>
+		<i class="fa fa-info-circle" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Latest Travel Information</h3>
+		<br>
+		<p>Please be informed that customers travelling with a Galaxy Note 7 mobile phone will need to ensure it remain switched off during their flight and to be carried in their hand luggage. This is in line with updated guidance from the UK Civil Aviation Authority and our crew will be enforcing this as a safety precaution. The safety of our passengers and crew is our highest priority. Thank you for your understanding. </p>
 	</div>
 </section>
 <!-- /2nd banner section -->
+
 <!-- 2nd info section -->
 <section class="info-w3ls2">
 	<div class="container">
-		<i class="fa fa-trophy" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Always Delivering Best Of Our Services</h3>
-		<p class="text-center">Nam commodo viverra lectus, tempor vehicula libero varius convallis. Nullam placerat, eros non efficitur vulputate, leo nisi interdum odio, sed sodales eros ex vitae nisi.</p>
-	</div>
+		<i class="fa fa-plane" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Where We Fly</h3>
+		<p class="text-center">Based in Hong Kong, Flying Tomato Airlines’ network currently covers over 10 cities across the Asia Pacific region, including major cities in Japan, South Korea, Taiwan and Thailand. We hope to provide direclt and low cost flights to enjoy your trip with best experiences.</p>
+		<div class="placeinfo">
+			<div class="placeinfo-main">
+				<ul class="tab">
+				  	<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Japan')" id="defaultOpen">Japan</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'SouthKorea')">South Korea</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Taiwan')">Taiwan</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Thailand')">Thailand</a></li>
+				</ul>
+
+				<div id="Japan" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag landmarks">#Landmark</span>Tokyo Tower<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span>Mount Fuji<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								
+						  	</div>
+						</div>
+						
+						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						 	<p>Lorem ipsum...</p>
+						</div>
+						
+						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						  	<p>Lorem ipsum...</p>
+						</div>
+				  	</div>
+				</div>
+
+				<div id="SouthKorea" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag landmarks">#Landmark</span>Tokyo Tower<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span>Mount Fuji<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								
+						  	</div>
+						</div>
+						
+						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						 	<p>Lorem ipsum...</p>
+						</div>
+						
+						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						  	<p>Lorem ipsum...</p>
+						</div>
+				  	</div>
+				</div>
+
+				<div id="Taiwan" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag landmarks">#Landmark</span>Tokyo Tower<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span>Mount Fuji<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								
+						  	</div>
+						</div>
+						
+						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						 	<p>Lorem ipsum...</p>
+						</div>
+						
+						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						  	<p>Lorem ipsum...</p>
+						</div>
+				  	</div>
+				</div>
+
+				<div id="Thailand" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag landmarks">#Landmark</span>Tokyo Tower<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span>Mount Fuji<span class="more">Read More</span></button>
+								<div class="panel">
+									<p>Lorem ipsum...</p>
+								</div>
+								
+						  	</div>
+						</div>
+						
+						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						 	<p>Lorem ipsum...</p>
+						</div>
+						
+						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						  	<p>Lorem ipsum...</p>
+						</div>
+				  	</div>
+				</div>
+				
+				<script>
+				function openCity(evt, cityName) {
+				    var i, tabcontent, tablinks;
+				    tabcontent = document.getElementsByClassName("tabcontent");
+				    for (i = 0; i < tabcontent.length; i++) {
+				        tabcontent[i].style.display = "none";
+				    }
+				    tablinks = document.getElementsByClassName("tablinks");
+				    for (i = 0; i < tablinks.length; i++) {
+				        tablinks[i].className = tablinks[i].className.replace(" active", "");
+				    }
+				    document.getElementById(cityName).style.display = "block";
+				    evt.currentTarget.className += " active";
+				}
+
+				// Get the element with id="defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+				</script>
+				<script>
+					/* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+    					acc[i].onclick = function(){
+        					this.classList.toggle("active");
+        					this.nextElementSibling.classList.toggle("show");
+					    }
+					}
+				</script>
+				<script>
+					/* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+					var acc = document.getElementsByClassName("accordion2");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+    					acc[i].onclick = function(){
+        					this.classList.toggle("active");
+        					this.nextElementSibling.classList.toggle("show");
+					    }
+					}
+				</script>
+
+			</div>
+		</div>
 </section>
-<!-- /2nd info section -->
-<!-- 3rd banner section -->
-<section class="banner-w3ls3">
-	<div class="container">
-		<h3 class="text-center">Making Our Customers Satisfied</h3>
-	</div>
-</section>
-<!-- /3rd banner section -->
-<!-- 3rd info section -->
-<section class="info-w3ls3">
-	<div class="container">
-		<i class="fa fa-smile-o" aria-hidden="true"></i>
-		<h3 class="text-center">Making Our Customers Happy</h3>
-		<p class="text-center">Fusce at aliquet metus. Duis magna lorem, mollis tincidunt felis sit amet, efficitur consequat lorem. In eget accumsan enim, id congue est.</p>
-	</div>
-</section>
-<!-- /3rd info section -->
+
 <!-- footer section -->
 <section class="footer-agileits">
 	<div class="container">
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>More Info</h3>
-			<ul class="info-links">
-				<li><a href="about.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> About Us</a></li>
-				<li><a href="contact.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Contact Us</a></li>
-				<li><a href="icons.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Icons</a></li>
-				<li><a href="privacy.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Privacy Policy</a></li>
-			</ul>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Our Links</h3>
+			<h3>Flight Info</h3>
 			<ul class="footer-links">
-				<li><a href="service.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Our Services</a></li>
-				<li><a href="work.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Our Work</a></li>
-				<li><a href="process.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Process</a></li>
-				<li><a href="typo.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Typography</a></li>
+				<li><a href="#">Flight Tracker</a></li>
+				<li><a href="#">Arrival & Departure</a></li>
+				<li><a href="#">Where We Fly</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Contact Info</h3>
+			<h3>Plan</h3>
+			<ul class="footer-links">
+				<li><a href="#">Search Flight</a></li>
+				<li><a href="#">Travel Planner</a></li>
+			</ul>
+			<br>
+			<h3>Manage</h3>
+			<ul class="footer-links">
+				<li><a href="#">My Flight</a></li>
+				<li><a href="#">Help Info</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6">
+			<h3>Contact Us</h3>
+			<ul class="footer-links">
+				<li><a href="#">Send Us Message</a></li>
+			</ul>
 			<div class="contact-info">
 				<div class="address">	
 					<i class="glyphicon glyphicon-globe"></i>
 					<p class="p3">77 Jack Street</p>
-					<p class="p4">Chicago, USA</p>
+					<p class="p4">Tung Chung, Hong Kong</p>
 				</div>
 				<div class="phone">
 					<i class="glyphicon glyphicon-phone-alt"></i>
-					<p class="p3">+1 515 151515</p>
-					<p class="p4">+00 1010101010</p>
+					<p class="p3">+852 4321 8765</p>
+					<p class="p4">+852 1234 5678</p>
 				</div>
 				<div class="email-info">
 					<i class="glyphicon glyphicon-envelope"></i>
-					<p class="p5"><a href="mailto:myemail1@example.com">myemail1@example.com</a></p> 
-					<p class="p6"><a href="mailto:myemail2@example.com">myemail2@example.com</a></p>
+					<p class="p5"><a href="mailto:myemail1@example.com">flying1@tomato.com</a></p> 
+					<p class="p6"><a href="mailto:myemail2@example.com">flying2@tomato.com</a></p>
 				</div>
 			</div>
 		</div>
@@ -218,22 +479,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="form-group">
 						<button type="submit" class="btn-outline">Subscribe</button>
 					</div>
+					<ul class="social-icons2">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
 				</form>
-			</div>	
-			<ul class="social-icons2">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-			</ul>
+			</div>
 		</div>
 		<div class="clearfix"></div>
 		<hr>
-		<p class="copyright">© 2016 Courier Store. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
-	</div>
+		<p class="copyright">© 2016 Flying Tomato Airlines. <br>This is not a real website. This was designed as part of a school project on web design and usability.<br> | Design by CS3382 Team 6-CA1 | </p>
 </section>
 <!-- /footer section -->
-<a href="#0" class="cd-top">Top</a>
+<a href="#0" class="cd-top"></a>
 <!-- js files -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -250,7 +510,7 @@ var myBgFader = $('.header').bgfader([
 ], {
   'timeout': 2000,
   'speed': 3000,
-  'opacity': 0.4
+  'opacity': 0.1
 })
 
 myBgFader.start()
