@@ -1303,7 +1303,7 @@ section.service-w3ls p {
 	margin-bottom: 50px;
 }
 section.service-w3ls p.text {
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 section.service-w3ls .month {
 	text-align: center;
@@ -2873,6 +2873,10 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 	font-size:30px;
 }
 section.inner-w3ls h2.text-center {
+    font-size: 35px;
+    padding: 110px 0 0;
+}
+section.inner-w3ls h1.text-center {
     font-size: 35px;
     padding: 110px 0 0;
 }
