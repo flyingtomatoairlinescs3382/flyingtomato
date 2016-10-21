@@ -24,7 +24,7 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-<<<<<<< HEAD
+
 	margin:0;	
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
@@ -36,10 +36,8 @@ h1.title1{
 p.author {
 	margin-top: 20px;
 }
-/*service-w3ls.h1{
-	padding: 50px;
-}*/	
->>>>>>> origin/master
+
+
 p{
 	margin:0;
 	padding:0;
