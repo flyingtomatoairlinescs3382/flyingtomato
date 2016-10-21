@@ -2386,7 +2386,7 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 	padding-top:230px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center{
 	font-size: 50px;
     padding: 195px 0 20px;
 }
@@ -2934,10 +2934,18 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 section.inner-w3ls h2.text-center {
     font-size: 35px;
     padding: 110px 0 0;
+<<<<<<< HEAD
 }
 section.inner-w3ls h1.text-center {
     font-size: 35px;
     padding: 110px 0 0;
+=======
+}
+section.inner-w3ls h1 {
+    font-size: 20px;
+    padding: 110px 0 0;
+    padding-bottom: 40px;
+>>>>>>> origin/master
 }
 section.work-w3ls .nav-tabs > li:nth-child(1) {
     margin-left: 8em;
