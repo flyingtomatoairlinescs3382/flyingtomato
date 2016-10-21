@@ -34,7 +34,7 @@ h1.title1{
 	
 }
 p.author {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 
@@ -1389,7 +1389,10 @@ section.service-w3ls p {
 	margin-bottom: 50px;
 }
 section.service-w3ls p.text {
-	margin-bottom: 70px;
+	margin-bottom: 20px;
+}
+section.service-w3ls p.author {
+	margin-bottom: 40px;
 }
 section.service-w3ls .month {
 	text-align: center;
@@ -3486,9 +3489,7 @@ section.footer-agileits button.btn-outline {
     padding: 15px 0px 0px 15px;
 }
 /* Blog Style */
-p.text {
-	margin-bottom: 10px;
-}
+
 
 
 
