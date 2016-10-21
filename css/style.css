@@ -2316,7 +2316,7 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 	padding-top:230px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
 	font-size: 50px;
     padding: 195px 0 20px;
 }
@@ -2621,7 +2621,7 @@ section.transit-w3ls .table>tbody>tr>td h4 {
 	.navbar-default .navbar-nav>li>a {
     padding: 15px 7px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center {
     font-size: 45px;
     padding: 195px 0 15px;
 }
@@ -2744,7 +2744,7 @@ ul.nav.navbar-nav.navbar-right {
     text-align: center;
     background: #E4E4E4;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
     font-size: 45px;
     padding: 110px 0 0;
 }
@@ -2830,7 +2830,7 @@ section.footer-agileits button.btn-outline {
 }
 
 @media (max-width: 667px) {
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
     font-size: 40px;
     padding: 110px 0 0;
 }
@@ -2872,7 +2872,7 @@ section.about-w3ls h3.text-center, section.team-w3ls h3.text-center, section.cus
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 	font-size:30px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
     font-size: 35px;
     padding: 110px 0 0;
 }
