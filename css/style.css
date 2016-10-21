@@ -2877,9 +2877,9 @@ section.inner-w3ls h2.text-center {
     padding: 110px 0 0;
 }
 section.inner-w3ls h1 {
-    font-size: 25px;
+    font-size: 20px;
     padding: 110px 0 0;
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 section.work-w3ls .nav-tabs > li:nth-child(1) {
     margin-left: 8em;
