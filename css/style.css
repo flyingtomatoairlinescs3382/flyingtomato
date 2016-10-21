@@ -1025,7 +1025,7 @@ section.inner-w3ls {
 	min-height:300px;
 	
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
 	font-size: 65px;
     font-weight: normal;
     padding:170px 0 20px;
@@ -3199,7 +3199,7 @@ section.footer-agileits input#inputEmail1, section.footer-agileits input#text1 {
 section.special-w3layouts h3.text-center {
     font-size: 23px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center {
     font-size: 29px;
 }
 }
@@ -3209,7 +3209,7 @@ section.banner-w3ls h2.text-center {
     font-size: 30px;
     padding: 100px 0 0px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
     font-size: 30px;
     padding: 110px 0 0;
 }
@@ -3271,7 +3271,7 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
     font-size: 20px;
     line-height: 30px;
 }
-section.inner-w3ls h2.text-center {
+section.inner-w3ls h2.text-center h1.text-center{
     font-size: 23px;
     padding: 100px 0 0;
 }
