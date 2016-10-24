@@ -245,8 +245,13 @@ color: #000 !important;
 	margin-bottom:20px;
 } 
 /*-- /navigation effects --*/
-
+/* Info homepage */
+section.banner-w3ls h1 {
+	font-size: 18px;
+}
 /* Index title */
+
+
 section.htitle h1 {
 	
 }
