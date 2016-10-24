@@ -249,10 +249,12 @@ color: #000 !important;
 section.banner-w3ls h1 {
 	font-size: 22px;
 	padding-bottom: 10px;
+	padding-left: 25px;
 }
 section.banner-w3ls h3 {
 	font-size: 18px;
 	padding-bottom: 30px;
+	padding-left: 25px;
 }
 /* Index title */
 
