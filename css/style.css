@@ -652,6 +652,7 @@ section.special-w3layouts p.special-p1 {
 section.info-w3ls,
 section.info-w3ls2,
 section.banner-w3ls2,
+section.info-w3ls3,
 section.blog {
 	padding:100px 0;
 
@@ -659,6 +660,7 @@ section.blog {
 section.info-w3ls i.fa,
 section.info-w3ls2 i.fa,
 section.special-w3layouts i.fa,
+section.info-w3ls3 i.fa,
 section.banner-w3ls2 i.fa
 {
 	font-size:27px;
@@ -681,6 +683,7 @@ section.info-w3ls h3.text-center,
 section.info-w3ls2 h3.text-center,
 section.special-w3layouts h3.text-center,
 section.banner-w3ls2 h3.text-center,
+section.info-w3ls3 h3.text-center,
 section.blog h3.blogtitle {
 	font-size:50px;
 	font-weight:normal;
