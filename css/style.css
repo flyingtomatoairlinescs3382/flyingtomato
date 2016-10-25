@@ -455,6 +455,9 @@ section.info-w3ls3,
 section.blog {
 	padding:50px 0;
 }
+section.inner-w3ls {
+	padding: 70px 0;
+}
 /*--section style--*/
 
 /*--header title style--*/
@@ -463,6 +466,7 @@ section.info-w3ls2 h3.text-center,
 section.special-w3layouts h3.text-center,
 section.banner-w3ls2 h3.text-center,
 section.info-w3ls3 h3.text-center,
+section.inner-w3ls h3.text-center,
 section.blog h3.blogtitle {
 	font-size:50px;
 	font-weight:normal;
@@ -470,20 +474,16 @@ section.blog h3.blogtitle {
 	position:relative;
 }
 section.special-w3layouts h3.text-center,
-section.banner-w3ls3 h3.text-center {
+section.banner-w3ls3 h3.text-center,
+section.inner-w3ls h3.text-center {
     color: #fff;
 }
 section.banner-w3ls2 h3.text-center {
 	color:#e25b71;
 }
-/*--header title style--*/
-
-/*-- specialization section --*/
-.plan-main h3{
-	line-height: 40px;
-	color: #FFF;
-}
-section.special-w3layouts i.fa{
+section.special-w3layouts i.fa,
+section.inner-w3ls i.fa
+{
 	font-size:27px;
 	font-weight:thin;
 	width:70px;
@@ -500,6 +500,14 @@ section.special-w3layouts i.fa{
 	-o-border-radius:50%;
 	-ms-border-radius:50%;
 }
+/*--header title style--*/
+
+/*-- specialization section --*/
+.plan-main h3{
+	line-height: 40px;
+	color: #FFF;
+}
+
 .plan-main button.btn-outline {
     margin-top: 20px;
     border: solid 2px #fff;
@@ -540,7 +548,23 @@ section.banner-w3ls2 i.fa
 	-o-border-radius:50%;
 	-ms-border-radius:50%;
 }
-
+section.inner-w3ls i.fa {
+	font-size:27px;
+	font-weight:thin;
+	width:70px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	color:#e25b71;
+	margin:0 auto;
+	display:block;
+	background-color:#fff;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
 section.info-w3ls p.text-center,
 section.info-w3ls2 p.text-center,
 section.blog p.blogtext {
@@ -575,6 +599,7 @@ section.banner-w3ls2 p {
 	 padding: 5px 15px;
 }
 /*-- /2nd banner section --*/
+
 /*-- 2nd info section --*/
 .promo {
 	border: 2px solid #a40004;
@@ -614,9 +639,6 @@ section.banner-w3ls2 p {
     color: #d40006;
     background: #fff;
 }
-
-
-
 
 section.info-w3ls2 .placeinfo {
 	border: 1px solid #d40004;
@@ -780,6 +802,9 @@ span.tag.nature {
 }
 /*--tab detail style--*/
 /*-- /2nd info section --*/
+
+
+
 
 /*-- footer info section --*/
 section.footer-agileits {
@@ -1102,7 +1127,7 @@ section.footer-agileits p.copyright a:hover {
 
 /*-- inner pages banner --*/
 section.inner-w3ls {
-	background-color: rgba(253, 0, 6, 0.7);;
+	background-color: #e25b71;
 	background-position:center;
 	background-attachment:fixed;
 	background-repeat:no repeat;
@@ -1112,15 +1137,7 @@ section.inner-w3ls {
 	-o-background-size:100% 100%;
 	-ms-background-size:100% 100%;
 	min-height:300px;
-	
-}
-section.inner-w3ls h2.text-center {
-	font-size: 65px;
-    font-weight: normal;
-    padding:170px 0 20px;
-    color: #fff;
-	line-height:90px;
-    font-family: 'Montserrat', sans-serif;
+	padding: 100px 0 0;
 }
 section.inner-w3ls p.text-center {
 	font-size:17px;
