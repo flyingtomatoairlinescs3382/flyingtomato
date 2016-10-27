@@ -1164,43 +1164,33 @@ figure {
 
 
 /*-- service page --*/
-
 section.service-w3ls h3 {
 	padding: 0 0 25px 0;
 	color: #fd0006;
 	font-size: 30px;
 }
-section.service-w3ls .traveldate {
-	margin-bottom: 50px;
+.breadcrumb {
+	margin: 20px 0;
+}
+.current {
+	color: #e25b71 !important;
+}
+.breadcrumb li{
+	color: #999999;
+}
+
+section.service-w3ls label{
+	color: #555555;
 
 }
-section.service-w3ls .traveldate input[type=date] {
-	margin-right: 50px;
-}
-section.service-w3ls p {
-	margin-bottom: 50px;
-}
-section.service-w3ls p.text {
-	margin-bottom: 20px;
-}
-section.service-w3ls p.author {
-	margin-bottom: 40px;
-}
-section.service-w3ls .month {
+.month {
 	text-align: center;
-	padding-top: 18px;
-	border-top: 15px solid #a40004;
-	background-color: white;
-	width: 75px;
-	height: 70px;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
-	display: inline-block;
-	margin: 0 10px 15px 0;
+	border: 1px solid #777777;
+	border-top: 15px solid #e25b71;
+	margin-bottom: 10px;
 }
-section.service-w3ls .travelmonth {
-	margin-bottom: 30px;
+.month p {
+	padding: 20px 10px;
 }
 section.service-w3ls .travel-act {
 	width: 95%;
