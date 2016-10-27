@@ -91,14 +91,214 @@
 <section class="info-w3ls2 where-we-fly">
 	<div class="container">
 		<p class="text-center">Based in Hong Kong, Flying Tomato Airlines’ network currently covers over 10 cities across the Asia Pacific region, including major cities in Japan, South Korea, Taiwan and Thailand. We hope to provide direclt and low cost flights to enjoy your trip with best experiences.</p>
+		<div class="place-main">
+			<img src="images/map.png" id="map">
+			<ul class="placelist col-md-3">
+				<li class="phead">Hong Kong</li>
+				<li>1. Hong Kong HKG</li>
+				<li style="color: white;">blank</li>
+				<li class="phead">Thailand</li>
+				<li>2. Bangkok BKK</li>
+				<li>3. Phuket HKT</li>
+				<li>4. Chiang Mai CNX</li>
+			</ul>
+			<ul class="placelist col-md-3">
+				<li class="phead">Taiwan</li>
+				<li>5. Taipei TPE</li>
+				<li>6. Taichung TXG</li>
+				<li>7. Kaohsiung KHH</li>
+			</ul>
+			<ul class="placelist col-md-3">
+				<li class="phead">Japan</li>
+				<li>8. Tokyo NAA</li>
+				<li>9. Osaka KIX</li>
+				<li>10. Okinawa OKA</li>
+			</ul>
+			<ul class="placelist col-md-3">
+				<li class="phead">South Korea</li>
+				<li>11. Seoul ICN</li>
+				<li>12. Busan PUS</li>
+				<li>13. Jeju CJU</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
 		<div class="placeinfo">
 			<div class="placeinfo-main">
 				<ul class="tab">
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'HongKong')" id="defaultOpen">Hong Kong</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Thailand')">Thailand</a></li>
+					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Taiwan')">Taiwan</a></li>
 				  	<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Japan')" id="defaultOpen">Japan</a></li>
 					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'SouthKorea')">South Korea</a></li>
-					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Taiwan')">Taiwan</a></li>
-					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Thailand')">Thailand</a></li>
+					
+					
 				</ul>
+				
+				<div id="HongKong" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Hong Kong<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag shopping">#Shopping</span>Causeway Bay<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/01cwb.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Causeway Bay</h3>
+										<span class="tag shopping">#Shopping</span>
+										<p>If shopping were a sport, Causeway Bay would be the home of the Olympic Games. This is where consumerism is out and proud, and every available square inch is devoted to worshipping at the altar of retail. Even though a relatively compact area, it still take at least an entire day to work your way through its endless shopping malls, department stores, boutiques and market stalls.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag themepark">#ThemePark</span><span class="tag zoo">#Zoo/Aquarium</span>Ocean Park<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/02oceanpark.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Ocean Park</h3>
+										<span class="tag themepark">#ThemePark</span><span class="tag zoo">#Zoo/Aquarium</span>
+										<p>Ocean Park Hong Kong is a marine-life theme park featuring animal exhibits, thrill rides and shows. Its impressive ability to offer guests a world-class experience that blends entertainment with education and conserva- tion was confirmed when it became the first Asian winner of the biannual Applause Award, the most prestigious award in the amusement and theme park industry.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag landmark">#Landmark</span>The Peak / Victoria Habour<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/03peak.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>The Peak / Victoria Habour</h3>
+										<span class="tag landmark">#Landmark</span>
+										<p>The view from The Peak is one of the most popular attrac- tions in HK. By day your eyes stretch across sparkling skyscrapers and Victoria Harbour all the way to the green hills of New Territories. In early evening this panorama melts into orange before reincarnating as a galaxy of light, shimmering beneath you. And if you listen carefully enough, you can hear Asia’s world city humming below.</p>
+									</div>
+								</div>
+						  	</div>
+						</div>
+				  	</div>
+				</div>
+				
+				<div id="Thailand" class="tabcontent">
+				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
+					<div class="tabdetail">
+						<button class="accordion">Bangkok<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+								<button class="accordion2" id="detail-content"><span class="tag landmark">#Landmark</span>Wat Pho<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/04WatPho.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Wat Pho</h3>
+										<span class="tag landmark">#Landmark</span>
+										<p>Wat Pho, is located behind the Temple of the Emerald Buddha and a must-do for any first-time visitor in Bang- kok. It's one of the largest temple complexes in the city and famed for its giant reclining Buddha that measures 46 metres long and is covered in gold leaf. It have traditional Thai massage too. Wat Pho is often considered the lead- ing school of massage in Thailand, enjoy!</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag shopping">#Shopping</span>Sukhumvit<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/05sukhumvit.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Sukhumvit</h3>
+										<span class="tag shopping">#Shopping</span>
+										<p>Sukhumvit is the longest road in Thailand. There are many fashionable restaurants, bars, air-conditioned malls, luxury hotels and hip clubs give the area a distinctly modern, cosmopolitan flavour. Acquiring tailor made clothes is one of the joys of visiting Bangkok. This alone could make this city a destination point, as the tailoring here is the most prolific in the world.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag outdoor">#Outdoor</span><span class="tag nature">#Nature</span>Lumpini Park<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/06lumpinipark.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Lumpini Park</h3>
+										<span class="tag outdoor">#Outdoor</span><span class="tag nature">#Nature</span>
+										<p>Lumpini Park is an oasis of vegetation in the middle of Bangkok’s urban jungle. One of the oldest recreational parks in Bangkok, it is a popular place for people of all ages and walks to life to convene for exercise, picnics, social gatherings and other pastimes. There are also some animals in the park. You can spot not only birds, street cats and street dogs, but also huge lizards!</p>
+									</div>
+								</div>
+						  	</div>
+						</div>
+						
+						<button class="accordion">Phuket<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+							<div class="details">
+						 		<button class="accordion2"><span class="tag outdoor">#Outdoor</span>Phi Phi Island / Racha Islands<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/07ScubaDiving.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Phi Phi Island / Racha Islands</h3>
+										<span class="tag outdoor">#Outdoor</span>
+										<p>Phuket is a great place to achieve your PADI certificate. It is rated amongst the top 10 diving destinations in the world and many of the centres in the area boast years of experience. Diving day trips from Phuket to Phi Phi Island and the Racha Islands operate throughout the year. All kind of divers will appreciate the underwater scenery at Phi Phi, the fascinating King Cruiser wreck or Shark Point.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag resort">#Resort</span>Karon<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/08karon.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Karon</h3>
+										<span class="tag resort">#Resort</span>
+										<p>Karon Beach is a very popular resort town located on Phuket island's West coast. Featuring the third longest beach in Phuket, it is a lively destination where vaca- tioners could enjoy a great choice of dining, shopping and nightlife entertainment options. It is family-friendly for it has all the qualities required for anyone to spend a hassle-free holiday under the tropics.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span><span class="tag zoo">#Zoo/Aquarium</span>Gibbon Rehabilitation Project<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/09GRP.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Gibbon Rehabilitation Project</h3>
+										<span class="tag nature">#Nature</span><span class="tag zoo">#Zoo/Aquarium</span>
+										<p>The GRP was set up in 1992 as a non-government orga- nization (NGO) with the aim of taking captive gibbons and retraining them so that they have a chance of returning to the wild. It is not a petting zoo, but a conservation area to avoid hunters from killing gibbons. Gibbons are an essen- tial part of the health of the jungle. Visitors can understand the habitat and get some conservative msgs here.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<button class="accordion">Chiang Mai<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
+						<div class="panel">
+						  	<div class="details">
+						 		<button class="accordion2"><span class="tag landmark">#Landmark</span><span class="tag upcoming">Upcoming!</span>Yi Peng<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/10yipeng.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Yi Peng</h3>
+										<span class="tag landmark">#Landmark</span>
+										<p>Yi Peng, a festival of lights celebrated mainly in the north of Thailand on 14 Nov this year, which is celebrated during the full moon of November and is Thailand's 2nd most important festival after Songkran. It is a time to be with family and friends and to make merit.People gather near lakes to launch paper lanterns into the sky, and to float their 'krathongs' with loved ones.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag nature">#Nature</span><span class="tag zoo">#Zoo/Aquarium</span>Elephant Nature Park<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/11elephantnaturepark.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Elephant Nature Park</h3>
+										<span class="tag nature">#Nature</span><span class="tag zoo">#Zoo/Aquarium</span>
+										<p>Elephant Nature Park, a unique conservation project set in Chiang Mai Province, has been in operation since in the 1990's with a goal to provide a sanctuary and elephant rescue center. Their mission is to protect and conserve elephants in a natural environment and to provide a healthy and fruitful life for all those creatures under detail care.</p>
+									</div>
+								</div>
+								<button class="accordion2"><span class="tag heritage">#Heritage</span>Wat Chedi Luang<span class="more">Read More</span></button>
+								<div class="panel row">
+									<div class="pic col-md-5">
+										<img src="images/12WatChediLuang.jpg">
+									</div>
+									<div class="text col-md-7">
+										<h3>Wat Chedi Luang</h3>
+										<span class="tag nature">#Nature</span>
+										<p>Wat Chedi Luang (lit. temple of the big stupa) is a Buddhist temple in the historic centre of Chiang Mai. It made up of made up of Wat Chedi Luang, Wat Ho Tham and Wat Sukmin. This was possibly the largest structure in ancient Chiang Mai but the top of the chedi was destroyed by either a 16th-century earthquake or by cannon fire during the recapture of Chiang Mai.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				  	</div>
+				</div>
 
 				<div id="Japan" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
@@ -161,36 +361,6 @@
 				</div>
 
 				<div id="Taiwan" class="tabcontent">
-				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
-					<div class="tabdetail">
-						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
-						<div class="panel">
-							<div class="details">
-								<button class="accordion2" id="detail-content"><span class="tag landmarks">#Landmark</span>Tokyo Tower<span class="more">Read More</span></button>
-								<div class="panel">
-									<p>Lorem ipsum...</p>
-								</div>
-								<button class="accordion2"><span class="tag nature">#Nature</span>Mount Fuji<span class="more">Read More</span></button>
-								<div class="panel">
-									<p>Lorem ipsum...</p>
-								</div>
-								
-						  	</div>
-						</div>
-						
-						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
-						<div class="panel">
-						 	<p>Lorem ipsum...</p>
-						</div>
-						
-						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
-						<div class="panel">
-						  	<p>Lorem ipsum...</p>
-						</div>
-				  	</div>
-				</div>
-
-				<div id="Thailand" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
 						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i></button>
