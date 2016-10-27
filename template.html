@@ -26,6 +26,7 @@
 </head>
 
 <body>
+
 <!-- navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -81,106 +82,11 @@
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
-		<i class="fa fa-plane" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Flight Tracker</h3>
+
+		<h3 class="text-center agileits-w3layouts agile w3-agile"></h3>
 	</div>
 </section>
 <!-- small-header -->
-
-<!-- flight-tracker section -->
-<section class="info-w3ls2 flight-tracker">
-	<div class="container">
-		<div class="content-w3ls col-md-6">
-			<div class="content1-w3ls">
-				<p>Search by flight number:</p>
-				<div class="form-group">
-					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
-				</div>			
-			</div>
-		</div>
-		<div class="content-w3ls col-md-6">
-			<div class="content1-w3ls">
-				<p>Or search by oring / destination:</p>
-				<div class="form-group">
-					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
-				</div>			
-			</div>
-		</div>
-	</div>
-</section>
-<div class="clearfix"></div>
-<!-- flight-tracker section -->
-
-<!-- arr-and-dep section -->
-<div class="clearfix"></div>
-<section class="transit-w3ls">
-	<div class="container">
-		<i class="fa fa-table" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Arrival & Departure</h3>
-	</div>
-	<div class="container">
-		<div class="bs-docs-example" style="overflow-x:auto;">
-			<table class="table table-hover">
-				<thead>
-					<tr>
-					  <th>Flight no.</th>
-					  <th>Origin</th>
-					  <th>Depart at</th>
-					  <th>Destination</th>
-					  <th>Arrive at</th>
-					  <th>Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</section>
-
-<!-- arr-and-dep section -->
 
 <!-- footer section -->
 <section class="footer-agileits">
@@ -270,6 +176,18 @@
 <script src="js/index.js"></script>
 <script src="js/top.js"></script> 
 <script src="js/bgfader.js"></script>
+<script>
+var myBgFader = $('.header').bgfader([
+  'images/banner1-1.jpg',
+  
+], {
+  'timeout': 2000,
+  'speed': 3000,
+  'opacity': 0.1
+})
 
-
+myBgFader.start()
+</script>
+<!-- /js files -->
 </body>
+</html>

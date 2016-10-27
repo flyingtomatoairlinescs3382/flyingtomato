@@ -252,21 +252,12 @@ section.banner-w3ls {
 .header {
 	padding: 60px 0 30px;
 }
-.banner-title {
-	padding: 0 10px;
-}
-.htitle {
-	padding: 20px 0;
-}
-.htitle h1 {
+
+.banner-title h1{
 	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #dc143c;
 	font-size: 40px;
-	color: #e02a48;
-}
-.htitle p {
-	font-size: 12px;
-	color: #e02a48;
-	opacity: 0.4;
 }
 .banner-form {
 	padding: 0 10px;
@@ -279,7 +270,7 @@ section.banner-w3ls {
 	margin-bottom: 20px;
 }
 .booking-head {
-	margin: 25px 0 30px 0;
+	margin: 10px 0;
 	color: #FFF;
 }
 .form-group label {
@@ -296,7 +287,12 @@ section.banner-w3ls {
 	display: inline-block;
 	margin-right: 20px;
 }
-.header button.btn-outline {
+.form-submit {
+	margin-top: 20px;
+	float: right;
+}
+.header button.btn-outline,
+.form-group button.btn-outline {
     border: solid 2px #fff;
     font-size: 16px;
     padding: 5px 10px;
@@ -308,7 +304,10 @@ section.banner-w3ls {
 }
 .header button.btn-outline:hover,
 .header button.btn-outline:focus,
-.header button.btn-outline:active {
+.header button.btn-outline:active,
+.form-group button.btn-outline:hover, 
+.form-group button.btn-outline:focus, 
+.form-group button.btn-outline:active {
     border: solid 2px #fff;
     color: #d40006;
     background: #fff;
@@ -351,7 +350,7 @@ section.banner-w3ls {
 
 /*--section style--*/
 section.special-w3layouts {
-	padding:50px 0;
+	padding:30px 0;
 	background-color: #e25b71;
 }
 section.info-w3ls,
@@ -359,10 +358,10 @@ section.info-w3ls2,
 section.banner-w3ls2,
 section.info-w3ls3,
 section.blog {
-	padding:50px 0;
+	padding:30px 0;
 }
 section.inner-w3ls {
-	padding-top: 125px;
+	padding-top: 100px;
 }
 /*--section style--*/
 
@@ -374,8 +373,8 @@ section.banner-w3ls2 h3.text-center,
 section.info-w3ls3 h3.text-center,
 section.transit-w3ls h3.text-center,
 section.blog h3.blogtitle {
-	font-size:50px;
-	padding:20px 0 50px;
+	font-size:40px;
+	padding:20px 0;
 	position:relative;
 }
 section.special-w3layouts h3.text-center,
@@ -413,7 +412,7 @@ section.inner-w3ls i.fa {
 
 /*-- specialization section --*/
 .plan-main h3{
-	line-height: 40px;
+	line-height: 30px;
 	color: #FFF;
 }
 
@@ -1163,202 +1162,8 @@ figure {
 }
 /*-- /inner pages banner --*/
 
-/*-- About Page -
-section.about-w3ls,section.team-w3ls,section.cust-agileits,section.service-w3ls,section.service-agileits,section.work-w3ls,section.shipment-w3ls,section.transit-w3ls,section.contact-us,section.contact-w3ls {
-	padding:50px 0;
-}
-section.about-w3ls i.fa, section.team-w3ls i.fa, section.cust-agileits i.fa, section.service-w3ls  i.fa,section.service-agileits i.fa,section.work-w3ls i.fa,section.shipment-w3ls i.fa,section.transit-w3ls i.fa,section.contact-us i.fa,section.contact-w3ls i.fa {
-	font-size:27px;
-	font-weight:thin;
-	width:70px;
-	height:70px;
-	text-align:center;
-	line-height:70px;
-	color:#fff;
-	margin:0 auto;
-	display:block;
-	background-color:#33accc;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-}
-section.about-w3ls h3.text-center,section.team-w3ls h3.text-center,section.cust-agileits h3.text-center,section.service-w3ls h3.text-center,section.service-agileits h3.text-center,section.work-w3ls h3.text-center,section.shipment-w3ls h3.text-center,section.transit-w3ls h3.text-center, section.contact-us h3.text-center,section.contact-w3ls h3.text-center {
- 	font-size:50px;
-	font-weight:normal;
-	color:#000;
-	padding:20px 0 60px;
-	font-family: 'Montserrat', sans-serif;
-	position:relative;
-}
-section.about-w3ls h3.text-center:after,section.team-w3ls h3.text-center:after,section.cust-agileits h3.text-center:after,section.service-w3ls h3.text-center:after,section.service-agileits h3.text-center:after,section.work-w3ls h3.text-center:after,section.shipment-w3ls h3.text-center:after,section.transit-w3ls h3.text-center:after,section.contact-us h3.text-center:after,section.contact-w3ls h3.text-center:after {	
-	content: '';
-    background-color: #33accc;
-    height: 5px;
-    width: 230px;
-    position: absolute;
-    left: 40%;
-    bottom: 19%;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-}
-section.about-w3ls p {
-	font-size:16px;
-	font-weight:normal;
-	color:#999;
-	line-height:40px;
-	text-align:center;
-}
-section.team-w3ls p.text-center {
-	font-size:16px;
-	font-weight:normal;
-	color:#999;
-	line-height:30px;
-	padding-bottom:50px;
-}
-section.team-w3ls h4 {
-	font-size:20px;
-	font-weight:normal;
-	color:#000;
-	padding:10px 0;
-	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
-}
-section.team-w3ls p.team-p1 {
-	font-size:16px;
-	font-weight:normal;
-	color:#999;
-}
-section.team-w3ls ul.social-icons1 {
-}
-section.team-w3ls ul.social-icons1 li {
-	display:inline-block!important;
-	margin:1px!important;
-	padding:10px 0;
-}  
-section.team-w3ls ul.social-icons1 li a {
-	text-decoration:none;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-facebook{
-	color:#fff;
-	background-color:#3b5998;
-	width:30px;
-	height:30px;
-	line-height:30px;
-    font-size: 16px;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-	text-align:center;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	/*-- Agile ITS --*/
-	-ms-transition:0.5s all;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-facebook:hover {
-	background-color:#17233E;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-twitter {
-	color:#fff;
-	background-color:#55acee;
-	width:30px;
-	height:30px;
-	line-height:30px;
-    font-size: 16px;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-	text-align:center;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-twitter:hover {
-	background-color:#1F435F;
-} 
-section.team-w3ls ul.social-icons1 li a i.fa.fa-linkedin {
-	color:#fff;
-	background-color:#e68523;
-	width:30px;
-	height:30px;
-	line-height:30px;
-    font-size: 16px;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-	text-align:center;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-linkedin:hover {
-	background-color:#794612;
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-google-plus {
-	color:#fff;
-	background-color:#dc4e41;
-	width:30px;
-	height:30px;
-	line-height:30px;
-    font-size: 16px;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-	text-align:center;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;	
-}
-section.team-w3ls ul.social-icons1 li a i.fa.fa-google-plus:hover {
-	background-color:#69251F;
-}
-section.cust-agileits p.text-center {
-	font-size:16px;
-	font-weight:normal;
-	color:#999;
-	line-height:30px;
-	padding-bottom:50px;
-}
-/*-- /About Page --*/
-/*-- service page --*/
-section.service-w3ls .steplist {
-	margin-bottom: 30px;
-	text-align: center;
-	width: 70%;
 
-}
-section.service-w3ls .steplist li {
-	list-style-type: none;
-	display: inline-block;
-	padding: 10px 25px;
-	background-color: rgba(0,0,0,0.1);
-	color: white;
-}
-section.service-w3ls .steplist li.current {
-	color: #FFF;
-	text-transform: uppercase;	
-	background-color: rgba(253,0,6,0.5);
-}
+/*-- service page --*/
 
 section.service-w3ls h3 {
 	padding: 0 0 25px 0;
@@ -2217,9 +2022,6 @@ section.work-w3ls .nav-tabs > li:nth-child(1) {
 section.work-w3ls .b-wrapper i.fa.fa-search-plus {
 	padding-top: 70px;
 }
-.content-w3ls {
-    height: 350px;
-}
 }
 
 @media (max-width: 1366px) {
@@ -2441,9 +2243,6 @@ section.work-w3ls .nav-tabs > li:nth-child(1) {
 section.shipment-w3ls .container:nth-child(2),section.transit-w3ls .container:nth-child(2) {
 	width:90%;
 }
-.content-w3ls {
-	height:370px;
-}
 .content2-header1 p {
 	font-size:14px;
 }
@@ -2568,9 +2367,7 @@ span.line {
 	top: 30%;
     left: 41%;
 }
-.content-w3ls {
-    height: 297px;
-}
+
 section.transit-w3ls .table>tbody>tr>td img.img-responsive {
     width: 20px;
     height: auto;
@@ -2734,9 +2531,7 @@ section.inner-w3ls p.text-center {
 section.work-w3ls .nav-tabs > li:nth-child(1) {
     margin-left: 11em;
 }
-.content-w3ls {
-    height: 1000px;
-}
+
 .imgcircle {
     height: 60px;
     margin: 0 auto;
@@ -2803,9 +2598,7 @@ section.work-w3ls .b-wrapper i.fa.fa-search-plus {
 .confirm {
     margin-top: 85px!important;
 }
-.content-w3ls {
-    height: 1030px;
-}
+
 section.footer-agileits ul.info-links, section.footer-agileits ul.footer-links {
     margin-left: 0;
     margin-bottom: 25px;
@@ -2835,18 +2628,15 @@ section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
 section.inner-w3ls h2.text-center {
     font-size: 35px;
     padding: 110px 0 0;
-<<<<<<< HEAD
 }
 section.inner-w3ls h1.text-center {
     font-size: 35px;
     padding: 110px 0 0;
-=======
 }
 section.inner-w3ls h1 {
     font-size: 20px;
     padding: 110px 0 0;
     padding-bottom: 40px;
->>>>>>> origin/master
 }
 section.work-w3ls .nav-tabs > li:nth-child(1) {
     margin-left: 8em;
@@ -2956,9 +2746,6 @@ section.work-w3ls .b-wrapper i.fa.fa-search-plus {
 }
 .content3-w3ls {
     margin-top: 125px;
-}
-.content-w3ls {
-    height: 1065px;
 }
 section.contact-us h4 {
 	padding:20px 0 10px;
@@ -3144,9 +2931,6 @@ section.work-w3ls .b-wrapper i.fa.fa-search-plus {
 }
 .content3-w3ls p {
     margin: 5px 0 90px;
-}
-.content-w3ls {
-    height: 1000px;
 }
 section.contact-us p {
     font-size: 14px;

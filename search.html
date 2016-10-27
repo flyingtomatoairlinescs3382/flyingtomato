@@ -26,6 +26,7 @@
 </head>
 
 <body>
+
 <!-- navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -81,106 +82,78 @@
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
-		<i class="fa fa-plane" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Flight Tracker</h3>
+		<i class="fa fa-search" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Search Your Flight</h3>
 	</div>
 </section>
 <!-- small-header -->
 
-<!-- flight-tracker section -->
-<section class="info-w3ls2 flight-tracker">
+<!--search-->
+<section class="info-w3ls2">
 	<div class="container">
-		<div class="content-w3ls col-md-6">
-			<div class="content1-w3ls">
-				<p>Search by flight number:</p>
-				<div class="form-group">
-					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
-				</div>			
+		<div class="booking-info">
+			<div class="booking-head">
+				<h4>Book Your Flight Now!</h4>
 			</div>
-		</div>
-		<div class="content-w3ls col-md-6">
-			<div class="content1-w3ls">
-				<p>Or search by oring / destination:</p>
-				<div class="form-group">
-					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
-				</div>			
+			<div class="form1 row">
+				<div class="form-group col-md-6">
+					<label>Flying from</label>
+					<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
+					<datalist id="place">	
+						<option>HKG Hong Kong</option>
+						<option>NAA Tokyo</option>
+						<option>KIX Osaka</option>
+						<option>OKA Okinawa</option>
+						<option>ICN Seoul</option>
+					</datalist>
+				</div>
+				<div class="form-group col-md-6">
+					<label>Going to</label>
+					<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
+					<datalist id="place">	
+						<option>HKG Hong Kong</option>
+						<option>NAA Tokyo</option>
+						<option>KIX Osaka</option>
+						<option>OKA Okinawa</option>
+						<option>ICN Seoul</option>
+					</datalist>
+				</div>
+			</div>
+			<div class="form2 row">
+				<div class="form-group col-md-2 date">
+					<label>Depart</label>
+					<input type="date" name="date" class="form-control" id="text1">
+				</div>
+				<div class="form-group col-md-2 date">
+					<label>Return</label>
+					<input type="date" name="date" class="form-control" id="text1">
+				</div>
+				<div class="form-group col-md-2 ppl">
+					<label>Adults (12+) :</label>
+					<select class="form-control" id="adult">
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					</select>
+				</div>
+				<div class="form-group col-md-2 ppl">
+					<label>Children (0-11) :</label>
+					<select class="form-control" id="adult">
+					    <option>0</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					</select>
+				</div>
+				<div class="form-group col-md-2 form-submit">
+					<button type="submit" class="btn-outline">Search Flight</button>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<div class="clearfix"></div>
-<!-- flight-tracker section -->
-
-<!-- arr-and-dep section -->
-<div class="clearfix"></div>
-<section class="transit-w3ls">
-	<div class="container">
-		<i class="fa fa-table" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Arrival & Departure</h3>
-	</div>
-	<div class="container">
-		<div class="bs-docs-example" style="overflow-x:auto;">
-			<table class="table table-hover">
-				<thead>
-					<tr>
-					  <th>Flight no.</th>
-					  <th>Origin</th>
-					  <th>Depart at</th>
-					  <th>Destination</th>
-					  <th>Arrive at</th>
-					  <th>Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</section>
-
-<!-- arr-and-dep section -->
+<!--search-->
 
 <!-- footer section -->
 <section class="footer-agileits">
@@ -270,6 +243,6 @@
 <script src="js/index.js"></script>
 <script src="js/top.js"></script> 
 <script src="js/bgfader.js"></script>
-
-
+<!-- /js files -->
 </body>
+</html>

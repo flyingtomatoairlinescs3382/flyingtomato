@@ -47,7 +47,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flight Info<b class="caret"></b></a>
 					<div class="dropdown-menu">
@@ -71,13 +71,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="#">My Flight</a></li>
-							<li><a href="#">Help Info</a></li>
+							<li><a href="manage.html">My Flight</a></li>
+							<li><a href="help.html">Help Info</a></li>
 						</ul>
 					</div>
 				</li>
 				<li><a href="experiences.html">Experiences</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -89,68 +89,68 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <section class="banner-w3ls">
 	<div class="header">
 		<div class="container">
-			<div class="col-md-6 banner-title">
-				<div class="htitle text-center">
-					<h1>Flying<br>Tomato<br>Airlines</h1> <br>
-					<p> CityU Hong Kong CS3382</p>
-				</div>	
+			<div class="col-md-12 banner-title">
+				<h1>Flying Tomato Airlines</h1>
 			</div>
-			<div class="col-md-6 banner-form">
+			<div class="col-md-12 banner-form">
 				<div class="booking-info">
 					<div class="booking-head">
 						<h4>Book Your Flight Now!</h4>
 					</div>
-					<div class="form-group">
-						<label>Flying from</label>
-						<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
-						<datalist id="place">	
-							<option>HKG Hong Kong</option>
-							<option>NAA Tokyo, Japan</option>
-							<option>Osaka</option>
-							<option>Okinawa</option>
-							<option>Seoul</option>
-						</datalist>
+					<div class="form1 row">
+						<div class="form-group col-md-6">
+							<label>Flying from</label>
+							<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
+							<datalist id="place">	
+								<option>HKG Hong Kong</option>
+								<option>NAA Tokyo</option>
+								<option>KIX Osaka</option>
+								<option>OKA Okinawa</option>
+								<option>ICN Seoul</option>
+							</datalist>
+						</div>
+						<div class="form-group col-md-6">
+							<label>Going to</label>
+							<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
+							<datalist id="place">	
+								<option>HKG Hong Kong</option>
+								<option>NAA Tokyo</option>
+								<option>KIX Osaka</option>
+								<option>OKA Okinawa</option>
+								<option>ICN Seoul</option>
+							</datalist>
+						</div>
 					</div>
-					<div class="form-group">
-						<label>Going to</label>
-						<input list="place" name="place" class="place form-control" id="text1" placeholder="Departure from...">
-						<datalist id="place">	
-							<option>HKG Hong Kong</option>
-							<option>NAA Tokyo, Japan</option>
-							<option>Osaka</option>
-							<option>Okinawa</option>
-							<option>Seoul</option>
-						</datalist>
-					</div>
-					<div class="form-group date">
-						<label>Depart</label>
-						<input type="date" name="date" class="form-control" id="text1">
-					</div>
-					<div class="form-group date">
-						<label>Return</label>
-						<input type="date" name="date" class="form-control" id="text1">
-					</div>
-					<div class="clearfix"></div>
-					<div class="form-group ppl">
-						<label>Adults (12+) :</label>
-						<select class="form-control" id="adult">
-						    <option>1</option>
-						    <option>2</option>
-						    <option>3</option>
-						    <option>4</option>
-						</select>
-					</div>
-					<div class="form-group ppl">
-						<label>Children (0-11) :</label>
-						<select class="form-control" id="adult">
-						    <option>0</option>
-						    <option>1</option>
-						    <option>2</option>
-						    <option>3</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<button type="submit" class="btn-outline">Search Flight</button>
+					<div class="form2 row">
+						<div class="form-group col-md-2 date">
+							<label>Depart</label>
+							<input type="date" name="date" class="form-control" id="text1">
+						</div>
+						<div class="form-group col-md-2 date">
+							<label>Return</label>
+							<input type="date" name="date" class="form-control" id="text1">
+						</div>
+						<div class="form-group col-md-2 ppl">
+							<label>Adults (12+) :</label>
+							<select class="form-control" id="adult">
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2 ppl">
+							<label>Children (0-11) :</label>
+							<select class="form-control" id="adult">
+							    <option>0</option>
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2 form-submit">
+							<button type="submit" class="btn-outline">Search Flight</button>
+						</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -292,21 +292,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<h3>Flight Info</h3>
 			<ul class="footer-links">
-				<li><a href="#">Flight Tracker</a></li>
-				<li><a href="#">Arrival & Departure</a></li>
-				<li><a href="#">Where We Fly</a></li>
+				<li><a href="tracker.html">Flight Tracker</a></li>
+				<li><a href="tracker.html">Arrival & Departure</a></li>
+				<li><a href="wherewefly.html">Where We Fly</a></li>
 			</ul>
 			<h3>Plan</h3>
 			<ul class="footer-links">
-				<li><a href="#">Search Flight</a></li>
-				<li><a href="#">Travel Planner</a></li>
+				<li><a href="search.html">Search Flight</a></li>
+				<li><a href="planner.html">Travel Planner</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<h3>Manage</h3>
 			<ul class="footer-links">
-				<li><a href="#">My Flight</a></li>
-				<li><a href="#">Help Info</a></li>
+				<li><a href="manage.html">My Flight</a></li>
+				<li><a href="help.html">Help Info</a></li>
 				<li style="color:rgba(0,0,0,0);">nil</li>
 			</ul>
 			<h3>Experiences</h3>
