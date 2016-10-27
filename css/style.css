@@ -1176,9 +1176,11 @@ section.service-w3ls h3 {
 	color: #e25b71 !important;
 }
 .breadcrumb li{
-	color: #999999;
+	color: #ccc;
 }
-
+.breadcrumb a {
+	color: #999;
+}
 section.service-w3ls label{
 	color: #555555;
 
@@ -1229,17 +1231,8 @@ section.service-w3ls label{
 	width: 180px;
 	height: 200px;
 }
-
-
-.suggest li {
-	margin-bottom: 10px;
-	display: inline-block;
-	margin-right: 10px;
-	list-style-type: none;
-	border: 2px solid #d4000d;
-	padding: 5px 10px;
-	border-radius: 7px;
-	margin-bottom: 20px;
+.suggest-tag {
+	margin: 10px 0 20px;
 }
 .result {
 	width: 100%;
@@ -1249,8 +1242,7 @@ section.service-w3ls label{
 	margin-bottom: 30px;
 }
 .result-content {
-	width: 31.5%;
-	margin: 10px 10px;
+	margin-top: 15px;
 }
 .result-content img {
 	width: 300px;
@@ -1258,12 +1250,12 @@ section.service-w3ls label{
 	margin: auto;
 }
 .result-content h2 {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
-.result-content #rating {
+#rating {
 	width: 230px;
 	height: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 .result-content h4 {
 	float: left;
@@ -1273,9 +1265,6 @@ section.service-w3ls label{
 	margin-bottom: 10px;
 	color: #FFF;
 	background-color: #d40004;
-}
-.datematrix {
-	margin-bottom: 30px;
 }
 .datematrix table{
 	width: 85%;

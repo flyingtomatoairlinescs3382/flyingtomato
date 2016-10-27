@@ -33,6 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }):
     </script>
 <!-- /js files -->
+<link rel="icon" href="images/logo_square.png">
 </head>
 <body>
 <!-- navigation -->
@@ -45,18 +46,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><h1><span class="fa fa-diamond" aria-hidden="true"></span>Flying Tomato</h1></a>
+			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="iindex.html">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flight Info<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">Flight Tracker</a></li>
-							<li><a href="about.html">Arrival & Departure</a></li>
-							<li><a href="about.html">Where We Fly</a></li>
+							<li><a href="tracker.html">Flight Tracker</a></li>
+							<li><a href="tracker.html">Arrival & Departure</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
 						</ul>
 					</div>
 				</li>
@@ -64,8 +65,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">Search Flight</a></li>
-							<li><a href="about.html">Travel Planner</a></li>
+							<li><a href="search.html">Search Flight</a></li>
+							<li><a href="planner.html">Travel Planner</a></li>
 						</ul>
 					</div>
 				</li>
@@ -73,48 +74,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">My Flight</a></li>
-							<li><a href="about.html">Help Info</a></li>
+							<li><a href="manage.html">My Flight</a></li>
+							<li><a href="help.html">Help Info</a></li>
 						</ul>
 					</div>
 				</li>
+				<li><a href="experiences.html">Experiences</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+<div class="clearfix"></div>
 <!-- navigation -->
-<!-- banner section -->
+
+<!-- small-header -->
 <section class="inner-w3ls">
-	<div class="container"><h2 class="text-center w3 w3l agileinfo wthree">Travel Planner</h2></div>
+	<div class="container">
+		<i class="fa fa-pencil" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Travel Planner</h3>
+	</div>
 </section>
-<!-- /banner section -->
+<div class="clearfix"></div>
+
 <section class="service-w3ls">
 	<div class="container">
-		<div class="steplist">
-			<ul>
-				<li>Plan</li>
-				<li>Suggest</li>
+		<div class="grid_3 grid_5">
+			<ol class="breadcrumb">
+				<li><a href="planner.html">Plan</a></li>
+				<li><a href="suggest.html">Suggest</a></li>
 				<li class="current">Flight</li>
 				<li>Seat</li>
 				<li>Personal Info</li>
 				<li>Payment</li>
 				<li>Confirm</li>
-			</ul>
+			</ol>
 		</div>
-	</div>
-	<div class="container">
-		<h3 class="w3-agileits agileits-w3layouts agile w3-agile">Choose your flight:</h3>
-		<div class="traveldate col-md-3">
-			<p>Depart:</p>
+		<div class="clearfix"></div>
+		<h3>Choose your flight:</h3>
+		<div class="form-group col-md-2">
+			<label>Depart:</label>
 			<input type="text" name="departdate" value="18/03/2017" disabled="disabled"> 
 		</div>
-		<div class="traveldate col-md-3">
-			<p>Return:</p>
+		<div class="form-group col-md-2">
+			<label>Return:</label>
 			<input type="text" name="returndate" value="23/03/2017" disabled="disabled">
 		</div>
-	</div>
-	<div class="container">
+		<div class="clearfix"></div>
 		<div class="datematrix">
 			<table class="table table-bordered">
 				<thead>
@@ -202,7 +208,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</tr>
 				</tbody>
 			</table>
-			<input type="submit" value="Confirm" onclick="location.href='seat.html';"></input>
+		</div>
+		<div class="planner-btn">
+			<button type="submit" class="btn-outline" onclick="location.href='seat.html';">Choose</button>
 		</div>
 	</div>
 </section>	  
