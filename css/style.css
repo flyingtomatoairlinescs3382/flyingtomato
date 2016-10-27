@@ -1166,7 +1166,7 @@ figure {
 /*-- service page --*/
 section.service-w3ls h3 {
 	padding: 0 0 25px 0;
-	color: #fd0006;
+	color: #e25b71;
 	font-size: 30px;
 }
 .breadcrumb {
@@ -1186,33 +1186,51 @@ section.service-w3ls label{
 .month {
 	text-align: center;
 	border: 1px solid #777777;
-	border-top: 15px solid #e25b71;
 	margin-bottom: 10px;
 }
 .month p {
-	padding: 20px 10px;
-}
-section.service-w3ls .travel-act {
-	width: 95%;
-	margin: auto;
-}
-section.service-w3ls .travel-img {
-	display: inline-block;
-	margin-bottom: 20px;
-	padding: 0 32px 15px 32px;
-}
-section.service-w3ls .travel-img img {
-	width: 200px;
-	height: 200px;
-	border-radius: 200px;
-}
-section.service-w3ls .travel-img img {
 
 }
-section.service-w3ls .travel-img p {
-	text-align: center;
-	padding-top: 15px;
+.planner-btn {
+	margin: 10px 0;
+	float: right; 
 }
+.planner-btn button.btn-outline {
+	margin-top: 20px;
+    border: solid 2px #e25b71;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #e25b71;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    font-family: 'Montserrat';
+}
+.planner-btn button.btn-outline:hover,
+.planner-btn button.btn-outline:focus,
+.planner-btn button.btn-outline:active {
+    border: solid 2px #fff;
+    color: #fff;
+    background: #e25b71;
+}
+.tag-pic {
+	border: 1px solid #f5f5f5;
+}
+.tag-list {
+	margin-left: 20px;
+}
+.tag-list li{
+	list-style-type: none;
+
+}
+.tag {
+	border: 1px solid #e25b71;
+	text-align: center;
+	margin: 15px 12px;
+	width: 180px;
+	height: 200px;
+}
+
+
 .suggest li {
 	margin-bottom: 10px;
 	display: inline-block;
