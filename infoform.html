@@ -44,6 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 });
 </script>
 <!-- /js files -->
+<link rel="icon" href="images/logo_square.png">
 </head>
 <body>
 <!-- navigation -->
@@ -56,18 +57,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><h1><span class="fa fa-diamond" aria-hidden="true"></span>Flying Tomato</h1></a>
+			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="iindex.html">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flight Info<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">Flight Tracker</a></li>
-							<li><a href="about.html">Arrival & Departure</a></li>
-							<li><a href="about.html">Where We Fly</a></li>
+							<li><a href="tracker.html">Flight Tracker</a></li>
+							<li><a href="tracker.html">Arrival & Departure</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
 						</ul>
 					</div>
 				</li>
@@ -75,8 +76,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">Search Flight</a></li>
-							<li><a href="about.html">Travel Planner</a></li>
+							<li><a href="search.html">Search Flight</a></li>
+							<li><a href="planner.html">Travel Planner</a></li>
 						</ul>
 					</div>
 				</li>
@@ -84,170 +85,170 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="about.html">My Flight</a></li>
-							<li><a href="about.html">Help Info</a></li>
+							<li><a href="manage.html">My Flight</a></li>
+							<li><a href="help.html">Help Info</a></li>
 						</ul>
 					</div>
 				</li>
+				<li><a href="experiences.html">Experiences</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+<div class="clearfix"></div>
 <!-- navigation -->
-<!-- banner section -->
+
+<!-- small-header -->
 <section class="inner-w3ls">
-	<div class="container"><h2 class="text-center w3 w3l agileinfo wthree">Travel Planner</h2></div>
+	<div class="container">
+		<i class="fa fa-pencil" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Travel Planner</h3>
+	</div>
 </section>
-<!-- /banner section -->
+<div class="clearfix"></div>
+<!-- small-header -->
+
 <section class="service-w3ls">
 	<div class="container">
-		<div class="steplist">
-			<ul>
-				<li>Plan</li>
-				<li>Suggest</li>
-				<li>Flight</li>
-				<li>Seat</li>
+		<div class="grid_3 grid_5">
+			<ol class="breadcrumb">
+				<li><a href="plan.html">Plan</a></li>
+				<li><a href="suggest.html">Suggest</a></li>
+				<li><a href="flight.html">Flight</a></li>
+				<li><a href="Suggest.html">Suggest</a></li>
 				<li class="current">Personal Info</li>
 				<li>Payment</li>
 				<li>Confirm</li>
-			</ul>
+			</ol>
 		</div>
-	</div>
-	<div class="container">
+		<div class="clearfix"></div>
 		<h3 class="w3-agileits agileits-w3layouts agile w3-agile">Enter your personal Information:</h3>
 		<div class="paxinfo col-md-12">
-			<div><h4>Adult 1 Information</h4></div>
-			<br>
-			<div class="input-group">
-				<div class="info">
-					<select>
-						<option>Mr.</option>
-						<option>Mrs.</option>
-						<option>Ms.</option>
-					</select>
-				</div>
-					<input class="info surname" type="text" placeholder="Family name / Surname">
-					<p class="info">*</p>
-					<input class="info name" type="text" placeholder="Given / First and middle names">
-					<p class="info">*</p>
-					<p class="info">* Please Input Name as on Passport</p>
+			<h4>Adult 1 Information</h4>
+			<div class="form-group col-md-12 pax-form">
+				<select>
+					<option>Mr.</option>
+					<option>Mrs.</option>
+					<option>Ms.</option>
+				</select>
+				<input type="text" name="surname" placeholder="Family Name / Surname">
+				<input type="text" name="surname" placeholder="Given / First and Middle Names">
 			</div>
-			<div class="input-group">
-				<div class="info">
-					<select>
-						<option>Passport</option>
-						<option>Travel Permit</option>
-						<option>Other</option>
-					</select>
-				</div>
-				<div class="info">
-					<input class="info traveldoc" type="text" placeholder="Travel Document No.">
-					<p class="info">Expiry Date:</p>
-					<input class="info exp" type="text" placeholder="dd">
-					<input class="info exp" type="text" placeholder="mm">
-					<input class="info exp" type="text" placeholder="yyyy">
-					<input class="info issue" type="text" placeholder="Place of issued">
-				</div>
+			<div class="form-group col-md-12 pax-form">
+				<select>
+					<option>Passport</option>
+					<option>Travel Permit</option>
+					<option>Other</option>
+				</select>
+				<input type="text" placeholder="Travel Document No.">
+				<label>Expiry Date:</label>
+				<input class="num" type="text" placeholder="dd">
+				<input class="num" type="text" placeholder="mm">
+				<input class="num" type="text" placeholder="yyyy">
+				<label>Place of Issue:</label>
+				<input class="place" type="text" placeholder="e.g. Hong Kong SAR">
 			</div>
-			<div class="input-group">
-				<p class="info">Date of Birth:</p>
-					<input class="info exp" type="text" placeholder="dd">
-					<input class="info exp" type="text" placeholder="mm">
-					<input class="info exp" type="text" placeholder="yyyy">
-					<p class="info space">Contact No. : </p>
-					<input class="info exp" type="text" placeholder="+852">
-					<input class="info surname" type="text" placeholder="Contact No.">
+			<div class="form-group col-md-12 pax-form">
+				<label>Date of Birth:</label>
+				<input class="num" type="text" placeholder="dd">
+				<input class="num" type="text" placeholder="mm">
+				<input class="num" type="text" placeholder="yyyy">
+				<label>Contact No.:</label>
+				<input class="num" type="text" placeholder="+852">
+				<input class="phone" type="text" placeholder="1234 5678">
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<div class="paxinfo col-md-12">
-			<div><h4>Adult 2 Information</h4></div>
-			<br>
-			<div class="input-group">
-				<div class="info">
-					<select>
-						<option>Mr.</option>
-						<option>Mrs.</option>
-						<option>Ms.</option>
-					</select>
-				</div>
-					<input class="info surname" type="text" placeholder="Family name / Surname">
-					<p class="info">*</p>
-					<input class="info name" type="text" placeholder="Given / First and middle names">
-					<p class="info">*</p>
-					<p class="info">* Please Input Name as on Passport</p>
+			<h4>Adult 2 Information</h4>
+			<div class="form-group col-md-12 pax-form">
+				<select>
+					<option>Mr.</option>
+					<option>Mrs.</option>
+					<option>Ms.</option>
+				</select>
+				<input type="text" name="surname" placeholder="Family Name / Surname">
+				<input type="text" name="surname" placeholder="Given / First and Middle Names">
 			</div>
-			<div class="input-group">
-				<div class="info">
-					<select>
-						<option>Passport</option>
-						<option>Travel Permit</option>
-						<option>Other</option>
-					</select>
-				</div>
-				<div class="info">
-					<input class="info traveldoc" type="text" placeholder="Travel Document No.">
-					<p class="info">Expiry Date:</p>
-					<input class="info exp" type="text" placeholder="dd">
-					<input class="info exp" type="text" placeholder="mm">
-					<input class="info exp" type="text" placeholder="yyyy">
-					<input class="info issue" type="text" placeholder="Place of issued">
-				</div>
+			<div class="form-group col-md-12 pax-form">
+				<select>
+					<option>Passport</option>
+					<option>Travel Permit</option>
+					<option>Other</option>
+				</select>
+				<input type="text" placeholder="Travel Document No.">
+				<label>Expiry Date:</label>
+				<input class="num" type="text" placeholder="dd" maxlength="2">
+				<input class="num" type="text" placeholder="mm" maxlength="2">
+				<input class="num" type="text" placeholder="yyyy" maxlength="4">
+				<label>Place of Issue:</label>
+				<input class="place" type="text" placeholder="e.g. Hong Kong SAR">
 			</div>
-			<div class="input-group">
-				<p class="info">Date of Birth:</p>
-					<input class="info exp" type="text" placeholder="dd">
-					<input class="info exp" type="text" placeholder="mm">
-					<input class="info exp" type="text" placeholder="yyyy">
-					<p class="info space">Contact No. : </p>
-					<input class="info exp" type="text" placeholder="+852">
-					<input class="info surname" type="text" placeholder="Contact No.">
+			<div class="form-group col-md-12 pax-form">
+				<label>Date of Birth:</label>
+				<input class="num" type="text" placeholder="dd" maxlength="2">
+				<input class="num" type="text" placeholder="mm" maxlength="2">
+				<input class="num" type="text" placeholder="yyyy" maxlength="4">
+				<label>Contact No.:</label>
+				<input class="num" type="text" placeholder="+852">
+				<input class="phone" type="text" placeholder="12345678" maxlength="8">
 			</div>
 		</div>
-		<div class="input-group">
-			<input class="next" type="submit" value="Continue to Payment" onclick="location.href='payment.html';">
+		<div class="clearfix"></div>
+		<div class="planner-btn">
+			<button type="submit" class="btn-outline" onclick="location.href='payment.html';">Proceed to Payment</button>
 		</div>
-	</div>
+		<div class="clearfix"></div>
 </section>	  
+
 <!-- footer section -->
 <section class="footer-agileits">
 	<div class="container">
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>More Info</h3>
-			<ul class="info-links">
-				<li><a href="about.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> About Us</a></li>
-				<li><a href="contact.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Contact Us</a></li>
-				<li><a href="icons.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Icons</a></li>
-				<li><a href="privacy.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Privacy Policy</a></li>
-			</ul>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Our Links</h3>
+			<h3>Flight Info</h3>
 			<ul class="footer-links">
-				<li><a href="service.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Our Services</a></li>
-				<li><a href="work.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Our Work</a></li>
-				<li><a href="process.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Process</a></li>
-				<li><a href="typo.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Typography</a></li>
+				<li><a href="tracker.html">Flight Tracker</a></li>
+				<li><a href="tracker.html">Arrival & Departure</a></li>
+				<li><a href="wherewefly.html">Where We Fly</a></li>
+			</ul>
+			<h3>Plan</h3>
+			<ul class="footer-links">
+				<li><a href="search.html">Search Flight</a></li>
+				<li><a href="planner.html">Travel Planner</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Contact Info</h3>
+			<h3>Manage</h3>
+			<ul class="footer-links">
+				<li><a href="manage.html">My Flight</a></li>
+				<li><a href="help.html">Help Info</a></li>
+				<li style="color:rgba(0,0,0,0);">nil</li>
+			</ul>
+			<h3>Experiences</h3>
+			<ul class="footer-links">
+				<li><a href="experiences.html">Our Comments</a></li>
+				<li><a href="contact.html">Feedbacks</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6">
+			<h3>Contact Us</h3>
 			<div class="contact-info">
 				<div class="address">	
 					<i class="glyphicon glyphicon-globe"></i>
-					<p class="p3">77 Jack Street</p>
-					<p class="p4">Chicago, USA</p>
+					<p class="p3">Flying Tomato Airlines</p>
+					<p class="p4">CityU Hong Kong CS3382</p>
 				</div>
 				<div class="phone">
 					<i class="glyphicon glyphicon-phone-alt"></i>
-					<p class="p3">+1 515 151515</p>
-					<p class="p4">+00 1010101010</p>
+					<p class="p3">+852 3382 3382</p>
+					<p class="p4">+851 3382 3382</p>
 				</div>
 				<div class="email-info">
 					<i class="glyphicon glyphicon-envelope"></i>
-					<p class="p5"><a href="mailto:myemail1@example.com">myemail1@example.com</a></p> 
-					<p class="p6"><a href="mailto:myemail2@example.com">myemail2@example.com</a></p>
-				</div>
+					<p class="p5"><a href="mailto:myemail1@example.com">flying1@tomato.com</a></p> 
+					<p class="p6"><a href="mailto:myemail2@example.com">flying2@tomato.com</a></p>
+				</div>				
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
@@ -263,29 +264,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="form-group">
 						<button type="submit" class="btn-outline">Subscribe</button>
 					</div>
+					<ul class="social-icons2">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
 				</form>
-			</div>	
-			<ul class="social-icons2">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-			</ul>
+			</div>
 		</div>
 		<div class="clearfix"></div>
 		<hr>
-		<p class="copyright">© 2016 Flying Tomato Airlines. <br>This is not a real website. This was designed as part of a school project on web design and usability.<br> | Design by CS3382 Team 6-CA1 | </p>
+		<p class="copyright">This is not a real website. This was designed as part of a school project on web design and usability. Flying Tomamto Airlines CityU Hong Kong CS3382</p>
+		<p class="copyright">| Created by CS3382 Team 6-CA1 | © 2016 Flying Tomato Airlines. All Rights Reserved. Designed by w3layouts</p>
 	</div>
 </section>
+<div class="clearfix"></div>
 <!-- /footer section -->
-<a href="#0" class="cd-top">Top</a>
+
+<a href="#0" class="cd-top"></a>
 <!-- js files -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/SmoothScroll.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/top.js"></script> 
-<!-- /js files -->
+<!--js files-->
 </body>
 </html>
 				

@@ -1198,7 +1198,7 @@ section.service-w3ls label{
 	float: right; 
 }
 .planner-btn button.btn-outline {
-	margin-top: 20px;
+	margin: 10px 0;
     border: solid 2px #e25b71;
     font-size: 15px;
     padding: 5px 10px;
@@ -1222,7 +1222,6 @@ section.service-w3ls label{
 }
 .tag-list li{
 	list-style-type: none;
-
 }
 .tag {
 	border: 1px solid #e25b71;
@@ -1231,6 +1230,10 @@ section.service-w3ls label{
 	width: 180px;
 	height: 200px;
 }
+li.chosen {
+	display: none;
+}
+
 .suggest-tag {
 	margin: 10px 0 20px;
 }
@@ -1298,10 +1301,7 @@ section.service-w3ls label{
 	height: 40px;
 	display: none;
 }
-.selectedseat .confirm{
-	float: right;
-	margin: 30px 10px;
-}
+
 .totalpax span {
 	font-size: 18px;
 	padding: 0 20px;
@@ -1339,52 +1339,33 @@ table.seats {
 	background-color: rgba(253, 0, 6, 0.1);
 	cursor: pointer;
 }
-
-
 .paxinfo {
 	background-color: #FFDBDC;
-	padding: 10px;
+	padding: 15px;
 	margin-bottom: 20px;
 }
-.info {
-	float: left;
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 8px;
+.paxinfo h4 {
+	margin-bottom: 10px;
 }
-.surname {
-	width: 180px;
-}
-.name {
+.pax-form input {
 	width: 300px;
 }
-.traveldoc {
-	width: 200px;
+input.num {
+	width: 50px;
 }
-.exp {
-	width: 45px;
-	margin-right: 3px;
+input.place {
+	width: 150px;
 }
-.issue {
-	margin-left: 20px;
-	width: 250px;
+input.phone {
+	width: 150px;
 }
-.space {
-	margin-left: 20px;
+.paymentinfo h4{
+	margin-bottom: 10px;
 }
-.next {
-	margin-top: 15px;
-	float: right;
-}
-
-
 .payment {
-	margin: auto;
+	margin-bottom: 10px;
 	background-color: #FFDBDC;
 	padding: 10px;
-}
-.paymentname {
-	margin-bottom: 20px;
 }
 .cdno {
 	width: 60px;
