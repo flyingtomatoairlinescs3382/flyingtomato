@@ -1374,7 +1374,20 @@ input.phone {
 	margin: 70px;
 }
 /*-- /service page --*/
-/*-- Our work page --*/
+
+
+/*-- help page --*/
+.faq {
+	margin: 20px 0;
+}
+.q {
+	font-size: 20px;
+	color: #e25b71;
+}
+.faq p.a {
+	margin-bottom: 25px;
+}
+/*-- help page --*/
 /*-- works section --*
 section.work-w3ls p.text-center {
 	font-size:16px;
