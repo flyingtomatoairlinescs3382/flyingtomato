@@ -235,14 +235,21 @@ color: #000 !important;
 } 
 /*-- /navigation effects --*/
 
-/*---------------------*/
-h1.title1{
-	margin-bottom:20px;	
+/*----experiences page-----*/
+.post {
+	margin: 30px 80px 60px;
 }
-p.author {
-	margin-top: 0px;
+.title1{
+	margin-bottom:10px;	
 }
-/*---------------------*/
+.blog {
+	text-align: justify;
+}
+.author{
+	float: right;
+	color:#d40006;
+}
+/*----experiences page-----*/
 
 /*--banner--*/
 section.banner-w3ls {
@@ -1592,9 +1599,18 @@ section.transit-w3ls .table>tbody>tr>td h4 {
     font-family: 'Open Sans', sans-serif;
 }
 /*-- /arr-and-dep section --*/
+
 /*-- /process page --*/
 /*-- contact page --*/
-/*-- contact address --*/
+.contact-main {
+	margin: 30px 0;
+}
+iframe.googlemaps {
+    height: 200px;
+    width: 100%;
+}
+/*-- contact page --*/
+/*-- contact address --*
 section.contact-us {
 	
 }
@@ -2298,9 +2314,7 @@ span.line {
 .content3-w3ls p {
 	margin: 15px 0 90px;
 }
-section.contact-us iframe.googlemaps {
-    height: 200px;
-}
+
 section.special-w3layouts {
     padding: 30px 0;
 }
@@ -2341,9 +2355,6 @@ section.work-w3ls .nav-tabs > li:nth-child(1) {
 }
 section.work-w3ls .b-wrapper i.fa.fa-search-plus {
     padding-top: 65px;
-}
-.confirm {
-    margin-top: 85px!important;
 }
 
 section.footer-agileits ul.info-links, section.footer-agileits ul.footer-links {
