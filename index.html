@@ -18,8 +18,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css files -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/icons.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/icons.css" rel="stylesheet" type="text/css" media="all" />
 <!-- /css files -->
 <!-- font files -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
@@ -53,7 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<ul>
 							<li><a href="tracker.html">Flight Tracker</a></li>
 							<li><a href="tracker.html">Arrival & Departure</a></li>
-							<li><a href="wherewefly.html">Where We Fly</a></li>
+							
 						</ul>
 					</div>
 				</li>
@@ -75,7 +76,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</ul>
 					</div>
 				</li>
-				<li><a href="experiences.html">Experiences</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore<b class="caret"></b></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="whoweare.html">Who We Are</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
+							<li><a href="experiences.html">Experiences</a></li>
+						</ul>
+					</div>
+				</li>
+				
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
@@ -88,9 +99,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <section class="banner-w3ls">
 	<div class="header">
 		<div class="container">
-			<div class="col-md-12 banner-title">
-				<h1>Flying Tomato Airlines</h1>
-			</div>
 			<div class="col-md-12 banner-form">
 				<div class="booking-info">
 					<div class="booking-head">
@@ -102,10 +110,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
 							<datalist id="place">	
 								<option>HKG Hong Kong</option>
+								<option>BKK Bangkok</option>
+								<option>HKT Phuket</option>
+								<option>CNX Chiang Mai</option>
+								<option>TPE Taipei</option>
+								<option>TXG Taichung</option>
+								<option>KHH Kaohsiung</option>
 								<option>NAA Tokyo</option>
 								<option>KIX Osaka</option>
 								<option>OKA Okinawa</option>
 								<option>ICN Seoul</option>
+								<option>PUS Busan</option>
+								<option>CJU Jeju</option>
 							</datalist>
 						</div>
 						<div class="form-group col-md-6">
@@ -113,10 +129,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
 							<datalist id="place">	
 								<option>HKG Hong Kong</option>
+								<option>BKK Bangkok</option>
+								<option>HKT Phuket</option>
+								<option>CNX Chiang Mai</option>
+								<option>TPE Taipei</option>
+								<option>TXG Taichung</option>
+								<option>KHH Kaohsiung</option>
 								<option>NAA Tokyo</option>
 								<option>KIX Osaka</option>
 								<option>OKA Okinawa</option>
 								<option>ICN Seoul</option>
+								<option>PUS Busan</option>
+								<option>CJU Jeju</option>
 							</datalist>
 						</div>
 					</div>
@@ -148,9 +172,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</select>
 						</div>
 						<div class="form-group col-md-2 form-submit">
-							<button type="submit" class="btn-outline">Search Flight</button>
+							<button type="submit" class="btn-outline" onclick="location.href='flight`.html';">Search Flight</button>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-12 banner-title">
+					<h1>Flying Tomato Airlines</h1>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -175,7 +202,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="plan-main text-center">
 				<h3>Don't know where to go? Check our Travel Planner!</h3>
 				<div class="form-group">
-					<button type="submit" class="btn-outline">Plan Now!</button>
+					<button type="submit" class="btn-outline" onclick="location.href='planner.html';">Plan Now!</button>
 				</div>
 			</div>
 		</div>
@@ -209,7 +236,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>Nov 2016</p>
 					<p class="price">$888</p>
 					<div class="form-group">
-						<button type="submit" class="btn-outline">Book Now</button>
+						<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -217,12 +244,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<div class="promo">
 				<div class="promo-main">
-					<h4>Tokyo</h4>
+					<h4>Seoul</h4>
 					<p>From Hong Kong</p>
-					<p>Nov 2016</p>
-					<p class="price">$888</p>
+					<p>Dec 2016</p>
+					<p class="price">$768</p>
 					<div class="form-group">
-						<button type="submit" class="btn-outline">Book Now</button>
+						<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -230,12 +257,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<div class="promo">
 				<div class="promo-main">
-					<h4>Tokyo</h4>
+					<h4>Bangkok</h4>
 					<p>From Hong Kong</p>
-					<p>Nov 2016</p>
-					<p class="price">$888</p>
+					<p>Feb 2017</p>
+					<p class="price">$338</p>
 					<div class="form-group">
-						<button type="submit" class="btn-outline">Book Now</button>
+						<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -243,13 +270,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<div class="promo">
 				<div class="promo-main">
-					<h4>Tokyo</h4>
+					<h4>Taipei</h4>
 					<p>From Hong Kong</p>
-					<p>Nov 2016</p>
+					<p>Mar 2017</p>
 					
 					<div class="form-group">
-						<p class="price">$888</p>
-						<button type="submit" class="btn-outline">Book Now</button>
+						<p class="price">$598</p>
+						<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -293,7 +320,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<ul class="footer-links">
 				<li><a href="tracker.html">Flight Tracker</a></li>
 				<li><a href="tracker.html">Arrival & Departure</a></li>
-				<li><a href="wherewefly.html">Where We Fly</a></li>
+				
 			</ul>
 			<h3>Plan</h3>
 			<ul class="footer-links">
@@ -306,16 +333,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<ul class="footer-links">
 				<li><a href="manage.html">My Flight</a></li>
 				<li><a href="help.html">Help Info</a></li>
-				<li style="color:rgba(0,0,0,0);">nil</li>
 			</ul>
-			<h3>Experiences</h3>
+			<h3>Explore</h3>
 			<ul class="footer-links">
-				<li><a href="experiences.html">Our Comments</a></li>
-				<li><a href="contact.html">Feedbacks</a></li>
+				<li><a href="whoweare.html">Who We are</a></li>
+				<li><a href="wherewefly.html">Where We Fly</a></li>
+				<li><a href="experiences.html">Experiences</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Contact Us</h3>
+			<h3><a href="contact.html">Contact Us</a></h3>
 			<div class="contact-info">
 				<div class="address">	
 					<i class="glyphicon glyphicon-globe"></i>
@@ -373,9 +400,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/index.js"></script>
 <script src="js/top.js"></script> 
 <script src="js/bgfader.js"></script>
-<!--<script>
+<script>
 var myBgFader = $('.header').bgfader([
   'images/banner1-1.jpg',
+  'images/banner1-2.jpg',
   
 ], {
   'timeout': 2000,

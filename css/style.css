@@ -254,8 +254,7 @@ color: #000 !important;
 
 /*--banner--*/
 section.banner-w3ls {
-	margin: 50px 0 0;
-	right: 0;
+	margin-top: 20px;
 }
 .header {
 	padding: 60px 0 30px;
@@ -264,8 +263,10 @@ section.banner-w3ls {
 .banner-title h1{
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	color: #dc143c;
-	font-size: 40px;
+	color: #e25b71;
+	font-size: 30px;
+	float: right;
+	font-weight: bold;
 }
 .banner-form {
 	padding: 0 10px;
@@ -358,7 +359,7 @@ section.banner-w3ls {
 /*--section style--*/
 section.special-w3layouts {
 	padding:30px 0;
-	background-color: #e25b71;
+	background-color: rgba(226, 91, 113,1);
 }
 section.info-w3ls,
 section.info-w3ls2,
@@ -389,7 +390,8 @@ section.banner-w3ls3 h3.text-center,
 section.inner-w3ls h3.text-center {
     color: #fff;
 }
-section.banner-w3ls2 h3.text-center {
+section.banner-w3ls2 h3.text-center,
+section.info-w3ls3 h3.text-center {
 	color:#e25b71;
 }
 section.inner-w3ls h3.text-center {
@@ -398,7 +400,8 @@ section.inner-w3ls h3.text-center {
 	position:relative;
 }
 section.special-w3layouts i.fa,
-section.inner-w3ls i.fa {
+section.inner-w3ls i.fa,
+section.info-w3ls3 i.fa {
 	font-size:27px;
 	font-weight:thin;
 	width:70px;
@@ -444,7 +447,6 @@ section.inner-w3ls i.fa {
 /*-- 1st info section --*/
 section.info-w3ls i.fa,
 section.info-w3ls2 i.fa,
-section.info-w3ls3 i.fa,
 section.banner-w3ls2 i.fa,
 section.transit-w3ls i.fa 
 {
@@ -804,7 +806,7 @@ section.footer-agileits ul.footer-links li {
 	padding-bottom:15px;
 }
 section.footer-agileits ul.footer-links li a:hover {
-	color: #d40006;
+	color: #e25b71;
 }
 section.footer-agileits ul.footer-links li a {
 	text-decoration:none;
@@ -823,6 +825,13 @@ section.footer-agileits .contact-info i{
     font-size: 22px;
     margin: 25px 15px 10px 0px;
     display: inline-block;
+}
+section.footer-agileits a {
+	text-decoration: none;
+	color: #FFF;
+}
+section.footer-agileits a:hover {
+	color: #e25b71;
 }
 section.footer-agileits p.p3{
 	padding: 0;
@@ -2625,10 +2634,6 @@ section.footer-agileits button.btn-outline {
     padding: 15px 0px 0px 15px;
 }
 /* Blog Style */
-
-
-
-
 }
 
 
