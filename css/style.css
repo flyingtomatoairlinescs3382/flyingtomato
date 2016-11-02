@@ -1544,10 +1544,15 @@ section.banner-w3ls h2.text-center {
 section.banner-w3ls p.text-center {
     font-size: 16px;
 }
-section.info-w3ls h3.text-center, section.info-w3ls2 h3.text-center, section.info-w3ls3 h3.text-center,section.special-w3layouts h3.text-center {
+section.info-w3ls h3.text-center, 
+section.info-w3ls2 h3.text-center, 
+section.info-w3ls3 h3.text-center,
+section.special-w3layouts h3.text-center {
     font-size: 40px;
 }
-section.info-w3ls p.text-center, section.info-w3ls2 p.text-center, section.info-w3ls3 p.text-center {
+section.info-w3ls p.text-center, 
+section.info-w3ls2 p.text-center, 
+section.info-w3ls3 p.text-center {
     font-size: 14px;
 }
 section.inner-w3ls {
@@ -1558,23 +1563,34 @@ section.inner-w3ls {
 	-ms-background-size:initial;
 	min-height:450px;
 }
-section.banner-w3ls2,section.banner-w3ls3 {
+section.banner-w3ls2,
+section.banner-w3ls3 {
 	min-height:600px;
 }
-section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
+section.banner-w3ls2 h3.text-center, 
+section.banner-w3ls3 h3.text-center {
     font-size: 50px;
 }
-section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
+section.banner-w3ls2 h3.text-center, 
+section.banner-w3ls3 h3.text-center {
 	padding-top:230px;
 }
 section.inner-w3ls h2.text-center{
 	font-size: 50px;
     padding: 195px 0 20px;
 }
-section.about-w3ls h3.text-center, section.team-w3ls h3.text-center, section.cust-agileits h3.text-center, section.service-w3ls h3.text-center, section.service-agileits h3.text-center, section.work-w3ls h3.text-center, section.shipment-w3ls h3.text-center, section.transit-w3ls h3.text-center, section.contact-us h3.text-center, section.contact-w3ls h3.text-center {
+section.service-w3ls h3.text-center, 
+section.service-agileits h3.text-center, 
+section.transit-w3ls h3.text-center {
     font-size: 40px;
 }
-section.info-w3ls h3.text-center:after, section.info-w3ls2 h3.text-center:after, section.info-w3ls3 h3.text-center:after,section.about-w3ls h3.text-center:after, section.team-w3ls h3.text-center:after, section.cust-agileits h3.text-center:after, section.service-w3ls h3.text-center:after, section.service-agileits h3.text-center:after, section.work-w3ls h3.text-center:after, section.shipment-w3ls h3.text-center:after, section.transit-w3ls h3.text-center:after, section.contact-us h3.text-center:after, section.contact-w3ls h3.text-center:after,section.special-w3layouts h3.text-center:after {
+section.info-w3ls h3.text-center:after, 
+section.info-w3ls2 h3.text-center:after, 
+section.info-w3ls3 h3.text-center:after,
+section.service-w3ls h3.text-center:after, 
+section.service-agileits h3.text-center:after, 
+section.transit-w3ls h3.text-center:after, 
+section.special-w3layouts h3.text-center:after {
 	width: 22%;
 	left:39%;
 }
@@ -1582,10 +1598,15 @@ section.about-w3ls p {
 	font-size: 14px;
     line-height: 35px;
 }
-section.about-w3ls, section.team-w3ls, section.cust-agileits, section.service-w3ls, section.service-agileits, section.work-w3ls, section.shipment-w3ls, section.transit-w3ls, section.contact-us, section.contact-w3ls {
+section.service-w3ls, 
+section.service-agileits, 
+section.transit-w3ls {
     padding: 50px 0 0;
 }
-section.team-w3ls p.text-center,section.cust-agileits p.text-center,section.service-w3ls p.text-center,section.service-agileits p.text-center,section.work-w3ls p.text-center,section.shipment-w3ls p.text-center,section.transit-w3ls p.text-center,section.contact-us p.text-center,section.contact-w3ls p.text-center,section.special-w3layouts p.text-center {
+section.service-w3ls p.text-center,
+section.service-agileits p.text-center,
+section.transit-w3ls p.text-center,
+section.special-w3layouts p.text-center {
     font-size: 14px;
 	padding-bottom:30px;
 }
@@ -1703,7 +1724,7 @@ section.banner-w3ls2, section.banner-w3ls3 {
     -ms-background-size: contain;
 }
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
-    padding-top: 180px;
+    padding-top: 50px;
 	font-size:40px;
 }
 .col-md-2.col-sm-4.col-xs-6.cust-w3ls {
@@ -1787,7 +1808,7 @@ section.banner-w3ls2, section.banner-w3ls3 {
     min-height: 400px;
 }
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 section.shipment-w3ls .container:nth-child(2), section.transit-w3ls .container:nth-child(2) {
     width:95%;
@@ -1840,10 +1861,6 @@ section.work-w3ls .b-wrapper i.fa.fa-search-plus {
 }
 section.shipment-w3ls .container:nth-child(2), section.transit-w3ls .container:nth-child(2) {
     width: 97%;
-}
-span.line {
-	top: 30%;
-    left: 41%;
 }
 
 section.transit-w3ls .table>tbody>tr>td img.img-responsive {
@@ -1976,7 +1993,7 @@ section.banner-w3ls2, section.banner-w3ls3 {
     min-height: 293px;
 }
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
-    padding-top: 105px;
+    padding-top: 50px;
 }
 ul.nav.navbar-nav.navbar-right {
     text-align: center;
