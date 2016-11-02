@@ -1887,8 +1887,16 @@ section.inner-w3ls p.text-center {
     font-size: 14px;
 	line-height:30px;
 }
-section.about-w3ls h3.text-center, section.team-w3ls h3.text-center, section.cust-agileits h3.text-center, section.service-w3ls h3.text-center, section.service-agileits h3.text-center, section.work-w3ls h3.text-center, section.shipment-w3ls h3.text-center, section.transit-w3ls h3.text-center, section.contact-us h3.text-center, section.contact-w3ls h3.text-center, section.info-w3ls h3.text-center, section.info-w3ls2 h3.text-center, section.info-w3ls3 h3.text-center,section.special-w3layouts h3.text-center, section.blog {
-	padding:20px 0 45px;
+section.service-w3ls h3.text-center, 
+section.service-agileits h3.text-center, 
+section.transit-w3ls h3.text-center, 
+section.info-w3ls h3.text-center, 
+section.info-w3ls2 h3.text-center, 
+section.info-w3ls3 h3.text-center,
+section.special-w3layouts h3.text-center, 
+section.banner-w3ls2 h3.text-center,
+section.blog {
+	padding:20px 0 40px;
 }
 section.banner-w3ls2,section.banner-w3ls3 {
 	background-size:cover;
@@ -1993,7 +2001,7 @@ section.banner-w3ls2, section.banner-w3ls3 {
     min-height: 293px;
 }
 section.banner-w3ls2 h3.text-center, section.banner-w3ls3 h3.text-center {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 ul.nav.navbar-nav.navbar-right {
     text-align: center;
@@ -2036,12 +2044,6 @@ section.work-w3ls .nav-tabs > li:nth-child(1) {
     width:100%;
     float: none;
     margin: 0 auto;
-}
-span.line {
-	width:5px;
-	height:70px;
-	left:49.5%;
-	top:106%;
 }
 .content3-w3ls p {
 	margin: 15px 0 90px;
