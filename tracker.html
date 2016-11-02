@@ -47,7 +47,7 @@
 						<ul>
 							<li><a href="tracker.html">Flight Tracker</a></li>
 							<li><a href="tracker.html">Arrival & Departure</a></li>
-							<li><a href="wherewefly.html">Where We Fly</a></li>
+							
 						</ul>
 					</div>
 				</li>
@@ -69,7 +69,17 @@
 						</ul>
 					</div>
 				</li>
-				<li><a href="experiences.html">Experiences</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore<b class="caret"></b></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="whoweare.html">Who We Are</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
+							<li><a href="experiences.html">Experiences</a></li>
+						</ul>
+					</div>
+				</li>
+				
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
@@ -95,16 +105,16 @@
 				<p>Search by flight number:</p>
 				<div class="form-group">
 					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
+					<button type="submit" class="btn-outline" onclick="location.href='#arr';">Search</button>
 				</div>			
 			</div>
 		</div>
 		<div class="content-w3ls col-md-6">
 			<div class="content1-w3ls">
-				<p>Or search by oring / destination:</p>
+				<p>Or search by origin / destination:</p>
 				<div class="form-group">
 					<input type="text" name="flightno" class="form-control" id="text1" placeholder="e.g. 1234">
-					<button type="submit" class="btn-outline">Search</button>
+					<button type="submit" class="btn-outline" onclick="location.href='#arr';">Search</button>
 				</div>			
 			</div>
 		</div>
@@ -115,69 +125,69 @@
 
 <!-- arr-and-dep section -->
 <div class="clearfix"></div>
-<section class="transit-w3ls">
+<section class="transit-w3ls" id="arr">
 	<div class="container">
 		<i class="fa fa-table" aria-hidden="true"></i>
 		<h3 class="text-center agileits-w3layouts agile w3-agile">Arrival & Departure</h3>
 	</div>
-	<div class="container">
-		<div class="bs-docs-example" style="overflow-x:auto;">
-			<table class="table table-hover">
-				<thead>
-					<tr>
-					  <th>Flight no.</th>
-					  <th>Origin</th>
-					  <th>Depart at</th>
-					  <th>Destination</th>
-					  <th>Arrive at</th>
-					  <th>Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-					<tr>
-					  <td>1234</td>
-					  <td>Hong Kong</td>
-					  <td>01:15</td>
-					  <td>Tokyo</td>
-					  <td>04:30</td>
-					  <td>Landed</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+	<div class="clearfix"></div>
+	<div class="bs-docs-example" style="overflow-x:auto;">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+				  <th>Flight no.</th>
+				  <th>Origin</th>
+				  <th>Depart at</th>
+				  <th>Destination</th>
+				  <th>Arrive at</th>
+				  <th>Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				  <td>1234</td>
+				  <td>Hong Kong</td>
+				  <td>00:15</td>
+				  <td>Taipei</td>
+				  <td>03:30</td>
+				  <td>Landed</td>
+				</tr>
+				<tr>
+				  <td>3382</td>
+				  <td>Hong Kong</td>
+				  <td>01:15</td>
+				  <td>Seoul</td>
+				  <td>07:35</td>
+				  <td>Landed</td>
+				</tr>
+				<tr>
+				  <td>3381</td>
+				  <td>Hong Kong</td>
+				  <td>06:45</td>
+				  <td>Tokyo</td>
+				  <td>09:20</td>
+				  <td>Landed</td>
+				</tr>
+				<tr>
+				  <td>3382</td>
+				  <td>Hong Kong</td>
+				  <td>14:15</td>
+				  <td>Jeju</td>
+				  <td>18:20</td>
+				  <td>Landed</td>
+				</tr>
+				<tr>
+				  <td>3382</td>
+				  <td>Hong Kong</td>
+				  <td>19:00</td>
+				  <td>Taichung</td>
+				  <td>21:55</td>
+				  <td>Landed</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
+	
 </section>
 
 <!-- arr-and-dep section -->
@@ -190,7 +200,7 @@
 			<ul class="footer-links">
 				<li><a href="tracker.html">Flight Tracker</a></li>
 				<li><a href="tracker.html">Arrival & Departure</a></li>
-				<li><a href="wherewefly.html">Where We Fly</a></li>
+				
 			</ul>
 			<h3>Plan</h3>
 			<ul class="footer-links">
@@ -203,16 +213,16 @@
 			<ul class="footer-links">
 				<li><a href="manage.html">My Flight</a></li>
 				<li><a href="help.html">Help Info</a></li>
-				<li style="color:rgba(0,0,0,0);">nil</li>
 			</ul>
-			<h3>Experiences</h3>
+			<h3>Explore</h3>
 			<ul class="footer-links">
-				<li><a href="experiences.html">Our Comments</a></li>
-				<li><a href="contact.html">Feedbacks</a></li>
+				<li><a href="whoweare.html">Who We are</a></li>
+				<li><a href="wherewefly.html">Where We Fly</a></li>
+				<li><a href="experiences.html">Experiences</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Contact Us</h3>
+			<h3><a href="contact.html">Contact Us</a></h3>
 			<div class="contact-info">
 				<div class="address">	
 					<i class="glyphicon glyphicon-globe"></i>
