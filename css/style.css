@@ -245,16 +245,19 @@ section.banner-w3ls{
 
 /*-- common layout --*/
 section.info-w3ls,
-section.banner-w3ls2 {
+section.banner-w3ls2,
+section.info-w3ls2 {
 	padding:40px 0;
 }
 section.info-w3ls h3.text-center,
-section.banner-w3ls2 h3.text-center {
+section.banner-w3ls2 h3.text-center,
+section.info-w3ls2 h3.text-center {
 	font-size: 30px;
 	color: #B50727;
 }
 section.info-w3ls i.fa,
-section.banner-w3ls2 i.fa {
+section.banner-w3ls2 i.fa,
+section.info-w3ls2 i.fa {
 	font-size:25px;
 	font-weight:thin;
 	width:45px;
@@ -272,7 +275,8 @@ section.banner-w3ls2 i.fa {
 	-o-border-radius:50%;
 	-ms-border-radius:50%;
 }
-section.info-w3ls .form-group button.btn-outline {
+section.info-w3ls .form-group button.btn-outline,
+section.info-w3ls2 .form-group button.btn-outline {
     border: solid 2px #EA3858;
     font-size: 14px;
     padding: 6px 8px;
@@ -284,7 +288,10 @@ section.info-w3ls .form-group button.btn-outline {
 }
 section.info-w3ls .form-group button.btn-outline:hover, 
 section.info-w3ls .form-group button.btn-outline:focus, 
-section.info-w3ls .form-group button.btn-outline:active {
+section.info-w3ls .form-group button.btn-outline:active,
+section.info-w3ls2 .form-group button.btn-outline:hover,
+section.info-w3ls2 .form-group button.btn-outline:focus, 
+section.info-w3ls2 .form-group button.btn-outline:active {
     border: solid 2px #FCFCFC;
     color: #EA3858;
     background-color: #FCFCFC;
@@ -312,7 +319,7 @@ section.banner-w3ls2 {
 	background-color: rgba(255,255,255,0.3);
 }
 section.banner-w3ls2 p.info {
-	margin: 60px auto;
+	margin: 50px auto 0;
 	text-align: justify;
 	background-color: #FA849A;
 	padding: 15px 20px;
@@ -326,8 +333,28 @@ section.banner-w3ls2 span {
 /*-- /2nd banner --*/
 
 /*-- /2nd info --*/
-
-/*-- /2nd info --*/
+.promo {
+	margin-top: 30px;
+}
+.promo-main {
+	min-width: 250px;
+	border: 2px solid #B50727;
+	padding: 15px;
+	margin-bottom: 5px;
+	float: left;
+}
+.promo-main .price {
+	font-size: 20px;
+	font-weight: bold;
+	color: #EA3858;
+}
+.promo-main .form-group {
+	margin: 0 auto;
+}
+.promo-main button {
+	float: right;
+}
+/*-- 2nd info --*/
 
 /*--section style--*
 section.special-w3layouts {
