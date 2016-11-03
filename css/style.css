@@ -495,85 +495,95 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 .info-w3ls p{
 	font-size: 14px;
 }
+.result {
+	border: 2px solid #e25b71;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.result-content h3 {
+	margin: 20px 0;
+}
 #rating {
 	color: #FA849A;
 	background-color: transparent;
 	font-size: 20px;
 	height: 20px;
 	width: 20px;
-	margin-right: 5px;
+	margin-right: 3px;
 	margin-left: 0;
+	line-height: 20px;
+	display: inline;
+}
+.result-content h4{ 
+	margin-top: 15px;
+}
+.suggest-tag {
+	margin: 10px 5px 10px 0;
+}
+.result-content img {
+	width: 100%;
+}
+.suggestlist {
+	list-style-type: none;
+}
+.result-content .form-group {
+	float: right;
 }
 /*-- suggest --*/
 
+/*-- hashtag --*/
+span.tag {
+	border-radius: 5px;
+	padding: 5px;
+	color: #FFF;
+	margin-right: 5px;
+}
+span.seafood {background-color: #EF5698;}
+span.streetfood {background-color: #C93676;}
+span.bbq {background-color: #F799C2;}
+span.landmark {background-color: #C2344E;}
+span.heritage {background-color: #A50724;}
+span.themepark {background-color: #EA3858;}
+span.zoo {background-color: #FC4465;}
+span.museum {background-color: #FF5B79;}
+span.nature {background-color: #D80D43;}
+span.outdoor {background-color: #D85471;}
+span.resort {background-color: #BF006F;}
+span.shopping {background-color: #FA849A;}
+/*-- hashtag --*/
 
+/*-- select-flight --*/
+.select-flight label {
+	color: #EA3858;
+}
+.datematrix {
+	overflow-x: auto;
+}
+.datematrix table{
+	width: 85%;
+	margin: auto;
+}
+.datematrix th, td {
+	text-align: center;
+	margin: 15px;
+}
+.datematrix tbody td:hover {
+	background-color: rgba(253, 0, 6, 0.1);
+	cursor: pointer;
+}
+.datematrix td.lowprice {
+	color: red;
+}
+.datematrix input[type=submit] {
+	float: right;
+	margin: 50px 100px 0 0;
+}
+.select-flight .search-btn {
+	float: right;
+}
+/*-- select-flight --*/
 
-/*--section style--*
-section.special-w3layouts {
-	padding:30px 0;
-	background-color: #FFF;
-}
-section.info-w3ls,
-section.info-w3ls2,
-section.banner-w3ls2,
-section.info-w3ls3,
-section.blog {
-	padding:30px 0;
-}
-section.inner-w3ls {
-	padding-top: 100px;
-}
-/*--section style--*/
-
-/*--header title style
-section.info-w3ls h3.text-center,
-section.info-w3ls2 h3.text-center,
-section.banner-w3ls2 h3.text-center,
-section.info-w3ls3 h3.text-center,
-section.transit-w3ls h3.text-center,
-section.blog h3.blogtitle {
-	font-size:40px;
-	padding:20px 0;
-	position:relative;
-}
-section.special-w3layouts h3.text-center,
-section.banner-w3ls3 h3.text-center,
-section.inner-w3ls h3.text-center {
-    color: #fff;
-}
-section.banner-w3ls2 h3.text-center,
-section.info-w3ls3 h3.text-center,
-section.special-w3layouts h3.text-center,
-section.inner-w3ls h3.text-center {
-	color:#e25b71;
-	font-size:30px;
-	padding:20px 0;
-	position:relative;
-}
-section.special-w3layouts i.fa,
-section.inner-w3ls i.fa,
-section.info-w3ls3 i.fa {
-	font-size:27px;
-	font-weight:thin;
-	width:70px;
-	height:70px;
-	text-align:center;
-	line-height:70px;
-	color:#e25b71;
-	margin:0 auto;
-	display:block;
-	background-color:#fff;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-}
-/*--header title style--*/
-
-
-
-/*-- 2nd info section --*
+/*-- where-we-fly --*/
 #map {
 	width: 99%;
 	margin: 20px auto;
@@ -608,7 +618,7 @@ ul.tab {
     overflow: hidden;
    	font-family: 'Montserrat', sans-serif;
 }
-/*--tab style--*
+/*--tab style--*/
 ul.tab li {
 	float: left;
 }
@@ -659,7 +669,7 @@ ul.tab li a:focus, .active {
 }
 /*--tab style--*/
 
-/*--tab detail style--*
+/*--tab detail style--*/
 .tabdetail {
 	margin:20px;
 	padding-top: 30px;
@@ -722,51 +732,6 @@ div.panel button.btn-outline:active {
 }
 span.more {
 	float: right;
-}
-span.tag {
-	padding: 5px 10px 5px 10px;
-	margin-right: 15px;
-	background-color: rgba(240,128,128,1);
-	border-radius: 5px;
-	color: white;
-}
-span.tag.landmark {
-	background-color: rgba(240,128,128,1);
-}
-span.tag.nature {
-	background-color: IndianRed;
-}
-span.tag.shopping {
-	background-color: rgba(220,20,60,1);
-}
-span.tag.themepark {
-	background-color: rgba(250,128,114,1);
-}
-span.tag.zoo {
-	background-color: rgba(178,34,34,1);
-}
-span.outdoor {
-	background-color: rgba(139,0,0,1);
-}
-span.resort {
-	background-color: rgba(139,0,100,1);
-}
-span.heritage {
-	background-color: rgba(139,100,0,1);
-}
-span.museum {
-	background-color: rgba(139,100,150,1);
-}
-span.streetfood {
-	background-color: rgba(139,190,150,1);
-}
-span.seafood {
-	background-color: rgba(200,0,150,1);
-}
-span.upcoming {
-	background-color: red;
-	text-transform: uppercase;
-	border-radius: 25px;
 }
 .panel h3 {
 	margin-bottom: 10px;
@@ -1113,182 +1078,8 @@ section.footer-agileits p.copyright a:hover {
 /*-- /back to top --*/
 
 /*-- inner pages banner --*
-section.inner-w3ls {
-	background-color: #e25b71;
-	background-position:center;
-	background-attachment:fixed;
-	background-repeat:no repeat;
-	background-size:100% 100%;
-	-webkit-background-size:100% 100%;
-	-moz-background-size:100% 100%;
-	-o-background-size:100% 100%;
-	-ms-background-size:100% 100%;
-	min-height:300px;
-}
-section.inner-w3ls p.text-center {
-	font-size:17px;
-	font-weight:normal;
-	color:#fff;
-	line-height:35px;
-}
-.column {
-	margin:0;
-	padding:0;
-}
-.column:last-child {
-	padding-bottom:0px;
-}
-.column::after {
-	content: '';
-	clear: both;
-	display: block;
-}
-.column div {
-	position: relative;
-	float: left;
-	width:100%;
-	height:auto;
-	margin: 0;
-	padding: 0;
-}
-.column div:first-child {
-	margin-left: 0;
-}
-figure {
-	width:100%;
-	height:100%;
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	overflow: hidden;
-}
-.hover01 figure img {
-	width:100%;
-	height:auto;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-moz-transform:scale(1);
-	-o-transform:scale(1);
-	-ms-transform:scale(1);
-	-webkit-transition:all 0.5s ease-in-out;
-	transition:all 0.5s ease-in-out;
-	-moz-transition:all 0.5s ease-in-out;
-	-o-transition:all 0.5s ease-in-out;
-	-ms-transition:all 0.5s ease-in-out;
-}
-.hover01 figure:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-/*-- /inner pages banner --*/
 
 
-/*-- service page --*
-section.service-w3ls h3 {
-	padding: 0 0 25px 0;
-	color: #e25b71;
-	font-size: 30px;
-}
-
-section.service-w3ls label{
-	color: #555555;
-
-}
-.planner-btn {
-	margin: 10px 0;
-	float: right; 
-}
-.planner-btn button.btn-outline {
-	margin: 10px 0;
-    border: solid 2px #e25b71;
-    font-size: 15px;
-    padding: 5px 10px;
-    color: #e25b71;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-    font-family: 'Montserrat';
-}
-.planner-btn button.btn-outline:hover,
-.planner-btn button.btn-outline:focus,
-.planner-btn button.btn-outline:active {
-    border: solid 2px #fff;
-    color: #fff;
-    background: #e25b71;
-}
-.tag-pic {
-	border: 1px solid #f5f5f5;
-}
-.tag-list {
-	margin-left: 20px;
-}
-.tag-list li{
-	list-style-type: none;
-}
-.tag {
-	border: 1px solid #e25b71;
-	text-align: center;
-	margin: 15px 12px;
-	width: 180px;
-	height: 200px;
-}
-li.chosen {
-	display: none;
-}
-
-.suggest-tag {
-	margin: 10px 0 20px;
-}
-.result {
-	width: 100%;
-	display: block;
-	min-height: 235px;
-	border: 2px solid #a40004;
-	margin-bottom: 30px;
-}
-.result-content {
-	margin-top: 15px;
-}
-.result-content img {
-	width: 300px;
-	height: 200px;
-	margin: auto;
-}
-.result-content h2 {
-	margin-bottom: 30px;
-}
-#rating {
-	width: 230px;
-	height: 50px;
-	margin-bottom: 20px;
-}
-.result-content h4 {
-	float: left;
-}
-.result-content input[type=submit] {
-	float: right;
-	margin-bottom: 10px;
-	color: #FFF;
-	background-color: #d40004;
-}
-.datematrix table{
-	width: 85%;
-	margin: auto;
-}
-.datematrix th, td {
-	text-align: center;
-	margin: 15px;
-}
-.datematrix tbody td:hover {
-	background-color: rgba(253, 0, 6, 0.1);
-	cursor: pointer;
-}
-.datematrix td.lowprice {
-	color: red;
-}
-.datematrix input[type=submit] {
-	float: right;
-	margin: 50px 100px 0 0;
-}
 
 .selectedseat p {
 	margin: 20px 0;
@@ -1411,6 +1202,9 @@ iframe.googlemaps {
 	.container {
 		width: 100%;
 	}
+	.result-content img {
+		width: 60%;
+	}
 }
 @media (max-width:900px) {
 
@@ -1429,7 +1223,9 @@ iframe.googlemaps {
 		margin-top: 10px;
 		float: right;
 	}
-
+	.result-content img {
+		width: 60%;
+	}
 }
 @media (max-width:680px) {
 
@@ -1455,13 +1251,17 @@ iframe.googlemaps {
 	.navbar-brand img{
 		height: 18px;
 	}
-
+	.result-content img {
+		width: 100%;
+	}
 }
 @media (max-width:320px) {
 	.navbar-brand img{
 		height: 14px;
 	}
-
+	.result-content img {
+		width: 100%;
+	}
 }
 /*-- responsive --*/
 
