@@ -468,8 +468,45 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 .planner h3 {
 	font-size: 22px;
+	padding: 20px 0;
+}
+.planner label {
+	color: #EA3858;
+}
+.tag-pic {
+	float: left;
+	padding: 15px 5px;
+	width: 100%;
+}
+.tagp {
+	height: 200px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.chosen {
+	display: none;
 }
 /*-- planner --*/
+
+/*-- suggest --*/
+.info-w3ls h3 {
+	font-size: 20px;
+}
+.info-w3ls p{
+	font-size: 14px;
+}
+#rating {
+	color: #FA849A;
+	background-color: transparent;
+	font-size: 20px;
+	height: 20px;
+	width: 20px;
+	margin-right: 5px;
+	margin-left: 0;
+}
+/*-- suggest --*/
+
+
 
 /*--section style--*
 section.special-w3layouts {
@@ -1146,7 +1183,7 @@ figure {
 /*-- /inner pages banner --*/
 
 
-/*-- service page --*/
+/*-- service page --*
 section.service-w3ls h3 {
 	padding: 0 0 25px 0;
 	color: #e25b71;
@@ -1155,14 +1192,6 @@ section.service-w3ls h3 {
 
 section.service-w3ls label{
 	color: #555555;
-
-}
-.month {
-	text-align: center;
-	border: 1px solid #777777;
-	margin-bottom: 10px;
-}
-.month p {
 
 }
 .planner-btn {
@@ -1378,6 +1407,14 @@ iframe.googlemaps {
 		margin: 30px;
 	}
 }
+@media (max-width:990px) {
+	.container {
+		width: 100%;
+	}
+}
+@media (max-width:900px) {
+
+}
 @media (max-width:768px) {
 	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 280px;
@@ -1392,11 +1429,19 @@ iframe.googlemaps {
 		margin-top: 10px;
 		float: right;
 	}
+
+}
+@media (max-width:680px) {
+
 }
 @media (max-width:560px) {
 	.navbar-brand img{
 		height: 24px;
 	}
+
+}
+@media (max-width:500px) {
+
 }
 @media (max-width:425px) {
 	.navbar-brand img{
@@ -1410,11 +1455,13 @@ iframe.googlemaps {
 	.navbar-brand img{
 		height: 18px;
 	}
+
 }
 @media (max-width:320px) {
 	.navbar-brand img{
 		height: 14px;
 	}
+
 }
 /*-- responsive --*/
 

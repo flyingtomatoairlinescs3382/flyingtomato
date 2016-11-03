@@ -121,65 +121,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="clearfix"></div>
 		<h3>When will you go travel?</h3>
-		<div class="form-group col-md-4 traveldate">
-			<label>Depart</label>
-			<input type="date" name="date" class="form-control" id="text1">
-			<label>Return</label>
-			<input type="date" name="date" class="form-control" id="text1">
+		<div class="form-group col-md-9 row traveldate">
+			<div class="col-md-6 col-xs-6">
+				<label>Depart at:</label>
+				<input type="date" name="date" class="form-control" id="depart-date">
+			</div>
+			<div class="col-md-6 col-xs-6">
+				<label>Return at:</label>
+				<input type="date" name="date" class="form-control" id="return-date">
+			</div>
 		</div>
 		
-		<div class="form-group col-md-8">
+		<div class="form-group col-md-3">
 			<label>Or choose your month:</label>
-			<div class="row">
-				<div class="col-md-2 month"><p>Jan</p></div>
-				<div class="col-md-2 month"><p>Feb</p></div>
-				<div class="col-md-2 month"><p>Mar</p></div>
-				<div class="col-md-2 month"><p>Apr</p></div>
-				<div class="col-md-2 month"><p>May</p></div>
-				<div class="col-md-2 month"><p>Jun</p></div>
-				<div class="col-md-2 month"><p>Jul</p></div>
-				<div class="col-md-2 month"><p>Aug</p></div>
-				<div class="col-md-2 month"><p>Sep</p></div>
-				<div class="col-md-2 month"><p>Oct</p></div>
-				<div class="col-md-2 month"><p>Nov</p></div>
-				<div class="col-md-2 month"><p>Dec</p></div>
-			</div>
+			<input list="month" name="month" class="form-control" id="travel-month" placeholder="month">
+			<datalist id="month">	
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</datalist>
 		</div>
 		<div class="clearfix"></div>
 		<h3>What do you love?</h3>
-		<div class="tag-pic col-md-9 row">
-			<div class="tag col-md-3" onclick="toggle_visibility('seafood');">Seafood</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('streetfood');">Street Food</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('bbq');">Barbeque</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('landmark');">Landmark</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('heritage');">Heritage</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('themepark');">Theme Park</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('zoo');">Zoo/Auqarium</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('museum');">Museum</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('nature');">Nature</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('outdoor');">Outdoor</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('resort');">Resort</div>
-			<div class="tag col-md-3" onclick="toggle_visibility('shopping');">Shopping</div>
+		<div class="tag-pic col-md-12 col-xs-12 row">
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('seafood');"><img src="images/p01seafood.jpg"><br>Seafood</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('streetfood');"><img src="images/p02streetfood.jpg"><br>Street Food</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('bbq');"><img src="images/p03barbeque.jpg"><br>Barbeque</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('landmark');"><img src="images/p04landmark.jpg"><br>Landmark</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('heritage');"><img src="images/p05heritage.jpg"><br>Heritage</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('themepark');"><img src="images/p06themepark.jpg"><br>Theme Park</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('zoo');"><img src="images/p07aquarium.jpg"><br>Zoo/Aquarium</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('museum');"><img src="images/p08museum.jpg"><br>Museum</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('nature');"><img src="images/p09nature.jpg"><br>Nature</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('outdoor');"><img src="images/p10outdoor.jpg"><br>Outdoor</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('resort');"><img src="images/p11resort.jpg"><br>Resort</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('shopping');"><img src="images/p12shopping.jpg"><br>Shopping</div>
 		</div>
-		<div class="tag-list col-md-3">
+		<div class="tag-list col-md-10 col-xs-10">
 			<label>You Have Chosen:</label>
-			<ul>
-				<li class="chosen" id="seafood">Seafood</li>
-				<li class="chosen" id="streetfood">Street Food</li>
-				<li class="chosen" id="bbq">Barbeque</li>
-				<li class="chosen" id="landmark">Landmark</li>
-				<li class="chosen" id="heritage">Heritage</li>
-				<li class="chosen" id="themepark">Theme Park</li>
-				<li class="chosen" id="zoo">Zoo/Aquarium</li>
-				<li class="chosen" id="museum">Museum</li>
-				<li class="chosen" id="nature">Nature</li>
-				<li class="chosen" id="outdoor">Outdoor</li>
-				<li class="chosen" id="resort">Resort</li>
-				<li class="chosen" id="shopping">Shopping</li>
-			</ul>
+			<div class="clearfix"></div>
+			<div class="chosen" id="seafood">Seafood</div>
+			<div class="chosen" id="streetfood">Street Food</div>
+			<div class="chosen" id="bbq">Barbeque</div>
+			<div class="chosen" id="landmark">Landmark</div>
+			<div class="chosen" id="heritage">Heritage</div>
+			<div class="chosen" id="themepark">Theme Park</div>
+			<div class="chosen" id="zoo">Zoo/Aquarium</div>
+			<div class="chosen" id="museum">Museum</div>
+			<div class="chosen" id="nature">Nature</div>
+			<div class="chosen" id="outdoor">Outdoor</div>
+			<div class="chosen" id="resort">Resort</div>
+			<div class="chosen" id="shopping">Shopping</div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="planner-btn">
+		<div class="form-group col-md-2 col-xs-2">
 			<button type="submit" class="btn-outline" onclick="location.href='suggest.html';">Search</button>
 		</div>
 	</div>
