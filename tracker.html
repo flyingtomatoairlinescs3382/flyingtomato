@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flying Tomato Airlines CS3382 CityU Hong Kong :: Home</title>
+<title>"Flying Tomato" Airlines CS3382 CityU Hong Kong :: Flight Tracker</title>
 <meta name="google-site-verification" content="N-RZ2fYCcIZQz1qpg2EL9A8FyivEAdFVgPeBm0HDk3s" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +38,7 @@
 			</button>
 			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse col-md-12">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
@@ -85,9 +85,8 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="clearfix"></div>
 <!-- navigation -->
-
+<div class="clearfix"></div>
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
@@ -96,11 +95,11 @@
 	</div>
 </section>
 <!-- small-header -->
-
+<div class="clearfix"></div>
 <!-- flight-tracker section -->
-<section class="info-w3ls2 flight-tracker">
+<section class="info-w3ls flight-tracker">
 	<div class="container">
-		<div class="content-w3ls col-md-6">
+		<div class="col-md-6">
 			<div class="content1-w3ls">
 				<p>Search by flight number:</p>
 				<div class="form-group">
@@ -109,7 +108,7 @@
 				</div>			
 			</div>
 		</div>
-		<div class="content-w3ls col-md-6">
+		<div class="col-md-6">
 			<div class="content1-w3ls">
 				<p>Or search by origin / destination:</p>
 				<div class="form-group">
@@ -120,78 +119,74 @@
 		</div>
 	</div>
 </section>
-<div class="clearfix"></div>
 <!-- flight-tracker section -->
-
-<!-- arr-and-dep section -->
 <div class="clearfix"></div>
-<section class="transit-w3ls" id="arr">
+<!-- arr-and-dep section -->
+<section class="info-w3ls2" id="arr">
 	<div class="container">
 		<i class="fa fa-table" aria-hidden="true"></i>
 		<h3 class="text-center agileits-w3layouts agile w3-agile">Arrival & Departure</h3>
+		<div class="clearfix"></div>
+		<div class="bs-docs-example" style="overflow-x:auto;">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+					  <th>Flight no.</th>
+					  <th>Origin</th>
+					  <th>Depart at</th>
+					  <th>Destination</th>
+					  <th>Arrive at</th>
+					  <th>Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					  <td>1234</td>
+					  <td>Hong Kong</td>
+					  <td>00:15</td>
+					  <td>Taipei</td>
+					  <td>03:30</td>
+					  <td>Landed</td>
+					</tr>
+					<tr>
+					  <td>3382</td>
+					  <td>Hong Kong</td>
+					  <td>01:15</td>
+					  <td>Seoul</td>
+					  <td>07:35</td>
+					  <td>Landed</td>
+					</tr>
+					<tr>
+					  <td>3381</td>
+					  <td>Hong Kong</td>
+					  <td>06:45</td>
+					  <td>Tokyo</td>
+					  <td>09:20</td>
+					  <td>Landed</td>
+					</tr>
+					<tr>
+					  <td>3382</td>
+					  <td>Hong Kong</td>
+					  <td>14:15</td>
+					  <td>Jeju</td>
+					  <td>18:20</td>
+					  <td>Landed</td>
+					</tr>
+					<tr>
+					  <td>3382</td>
+					  <td>Hong Kong</td>
+					  <td>19:00</td>
+					  <td>Taichung</td>
+					  <td>21:55</td>
+					  <td>Landed</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
-	<div class="clearfix"></div>
-	<div class="bs-docs-example" style="overflow-x:auto;">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-				  <th>Flight no.</th>
-				  <th>Origin</th>
-				  <th>Depart at</th>
-				  <th>Destination</th>
-				  <th>Arrive at</th>
-				  <th>Status</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-				  <td>1234</td>
-				  <td>Hong Kong</td>
-				  <td>00:15</td>
-				  <td>Taipei</td>
-				  <td>03:30</td>
-				  <td>Landed</td>
-				</tr>
-				<tr>
-				  <td>3382</td>
-				  <td>Hong Kong</td>
-				  <td>01:15</td>
-				  <td>Seoul</td>
-				  <td>07:35</td>
-				  <td>Landed</td>
-				</tr>
-				<tr>
-				  <td>3381</td>
-				  <td>Hong Kong</td>
-				  <td>06:45</td>
-				  <td>Tokyo</td>
-				  <td>09:20</td>
-				  <td>Landed</td>
-				</tr>
-				<tr>
-				  <td>3382</td>
-				  <td>Hong Kong</td>
-				  <td>14:15</td>
-				  <td>Jeju</td>
-				  <td>18:20</td>
-				  <td>Landed</td>
-				</tr>
-				<tr>
-				  <td>3382</td>
-				  <td>Hong Kong</td>
-				  <td>19:00</td>
-				  <td>Taichung</td>
-				  <td>21:55</td>
-				  <td>Landed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	
 </section>
-
 <!-- arr-and-dep section -->
-
+<div class="clearfix"></div>
 <!-- footer section -->
 <section class="footer-agileits">
 	<div class="container">

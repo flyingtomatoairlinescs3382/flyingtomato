@@ -157,13 +157,12 @@ section.banner-w3ls{
 	padding: 15px 15px;
 	border-radius: 3px;
 	margin-bottom: 20px;
-	width: 80%;
 }
 .booking-head h3, .plan-now h3 {
-	font-size: 30px;
-	color: #FFF;
-	margin: 10px 0;
-	z-index: 1001;
+	font-size: 30px !important;
+	color: #FFF !important;
+	margin: 10px 0 !important; 
+	z-index: 1001 !important;
 }
 .form-group label {
 	margin: 10px 0 10px 5px;
@@ -183,7 +182,7 @@ section.banner-w3ls{
 	margin-top: 20px;
 	float: right;
 }
-.form-group button.btn-outline {
+section.banner-w3ls .form-group button.btn-outline {
     border: solid 2px #fff;
     font-size: 14px;
     padding: 6px 8px;
@@ -193,9 +192,9 @@ section.banner-w3ls{
 	font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
 }
-.form-group button.btn-outline:hover, 
-.form-group button.btn-outline:focus, 
-.form-group button.btn-outline:active {
+section.banner-w3ls .form-group button.btn-outline:hover, 
+section.banner-w3ls .form-group button.btn-outline:focus, 
+section.banner-w3ls .form-group button.btn-outline:active {
     border: solid 2px #fff;
     color: #EA3858;
     background: #fff;
@@ -248,6 +247,7 @@ section.info-w3ls,
 section.banner-w3ls2,
 section.info-w3ls2 {
 	padding:40px 0;
+	margin: 0 auto;
 }
 section.info-w3ls h3.text-center,
 section.banner-w3ls2 h3.text-center,
@@ -275,6 +275,7 @@ section.info-w3ls2 i.fa {
 	-o-border-radius:50%;
 	-ms-border-radius:50%;
 }
+/*--color btn--*/
 section.info-w3ls .form-group button.btn-outline,
 section.info-w3ls2 .form-group button.btn-outline {
     border: solid 2px #EA3858;
@@ -296,6 +297,53 @@ section.info-w3ls2 .form-group button.btn-outline:active {
     color: #EA3858;
     background-color: #FCFCFC;
 }
+/*--white btn--*/
+#search-btn {
+	border: solid 2px #FCFCFC;
+    font-size: 14px;
+    padding: 6px 8px;
+    color: #FCFCFC;
+    background: 0 0;
+    margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+}
+#search-btn:hover,
+#search-btn:focus,
+#search-btn:active {
+    border: solid 2px #FCFCFC;
+    color: #EA3858;
+    background-color: #FCFCFC;
+}
+/*-- small-header (inner) --*/
+section.inner-w3ls {
+	padding-top: 150px;
+	background-color: #FA849A;
+	min-height: 300px;
+}
+section.inner-w3ls h3.text-center {
+	font-size: 36px;
+	color: #FCFCFC;
+}
+section.inner-w3ls i.fa {
+	font-size:25px;
+	font-weight:thin;
+	width:45px;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+	color:#FA849A;
+	margin:0 auto;
+	display:block;
+	margin-bottom: 10px;
+	background-color:#FCFCFC;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
+/*-- small-header (inner) --*/
 /*-- common layout --*/
 
 /*--1st info--*/
@@ -337,11 +385,9 @@ section.banner-w3ls2 span {
 	margin-top: 30px;
 }
 .promo-main {
-	min-width: 250px;
 	border: 2px solid #B50727;
 	padding: 15px;
 	margin-bottom: 5px;
-	float: left;
 }
 .promo-main .price {
 	font-size: 20px;
@@ -351,10 +397,58 @@ section.banner-w3ls2 span {
 .promo-main .form-group {
 	margin: 0 auto;
 }
-.promo-main button {
-	float: right;
-}
 /*-- 2nd info --*/
+
+/*-- flight-tracker --*/
+
+.content-w3ls {
+	margin:0 auto;
+	background-color:#F5F5F5;
+}
+.content1-w3ls {
+	text-align:center;
+	padding:20px;
+}
+.content1-w3ls .form-group button.btn-outline{
+	margin-top: 10px !important;
+}
+/*-- flight-tracker --*/
+
+/*-- arr-and-dep --*/
+.bs-docs-example {
+	margin-top: 30px;
+}
+section info-w3ls2 .table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    font-size: 15px;
+    text-align: center;
+    color: #898989;
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+section.info-w3ls2 .table>tbody>tr>td {
+	font-size:15px;
+	color:#787878;
+	line-height:25px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+section.info-w3ls2 .table>tbody>tr>td img.img-responsive {
+	width:70px;
+	height:auto;
+	float:left;
+}
+section.info-w3ls2 .table>tbody>tr>td h4 {
+	float: left;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px 0 0 11px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+/*-- /arr-and-dep --*/
+
 
 /*--section style--*
 section.special-w3layouts {
@@ -422,44 +516,6 @@ section.info-w3ls3 i.fa {
 
 
 /*-- 2nd info section --*
-.promo {
-	border: 2px solid #a40004;
-	position:relative;
-}
-.promo-main {
-	margin: 15px;
-}
-.promo-main h4 {
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-size: 20px;
-}
-.promo-main p {
-	line-height: 25px;
-	font-family: 'Open Sans', sans-serif;
-}
-.price {
-	margin-top: 10px;
-	font-weight: 700;
-	font-size: 20px;
-	font-family: 'Montserrat', sans-serif !important;
-}
-.promo-main button.btn-outline {
-    margin-top: 20px;
-    border: solid 2px #f30006;
-    font-size: 15px;
-    padding: 5px 10px;
-    color: #f30006;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-.promo-main button.btn-outline:hover,
-.promo-main button.btn-outline:focus,
-.promo-main button.btn-outline:active {
-    border: solid 2px #d40006;
-    color: #d40006;
-    background: #fff;
-}
 #map {
 	width: 99%;
 	margin: 20px auto;
@@ -998,7 +1054,7 @@ section.footer-agileits p.copyright a:hover {
 }
 /*-- /back to top --*/
 
-/*-- inner pages banner --*/
+/*-- inner pages banner --*
 section.inner-w3ls {
 	background-color: #e25b71;
 	background-position:center;
@@ -1296,73 +1352,6 @@ input.phone {
 }
 /*-- help page --*/
 
-
-/*-- flight-tracker section --*/
-.content-w3ls {
-	margin:0 auto;
-	background-color:#F5F5F5;
-}
-.content1-w3ls {
-	text-align:center;
-	padding:30px;
-}
-.content1-w3ls p {
-	margin: 10px 0;
-}
-.content1-w3ls input {
-	margin: 10px 0;
-}
-.content1-w3ls button.btn-outline {
-    margin-top: 20px;
-    border: solid 2px #e25b71;
-    font-size: 15px;
-    padding: 5px 15px;
-    color: #e25b71;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-    font-family: "Montserrat";
-}
-.content1-w3ls button.btn-outline:hover,
-.content1-w3ls button.btn-outline:focus,
-.content1-w3ls button.btn-outline:active {
-    border: solid 2px #fff;
-    color: #fff;
-    background: #e25b71;
-}
-/*-- flight-tracker section --*/
-
-/*-- arr-and-dep section --*/
-section.transit-w3ls .table>thead>tr>th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
-    font-size: 15px;
-    text-align: center;
-    color: #898989;
-	font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
-section.transit-w3ls .table>tbody>tr>td {
-	font-size:15px;
-	color:#787878;
-	line-height:25px;
-	text-align:center;
-	font-family: 'Open Sans', sans-serif;
-}
-section.transit-w3ls .table>tbody>tr>td img.img-responsive {
-	width:70px;
-	height:auto;
-	float:left;
-}
-section.transit-w3ls .table>tbody>tr>td h4 {
-	float: left;
-    font-size: 15px;
-    line-height: 25px;
-    margin: 20px 0 0 11px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-/*-- /arr-and-dep section --*/
-
 /*-- contact page --*/
 .contact-main {
 	margin: 30px 0;
@@ -1374,6 +1363,11 @@ iframe.googlemaps {
 /*-- contact page --*/
 
 /*-- responsive --*/
+@media (max-width:1024px) {
+	.post {
+		margin: 30px;
+	}
+}
 @media (max-width:560px) {
 	.navbar-brand img{
 		height: 24px;
@@ -1382,6 +1376,9 @@ iframe.googlemaps {
 @media (max-width:425px) {
 	.navbar-brand img{
 		height: 20px;
+	}
+	.post {
+		margin: 10px;
 	}
 }
 @media (max-width:375px) {

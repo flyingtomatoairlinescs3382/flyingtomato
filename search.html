@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flying Tomato Airlines CS3382 CityU Hong Kong :: Home</title>
+<title>Flying Tomato Airlines CS3382 CityU Hong Kong :: Search Flight</title>
 <meta name="google-site-verification" content="N-RZ2fYCcIZQz1qpg2EL9A8FyivEAdFVgPeBm0HDk3s" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,6 @@
 </head>
 
 <body>
-
 <!-- navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -39,7 +38,7 @@
 			</button>
 			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse col-md-12">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
@@ -86,9 +85,8 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="clearfix"></div>
 <!-- navigation -->
-
+<div class="clearfix"></div>
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
@@ -97,86 +95,88 @@
 	</div>
 </section>
 <!-- small-header -->
-
+<div class="clearfix"></div>
 <!--search-->
-<section class="info-w3ls2">
+<section class="info-w3ls">
 	<div class="container">
-		<div class="booking-info">
-			<div class="booking-head">
-				<h4>Book Your Flight Now!</h4>
+		<div class="col-md-12 banner-form">
+				<div class="booking-info">
+					<div class="booking-head">
+						<h3 class="text-center wthree w3-agileits">Book Your Flight Now!</h3>
+					</div>
+					<div class="form1 row">
+						<div class="form-group col-md-6">
+							<label>Flying from</label>
+							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
+							<datalist id="place">	
+								<option>HKG Hong Kong</option>
+								<option>BKK Bangkok</option>
+								<option>HKT Phuket</option>
+								<option>CNX Chiang Mai</option>
+								<option>TPE Taipei</option>
+								<option>TXG Taichung</option>
+								<option>KHH Kaohsiung</option>
+								<option>NAA Tokyo</option>
+								<option>KIX Osaka</option>
+								<option>OKA Okinawa</option>
+								<option>ICN Seoul</option>
+								<option>PUS Busan</option>
+								<option>CJU Jeju</option>
+							</datalist>
+						</div>
+						<div class="form-group col-md-6">
+							<label>Going to</label>
+							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
+							<datalist id="place">	
+								<option>HKG Hong Kong</option>
+								<option>BKK Bangkok</option>
+								<option>HKT Phuket</option>
+								<option>CNX Chiang Mai</option>
+								<option>TPE Taipei</option>
+								<option>TXG Taichung</option>
+								<option>KHH Kaohsiung</option>
+								<option>NAA Tokyo</option>
+								<option>KIX Osaka</option>
+								<option>OKA Okinawa</option>
+								<option>ICN Seoul</option>
+								<option>PUS Busan</option>
+								<option>CJU Jeju</option>
+							</datalist>
+						</div>
+					</div>
+					<div class="form2 row">
+						<div class="form-group col-md-2 date">
+							<label>Depart</label>
+							<input type="date" name="date" class="form-control" id="text1">
+						</div>
+						<div class="form-group col-md-2 date">
+							<label>Return</label>
+							<input type="date" name="date" class="form-control" id="text1">
+						</div>
+						<div class="form-group col-md-2 ppl">
+							<label>Adults (12+) :</label>
+							<select class="form-control" id="adult">
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							    <option>4</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2 ppl">
+							<label>Children (0-11) :</label>
+							<select class="form-control" id="adult">
+							    <option>0</option>
+							    <option>1</option>
+							    <option>2</option>
+							    <option>3</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2 form-submit">
+							<button id="search-btn" type="submit" class="btn-outline" onclick="location.href='flight.html';">Search Flight</button>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="form1 row">
-				<div class="form-group col-md-6">
-					<label>Flying from</label>
-					<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
-					<datalist id="place">	
-						<option>HKG Hong Kong</option>
-						<option>BKK Bangkok</option>
-						<option>HKT Phuket</option>
-						<option>CNX Chiang Mai</option>
-						<option>TPE Taipei</option>
-						<option>TXG Taichung</option>
-						<option>KHH Kaohsiung</option>
-						<option>NAA Tokyo</option>
-						<option>KIX Osaka</option>
-						<option>OKA Okinawa</option>
-						<option>ICN Seoul</option>
-						<option>PUS Busan</option>
-						<option>CJU Jeju</option>
-					</datalist>
-				</div>
-				<div class="form-group col-md-6">
-					<label>Going to</label>
-					<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
-					<datalist id="place">	
-						<option>HKG Hong Kong</option>
-						<option>BKK Bangkok</option>
-						<option>HKT Phuket</option>
-						<option>CNX Chiang Mai</option>
-						<option>TPE Taipei</option>
-						<option>TXG Taichung</option>
-						<option>KHH Kaohsiung</option>
-						<option>NAA Tokyo</option>
-						<option>KIX Osaka</option>
-						<option>OKA Okinawa</option>
-						<option>ICN Seoul</option>
-						<option>PUS Busan</option>
-						<option>CJU Jeju</option>
-					</datalist>
-				</div>
-			</div>
-			<div class="form2 row">
-				<div class="form-group col-md-2 date">
-					<label>Depart</label>
-					<input type="date" name="date" class="form-control" id="text1">
-				</div>
-				<div class="form-group col-md-2 date">
-					<label>Return</label>
-					<input type="date" name="date" class="form-control" id="text1">
-				</div>
-				<div class="form-group col-md-2 ppl">
-					<label>Adults (12+) :</label>
-					<select class="form-control" id="adult">
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					</select>
-				</div>
-				<div class="form-group col-md-2 ppl">
-					<label>Children (0-11) :</label>
-					<select class="form-control" id="adult">
-					    <option>0</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					</select>
-				</div>
-				<div class="form-group col-md-2 form-submit">
-					<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Search Flight</button>
-				</div>
-			</div>
-		</div>
 	</div>
 </section>
 <!--search-->
