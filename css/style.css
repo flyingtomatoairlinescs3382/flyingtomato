@@ -7,7 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	padding:0;
 	margin:0;
-	background:#FFF;
+	background:#FCFCFC;
+	color: #555;
 }
 body a{
     transition:0.5s all;
@@ -15,7 +16,6 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-	color: black;
 }
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
@@ -70,7 +70,7 @@ body {
 }
 .navbar {
 	min-height:80px;
-	background-color: #FFF;
+	background-color: #FCFCFC;
 	border: none;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -79,7 +79,7 @@ body {
     height: 30px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: white;
+    background-color: #FCFCFC;
     font-weight: bolder;
     font-size: 14px;
     color: #B50727;
@@ -132,19 +132,21 @@ body {
 	margin: 30px 80px 60px;
 }
 .title1{
-	margin-bottom:10px;	
+	margin-bottom:10px;
+	font-size: 20px;	
 }
 .blog {
 	text-align: justify;
+	color: #555;
 }
 .author{
 	float: right;
-	color:#d40006;
+	color:#B50727;
 }
 /*----experiences page-----*/
 
 /*--banner--*/
-section.banner-w3ls {
+section.banner-w3ls{
 	margin-top: 80px;
 }
 .header {
@@ -155,6 +157,7 @@ section.banner-w3ls {
 	padding: 15px 15px;
 	border-radius: 3px;
 	margin-bottom: 20px;
+	width: 80%;
 }
 .booking-head h3, .plan-now h3 {
 	font-size: 30px;
@@ -186,7 +189,7 @@ section.banner-w3ls {
     padding: 6px 8px;
     color: #fff;
     background: 0 0;
-    margin: 10px auto 0;
+    margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
 }
@@ -240,7 +243,93 @@ section.banner-w3ls {
 }
 /*--bgfader--*/
 
-/*--section style--*/
+/*-- common layout --*/
+section.info-w3ls,
+section.banner-w3ls2 {
+	padding:40px 0;
+}
+section.info-w3ls h3.text-center,
+section.banner-w3ls2 h3.text-center {
+	font-size: 30px;
+	color: #B50727;
+}
+section.info-w3ls i.fa,
+section.banner-w3ls2 i.fa {
+	font-size:25px;
+	font-weight:thin;
+	width:45px;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+	color:#FCFCFC;
+	margin:0 auto;
+	display:block;
+	margin-bottom: 10px;
+	background-color:#B50727;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
+section.info-w3ls .form-group button.btn-outline {
+    border: solid 2px #EA3858;
+    font-size: 14px;
+    padding: 6px 8px;
+    color: #EA3858;
+    background: 0 0;
+    margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+}
+section.info-w3ls .form-group button.btn-outline:hover, 
+section.info-w3ls .form-group button.btn-outline:focus, 
+section.info-w3ls .form-group button.btn-outline:active {
+    border: solid 2px #FCFCFC;
+    color: #EA3858;
+    background-color: #FCFCFC;
+}
+/*-- common layout --*/
+
+/*--1st info--*/
+section.info-w3ls .form-group {
+	padding-top: 20px;
+}
+/*--1st info--*/
+
+/*-- 2nd banner --*/
+section.banner-w3ls2 {
+	background:url(../images/banner2.jpg);
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:350px;
+	background-color: rgba(255,255,255,0.3);
+}
+section.banner-w3ls2 p.info {
+	margin: 60px auto;
+	text-align: justify;
+	background-color: #FA849A;
+	padding: 15px 20px;
+	opacity: 0.7;
+	float: left;
+}
+section.banner-w3ls2 span {
+	float: right;
+	color: #B50727;
+}
+/*-- /2nd banner --*/
+
+/*-- /2nd info --*/
+
+/*-- /2nd info --*/
+
+/*--section style--*
 section.special-w3layouts {
 	padding:30px 0;
 	background-color: #FFF;
@@ -257,10 +346,9 @@ section.inner-w3ls {
 }
 /*--section style--*/
 
-/*--header title style--*/
+/*--header title style
 section.info-w3ls h3.text-center,
 section.info-w3ls2 h3.text-center,
-section.special-w3layouts h3.text-center,
 section.banner-w3ls2 h3.text-center,
 section.info-w3ls3 h3.text-center,
 section.transit-w3ls h3.text-center,
@@ -275,11 +363,11 @@ section.inner-w3ls h3.text-center {
     color: #fff;
 }
 section.banner-w3ls2 h3.text-center,
-section.info-w3ls3 h3.text-center {
-	color:#e25b71;
-}
+section.info-w3ls3 h3.text-center,
+section.special-w3layouts h3.text-center,
 section.inner-w3ls h3.text-center {
-	font-size:60px;
+	color:#e25b71;
+	font-size:30px;
 	padding:20px 0;
 	position:relative;
 }
@@ -304,86 +392,9 @@ section.info-w3ls3 i.fa {
 }
 /*--header title style--*/
 
-/*-- specialization section --*/
 
 
-/*-- /specialization section --*/
-
-/*-- 1st info section --*/
-section.info-w3ls i.fa,
-section.info-w3ls2 i.fa,
-section.banner-w3ls2 i.fa,
-section.transit-w3ls i.fa 
-{
-	font-size:27px;
-	font-weight:thin;
-	width:70px;
-	height:70px;
-	text-align:center;
-	line-height:70px;
-	color:#fff;
-	margin:0 auto;
-	display:block;
-	background-color:#e25b71;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-}
-section.inner-w3ls i.fa {
-	font-size:27px;
-	font-weight:thin;
-	width:70px;
-	height:70px;
-	text-align:center;
-	line-height:70px;
-	color:#e25b71;
-	margin:0 auto;
-	display:block;
-	background-color:#fff;
-	border-radius:50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-}
-section.info-w3ls p.text-center,
-section.info-w3ls2 p.text-center,
-section.blog p.blogtext {
-	font-size:17px;
-	font-weight:normal;
-	color:#000;
-	line-height:30px;
-	font-family: 'Open Sans', sans-serif;
-}
-/*-- /1st info section --*/
-
-/*-- 2nd banner section --*/
-section.banner-w3ls2 {
-	background:url(../images/banner2.jpg);
-	background-position:center;
-	background-attachment:fixed;
-	background-repeat:no repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:350px;
-	background-color: rgba(255,255,255,0.3);
-}
-section.banner-w3ls2 p {
-	 color: white;
-	 font-size: 15px;
-	 font-weight: 300;
-	 font-family: 'Open Sans', sans-serif;
-	 background-color: rgba(244,42,72,0.4);
-	 padding: 5px 15px;
-}
-/*-- /2nd banner section --*/
-
-/*-- 2nd info section --*/
+/*-- 2nd info section --*
 .promo {
 	border: 2px solid #a40004;
 	position:relative;
@@ -456,11 +467,10 @@ ul.tab {
     overflow: hidden;
    	font-family: 'Montserrat', sans-serif;
 }
-/*--tab style--*/
-/* Float the list items side by side */
-ul.tab li {float: left;}
-
-/* Style the links inside the list items */
+/*--tab style--*
+ul.tab li {
+	float: left;
+}
 ul.tab li a {
     display: inline-block;
     color: #000;
@@ -469,28 +479,19 @@ ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
-
 }
-
-/* Change background color of links on hover */
 ul.tab li a:hover {
     background-color: rgba(253,0,6,0.1);
 }
-
-/* Create an active/current tablink class */
 ul.tab li a:focus, .active {
     background-color: rgba(253,0,6,0.3);
 }
-
-/* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     margin-top: 10px;
-
 }
-
 #closetab, #angledown {
 	width: 20px;
     height: 20px;
@@ -512,16 +513,16 @@ ul.tab li a:focus, .active {
 	cursor: pointer;
 	background-color: rgba(255,255,255,0);
 }
-
-.topright:hover {color: red;}
+.topright:hover {
+	color: red;
+}
 /*--tab style--*/
 
-/*--tab detail style--*/
+/*--tab detail style--*
 .tabdetail {
 	margin:20px;
 	padding-top: 30px;
 }
-/* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: rgba(253,0,6,0.1);
     color: #888;
@@ -533,11 +534,9 @@ button.accordion {
     outline: none;
     transition: 0.4s;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: rgba(253,0,6,0.3);
 }
-/* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 25px 18px;
     background-color: white;
@@ -545,7 +544,6 @@ div.panel {
     font-family: 'Open Sans', sans-serif;
 
 }
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
 div.panel.show {
     display: block;
 }
