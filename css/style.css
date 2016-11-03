@@ -2453,7 +2453,7 @@ section.inner-w3ls h2.text-center {
 }
 
 @media (max-width: 375px) {
-section.wherewefly {
+tabcontent {
 	
 	padding: 10px;
 }
