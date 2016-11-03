@@ -353,7 +353,7 @@ section.banner-w3ls {
 /*--section style--*/
 section.special-w3layouts {
 	padding:30px 0;
-	background-color: rgba(226, 91, 113,1);
+	background-color: #FFF;
 }
 section.info-w3ls,
 section.info-w3ls2,
@@ -415,11 +415,16 @@ section.info-w3ls3 i.fa {
 /*--header title style--*/
 
 /*-- specialization section --*/
+.plan-now {
+	background-color: #e25b71;
+	padding: 15px 15px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
 .plan-main h3{
-	line-height: 30px;
+	line-height: 20px;
 	color: #FFF;
 }
-
 .plan-main button.btn-outline {
     margin-top: 20px;
     border: solid 2px #fff;
