@@ -257,16 +257,7 @@ section.banner-w3ls {
 	margin-top: 20px;
 }
 .header {
-	padding: 60px 0 30px;
-}
-
-.banner-title h1{
-	text-transform: uppercase;
-	margin-bottom: 30px;
-	color: #e25b71;
-	font-size: 30px;
-	float: right;
-	font-weight: bold;
+	padding: 60px 0 20px;
 }
 .banner-form {
 	padding: 0 10px;
@@ -281,6 +272,9 @@ section.banner-w3ls {
 .booking-head {
 	margin: 10px 0;
 	color: #FFF;
+}
+.booking-head h3 {
+	font-size: 40px;
 }
 .form-group label {
 	margin: 10px 0 10px 5px;
