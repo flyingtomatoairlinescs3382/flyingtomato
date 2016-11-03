@@ -1541,6 +1541,10 @@ section.banner-w3ls h2.text-center {
 	font-size: 60px;
     padding: 300px 0 30px;
 }
+section.banner-w3ls {
+	
+padding-top: 70px;
+}
 section.banner-w3ls p.text-center {
     font-size: 16px;
 }
@@ -2449,6 +2453,10 @@ section.inner-w3ls h2.text-center {
 }
 
 @media (max-width: 375px) {
+section.wherewefly {
+	
+	padding: 10px;
+}
 section.banner-w3ls h2.text-center {
     font-size: 30px;
     padding: 100px 0 0px;
