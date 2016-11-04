@@ -749,7 +749,41 @@ span.more {
 	padding-left: 50px;
 }
 /*--tab detail style--*/
-/*-- /2nd info section --*/
+/*-- seat --*/
+.seatingplan {
+	border: 1px solid gra	y;
+}
+.seatingplan-main {
+	padding: 10px 20px;
+	width: 75%;
+	margin: 10px auto;
+}
+.seatingplan-main div {
+	display: inline-block;
+}
+.seating-seat {
+	border: 1px solid gray;
+	width: 50px;
+	text-align: center;
+	margin-bottom: 3px;
+	height: 20px;
+	color: transparent;
+}
+#blank.seating-head {
+	border: none;
+	width: 50px;
+	height: 20px;
+}
+.seating-head {
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	margin-bottom: 3px;
+	border: none;
+	height: 20px;
+}
+/*-- seat --*/
+
 
 /*-- footer info section --*/
 section.footer-agileits {

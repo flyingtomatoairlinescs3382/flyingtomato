@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flying Tomato Airlines | Travel Planner :: CS3382 Team 6 - CA1</title>
+<title>"Flying Tomato" Airlines CS3382 CityU Hong Kong :: Travel Planner</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="tracker.html">Flight Tracker</a></li>
 							<li><a href="tracker.html">Arrival & Departure</a></li>
-							<li><a href="wherewefly.html">Where We Fly</a></li>
+							
 						</ul>
 					</div>
 				</li>
@@ -90,15 +90,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 				</li>
-				<li><a href="experiences.html">Experiences</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore<b class="caret"></b></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="whoweare.html">Who We Are</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
+							<li><a href="experiences.html">Experiences</a></li>
+						</ul>
+					</div>
+				</li>
+				
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="clearfix"></div>
 <!-- navigation -->
-
+<div class="clearfix"></div>
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
@@ -106,10 +115,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3 class="text-center agileits-w3layouts agile w3-agile">Travel Planner</h3>
 	</div>
 </section>
-<div class="clearfix"></div>
 <!-- small-header -->
-
-<section class="service-w3ls">
+<div class="clearfix"></div>
+<!-- seat -->
+<section class="info-w3ls">
 	<div class="container">
 		<div class="grid_3 grid_5">
 			<ol class="breadcrumb">
@@ -123,150 +132,73 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ol>
 		</div>
 		<div class="clearfix"></div>
-		<h3 class="w3-agileits agileits-w3layouts agile w3-agile">Select your seat(s):</h3>
-		<div class="selectedseat col-md-4">
-			<p>Selected seat(s):</p>
-			<ul class="seat">
-				<li id="seat1">4 A</li>
-				<li id="seat2">4 B</li>
-			</ul>
-			<div class="totalpax">
-				<p>Total Passenger(s):</p>
-				<span class="totalpax">2</span>
+		<h3>Select your seat(s):</h3>
+		<div class="seat-main row">
+			<div class="seatingplan col-md-8 col-sm-8 col-xs-12">
+				<div class="seatingplan-main">
+					<div class="seating-head">A</div>
+					<div class="seating-head">B</div>
+					<div class="seating-head">C</div>
+					<div class="seating-head" id="blank"> </div>
+					<div class="seating-head">D</div>
+					<div class="seating-head">E</div>
+					<div class="seating-head">F</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">1</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">2</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">3</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">4</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">5</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+					<div class="clearfix"></div>
+					<div class="seating-seat" id="">a</div>
+					<div class="seating-seat" id="">b</div>
+					<div class="seating-seat" id="">c</div>
+					<div class="seating-head">6</div>
+					<div class="seating-seat" id="">d</div>
+					<div class="seating-seat" id="">e</div>
+					<div class="seating-seat" id="">f</div>
+				</div>
+			</div>
+			<div class="selectedseat col-md-4 col-sm-8 col-xs-12">
+				
 			</div>
 		</div>
-		<div class="seatingplan col-md-8">
-			<table class="seats">
-				<tr>
-					<th>A</th>
-					<th>B</th>
-					<th>C</th>
-					<th id="line"> </th>
-					<th>D</th>
-					<th>E</th>
-					<th>F</th>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">1</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">2</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">3</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td id="choosethis"> </td>
-					<td id="choosethat"> </td>
-					<td> </td>
-					<td id="line">4</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">5</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">6</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td id="line"> </td>
-					<td id="line"> </td>
-					<td id="line"> </td>
-					<td id="line"> </td>
-					<td id="line"> </td>
-					<td id="line"> </td>
-					<td id="line"> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">7</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">8</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">9</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">10</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">11</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-				<tr>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-					<td id="line">12</td>
-					<td> </td>
-					<td> </td>
-					<td> </td>
-				</tr>
-			</table>
-		</div>
 		<div class="clearfix"></div>
-		<div class="planner-btn">
+		<div class="form-group">
 			<button type="submit" class="btn-outline" onclick="location.href='infoform.html';">Confirm</button>
 		</div>
 	</div>
