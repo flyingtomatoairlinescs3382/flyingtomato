@@ -54,6 +54,9 @@ img {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+header {
+	background: no-repeat center center;
+}
 /*-- /reset code --*/
 
 body {
@@ -347,7 +350,7 @@ section.info-w3ls .form-group {
 
 /*-- 2nd banner --*/
 section.banner-w3ls2 {
-	background:url(../images/banner2.jpg);
+	background:url(../images/banner2.jpg) no-repeat center center;
 	background-position:center;
 	background-attachment:fixed;
 	background-repeat:no repeat;
@@ -374,13 +377,19 @@ section.banner-w3ls2 span {
 /*-- /2nd banner --*/
 
 /*-- /2nd info --*/
-.promo {
-	margin-top: 30px;
-}
 .promo-main {
 	border: 2px solid #B50727;
-	padding: 15px;
-	margin-bottom: 5px;
+	padding: 15px 10px;
+	margin: 15px 0;
+	opacity: 1;
+}
+.promo-main h4 {
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.promo-main p {
+	padding-left: 30px;
+	line-height: 30px;
 }
 .promo-main .price {
 	font-size: 20px;
@@ -388,7 +397,13 @@ section.banner-w3ls2 span {
 	color: #EA3858;
 }
 .promo-main .form-group {
-	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+.promo-main img {
+	width: 100%;
+	max-width: 340px;
 }
 /*-- 2nd info --*/
 
