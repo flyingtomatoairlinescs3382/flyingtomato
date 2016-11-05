@@ -1197,6 +1197,12 @@ iframe.googlemaps {
 	.result-content img {
 		width: 60%;
 	}
+	.tagp {
+		height: 140px;
+	}
+	.tag-pic img {
+		width: 130px;
+	}
 }
 @media (max-width:680px) {
 
@@ -1205,8 +1211,11 @@ iframe.googlemaps {
 	.navbar-brand img{
 		height: 24px;
 	}
-
+	.tag-pic img {
+		width: 100px;
+	}
 }
+
 @media (max-width:500px) {
 
 }
@@ -1217,7 +1226,11 @@ iframe.googlemaps {
 	.post {
 		margin: 10px;
 	}
+	.tag-pic img {
+		width: 90px;
+	}
 }
+
 @media (max-width:375px) {
 	.navbar-brand img{
 		height: 18px;
@@ -1225,7 +1238,14 @@ iframe.googlemaps {
 	.result-content img {
 		width: 100%;
 	}
+	.tagp {
+		height: 110px;
+	}
+	.tag-pic img {
+		width: 80px;
+	}
 }
+
 @media (max-width:320px) {
 	.navbar-brand img{
 		height: 14px;
@@ -1233,7 +1253,11 @@ iframe.googlemaps {
 	.result-content img {
 		width: 100%;
 	}
+	.tag-pic img {
+		width: 70px;
+	}
 }
+
 /*-- responsive --*/
 
 
