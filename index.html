@@ -102,76 +102,72 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="booking-head">
 						<h3 class="text-center wthree w3-agileits">Book Your Flight Now!</h3>
 					</div>
-					<div class="form1 row">
-						<div class="form-group col-md-6 col-xs-6">
-							<label>Flying from</label>
-							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
-							<datalist id="place">	
-								<option>HKG Hong Kong</option>
-								<option>BKK Bangkok</option>
-								<option>HKT Phuket</option>
-								<option>CNX Chiang Mai</option>
-								<option>TPE Taipei</option>
-								<option>TXG Taichung</option>
-								<option>KHH Kaohsiung</option>
-								<option>NAA Tokyo</option>
-								<option>KIX Osaka</option>
-								<option>OKA Okinawa</option>
-								<option>ICN Seoul</option>
-								<option>PUS Busan</option>
-								<option>CJU Jeju</option>
-							</datalist>
-						</div>
-						<div class="form-group col-md-6 col-xs-6">
-							<label>Going to</label>
-							<input list="place" name="place" class="places form-control" id="text1" placeholder="Departure from...">
-							<datalist id="place">	
-								<option>HKG Hong Kong</option>
-								<option>BKK Bangkok</option>
-								<option>HKT Phuket</option>
-								<option>CNX Chiang Mai</option>
-								<option>TPE Taipei</option>
-								<option>TXG Taichung</option>
-								<option>KHH Kaohsiung</option>
-								<option>NAA Tokyo</option>
-								<option>KIX Osaka</option>
-								<option>OKA Okinawa</option>
-								<option>ICN Seoul</option>
-								<option>PUS Busan</option>
-								<option>CJU Jeju</option>
-							</datalist>
-						</div>
+					<div class="clearfix"></div>
+					<div class="form-group col-md-6">
+						<label for="depart">Depart:</label>
+						<input class="form-control" list="place" placeholder="HKG Hong Kong" id="depart">
+						<datalist id="place">	
+							<option>HKG Hong Kong</option>
+							<option>BKK Bangkok</option>
+							<option>HKT Phuket</option>
+							<option>CNX Chiang Mai</option>
+							<option>TPE Taipei</option>
+							<option>TXG Taichung</option>
+							<option>KHH Kaohsiung</option>
+							<option>NAA Tokyo</option>
+							<option>KIX Osaka</option>
+							<option>OKA Okinawa</option>
+							<option>ICN Seoul</option>
+							<option>PUS Busan</option>
+							<option>CJU Jeju</option>
+						</datalist>
 					</div>
-					<div class="form2 row">
-						<div class="form-group col-md-2 date">
-							<label>Depart</label>
-							<input type="date" name="date" class="form-control" id="text1">
-						</div>
-						<div class="form-group col-md-2 date">
-							<label>Return</label>
-							<input type="date" name="date" class="form-control" id="text1">
-						</div>
-						<div class="form-group col-md-2 ppl">
-							<label>Adults (12+) :</label>
-							<select class="form-control" id="adult">
-							    <option>1</option>
-							    <option>2</option>
-							    <option>3</option>
-							    <option>4</option>
-							</select>
-						</div>
-						<div class="form-group col-md-2 ppl">
-							<label>Children (0-11) :</label>
-							<select class="form-control" id="adult">
-							    <option>0</option>
-							    <option>1</option>
-							    <option>2</option>
-							    <option>3</option>
-							</select>
-						</div>
-						<div class="form-group col-md-2 form-submit">
-							<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Search Flight</button>
-						</div>
+					<div class="form-group col-md-6">
+						<label for="return">Return:</label>
+						<input class="form-control" list="place" placeholder="ICN Seoul" id="return">
+						<datalist id="place">	
+							<option>HKG Hong Kong</option>
+							<option>BKK Bangkok</option>
+							<option>HKT Phuket</option>
+							<option>CNX Chiang Mai</option>
+							<option>TPE Taipei</option>
+							<option>TXG Taichung</option>
+							<option>KHH Kaohsiung</option>
+							<option>NAA Tokyo</option>
+							<option>KIX Osaka</option>
+							<option>OKA Okinawa</option>
+							<option>ICN Seoul</option>
+							<option>PUS Busan</option>
+							<option>CJU Jeju</option>
+						</datalist>
+					</div>
+					<div class="form-group col-md-3">
+						<label for="depart-date">Depart date:</label>
+						<input type="date" class="form-control" id="depart-date">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="return-date">Return date:</label>
+						<input type="date" class="form-control" id="return-date">
+					</div>
+					<div class="form-group col-md-2">
+						<label for="adultno">Adults (12+) :</label>
+						<select class="custom-select form-control">
+							<option selected>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>3</option>
+						</select>
+					</div>
+					<div class="form-group col-md-2">
+						<label for="childno">Child (<12) :</label>
+						<select class="custom-select form-control" id="childno">
+							<option selected>0</option>
+							<option>1</option>
+							<option>2</option>
+						</select>
+					</div>
+					<div class="form-group col-md-2 form-submit">
+						<button type="submit" class="btn-outline" onclick="location.href='flight.html';">Search Flight</button>
 					</div>
 				</div>
 			</div>

@@ -168,23 +168,12 @@ section.banner-w3ls{
 	margin: 10px 0 !important; 
 	z-index: 1001 !important;
 }
-.form-group label {
-	margin: 10px 0 10px 5px;
-	font-family: "Montserrat" Sans-Serif;
-	font-size: 14px;
+.booking-info label {
+	margin-top:6px;
 	color: #FFF;
 }
-.date {
-	display: inline-block;
-	margin-right: 20px;
-}
-.ppl {
-	display: inline-block;
-	margin-right: 20px;
-}
 .form-submit {
-	margin-top: 20px;
-	float: right;
+	margin-top: 25px;
 }
 section.banner-w3ls .form-group button.btn-outline {
     border: solid 2px #fff;
@@ -757,29 +746,18 @@ span.more {
 	padding: 10px 20px;
 	margin: 10px auto;
 }
-x`
+
 /*-- seat --*/
 
 /*-- infoform --*/
 .paxinfo {
-	background-color: #000;
-	padding: 15px;
+	background-color: #F7F7F7;
+	padding: 10px 15px;
 	margin-bottom: 20px;
 }
-.paxinfo h4 {
-	margin: 10px 0;
-}
-.pax-form input {
-	width: 300px;
-}
-input.num {
-	width: 50px;
-}
-input.place {
-	width: 150px;
-}
-input.phone {
-	width: 150px;
+.paxinfo label {
+	font-weight: normal;
+	font-family: 'Montserrat';
 }
 /*-- infoform --*/
 
@@ -1110,60 +1088,6 @@ section.footer-agileits p.copyright a:hover {
 /*-- /back to top --*/
 
 /*-- inner pages banner --*
-
-
-
-.selectedseat p {
-	margin: 20px 0;
-	font-size: 20px;
-}
-.selectedseat li {
-	list-style-type: none;
-	color: #a40004;
-	font-size: 18px;
-	margin-bottom: 20px;
-	height: 40px;
-	display: none;
-}
-
-.totalpax span {
-	font-size: 18px;
-	padding: 0 20px;
-	border-bottom: 1px solid black;
-	margin-bottom: 40px;
-}
-.seatingplan {
-	border: 1px solid black;
-	padding: 20px;
-	height: 400px;
-	overflow: scroll;
-}
-table.seats {
-	margin: auto;
-	border-collapse: separate;
-	border-spacing: 20px 10px;
-}
-.seatingplan .seats th{
-	color: gray;
-	width: 50px;
-	text-align: center;
-	height: 33px;
-}
-.seatingplan .seats td{
-	border: 1px solid black;
-	width: 50px;
-	text-align: center;
-	height: 33px;
-}
-.seats #line{
-	border: 1px solid white;
-	color: gray;
-}
-.seats td:hover{
-	background-color: rgba(253, 0, 6, 0.1);
-	cursor: pointer;
-}
-
 .paymentinfo h4{
 	margin-bottom: 10px;
 }
