@@ -178,28 +178,12 @@ section.banner-w3ls{
 .form-submit {
 	margin-top: 25px;
 }
-section.banner-w3ls .form-group button.btn-outline {
-    border: solid 2px #fff;
-    font-size: 14px;
-    padding: 6px 8px;
-    color: #fff;
-    background: 0 0;
-    margin: 0 auto;
-	font-family: 'Montserrat', sans-serif;
-    transition: all .3s ease-in-out;
-}
-section.banner-w3ls .form-group button.btn-outline:hover, 
-section.banner-w3ls .form-group button.btn-outline:focus, 
-section.banner-w3ls .form-group button.btn-outline:active {
-    border: solid 2px #fff;
-    color: #EA3858;
-    background: #fff;
-}
 .plan-main h4{
 	font-size: 20px;
 	padding: 30px 0;
 	color: #FFF;
 }
+
 /*--banner--*/
 
 /*--bgfader--*/
@@ -272,8 +256,7 @@ section.info-w3ls2 i.fa {
 	-ms-border-radius:50%;
 }
 /*--color btn--*/
-section.info-w3ls .form-group button.btn-outline,
-section.info-w3ls2 .form-group button.btn-outline {
+.color-btn {
     border: solid 2px #EA3858;
     font-size: 14px;
     padding: 6px 8px;
@@ -283,17 +266,31 @@ section.info-w3ls2 .form-group button.btn-outline {
 	font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
 }
-section.info-w3ls .form-group button.btn-outline:hover, 
-section.info-w3ls .form-group button.btn-outline:focus, 
-section.info-w3ls .form-group button.btn-outline:active,
-section.info-w3ls2 .form-group button.btn-outline:hover,
-section.info-w3ls2 .form-group button.btn-outline:focus, 
-section.info-w3ls2 .form-group button.btn-outline:active {
-    border: solid 2px #FCFCFC;
-    color: #EA3858;
-    background-color: #FCFCFC;
+.color-btn:hover,
+.color-btn:focus, 
+.color-btn:active {
+    border: solid 2px #EA3858;
+    color: #FCFCFC;
+    background-color: #EA3858;
 }
 /*--white btn--*/
+.white-btn {
+    border: solid 2px #fff;
+    font-size: 14px;
+    padding: 6px 8px;
+    color: #fff;
+    background-color: transparent;
+    margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+}
+.white-btn:hover, 
+.white-btn:focus, 
+.white-btn:active {
+    border: solid 2px #fff;
+    color: #EA3858;
+    background: #fff;
+}
 #search-btn {
 	border: solid 2px #FCFCFC;
     font-size: 14px;
@@ -369,6 +366,7 @@ section.banner-w3ls2 p.info {
 	padding: 15px 20px;
 	opacity: 0.7;
 	float: left;
+	color: #FCFCFC;
 }
 section.banner-w3ls2 span {
 	float: right;
