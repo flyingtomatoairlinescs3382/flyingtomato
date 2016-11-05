@@ -1,30 +1,39 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
-<title>"Flying Tomato" Airlines CS3382 CityU Hong Kong :: Search Flight</title>
-<meta name="google-site-verification" content="N-RZ2fYCcIZQz1qpg2EL9A8FyivEAdFVgPeBm0HDk3s" />
+<title>"Flying Tomato" Airlines CS3382 CityU Hong Kong :: Travel Planner</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Flying Tomato Airlines is a great and cheap service provided by Team 6 of the CS3382 CityU Hong Kong course. Flying tomato airlines cs3382 CityU"/>
-<meta name="msvalidate.01" content="FF6538F5E456D6B14EDBD5A38ADB0E7D" />
+<meta name="keywords" content="Courier Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css files -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/icons.css" rel="stylesheet" type="text/css" media="all" />
 <!-- /css files -->
 <!-- font files -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 <!-- /font files -->
 <!-- js files -->
-
+<script type="text/javascript">
+        $(select() {
+              $('.travel-img').click(select() {
+                    $('travel-img').css('background-color', 'rgba(200,200,200,0.5)');
+              });
+        }):
+    </script>
 <!-- /js files -->
 <link rel="icon" href="images/logo_square.png">
 </head>
-
 <body>
 <!-- navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -38,7 +47,7 @@
 			</button>
 			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse col-md-12">
+        <div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
@@ -90,93 +99,108 @@
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
-		<i class="fa fa-search" aria-hidden="true"></i>
-		<h3 class="text-center agileits-w3layouts agile w3-agile">Search Your Flight</h3>
+		<i class="fa fa-pencil" aria-hidden="true"></i>
+		<h3 class="text-center agileits-w3layouts agile w3-agile">Travel Planner</h3>
 	</div>
 </section>
 <!-- small-header -->
 <div class="clearfix"></div>
-<!--search-->
+<!-- summary -->
 <section class="info-w3ls">
 	<div class="container">
-		<div class="col-md-12 banner-form">
-			<div class="booking-info">
-				<div class="booking-head">
-					<h3 class="text-center wthree w3-agileits">Book Your Flight Now!</h3>
-				</div>
-				<div class="clearfix"></div>
-				<div class="form-group col-md-6">
-					<label for="depart">Depart:</label>
-					<input class="form-control" list="place" placeholder="HKG Hong Kong" id="depart">
-					<datalist id="place">	
-						<option>HKG Hong Kong</option>
-						<option>BKK Bangkok</option>
-						<option>HKT Phuket</option>
-						<option>CNX Chiang Mai</option>
-						<option>TPE Taipei</option>
-						<option>TXG Taichung</option>
-						<option>KHH Kaohsiung</option>
-						<option>NAA Tokyo</option>
-						<option>KIX Osaka</option>
-						<option>OKA Okinawa</option>
-						<option>ICN Seoul</option>
-						<option>PUS Busan</option>
-						<option>CJU Jeju</option>
-					</datalist>
-				</div>
-				<div class="form-group col-md-6">
-					<label for="return">Return:</label>
-					<input class="form-control" list="place" placeholder="ICN Seoul" id="return">
-					<datalist id="place">	
-						<option>HKG Hong Kong</option>
-						<option>BKK Bangkok</option>
-						<option>HKT Phuket</option>
-						<option>CNX Chiang Mai</option>
-						<option>TPE Taipei</option>
-						<option>TXG Taichung</option>
-						<option>KHH Kaohsiung</option>
-						<option>NAA Tokyo</option>
-						<option>KIX Osaka</option>
-						<option>OKA Okinawa</option>
-						<option>ICN Seoul</option>
-						<option>PUS Busan</option>
-						<option>CJU Jeju</option>
-					</datalist>
-				</div>
-				<div class="form-group col-md-3">
-					<label for="depart-date">Depart date:</label>
-					<input type="date" class="form-control" id="depart-date">
-				</div>
-				<div class="form-group col-md-3">
-					<label for="return-date">Return date:</label>
-					<input type="date" class="form-control" id="return-date">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="adultno">Adults (12+) :</label>
-					<select class="custom-select form-control">
-						<option selected>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>3</option>
-					</select>
-				</div>
-				<div class="form-group col-md-2">
-					<label for="childno">Child (<12) :</label>
-					<select class="custom-select form-control" id="childno">
-						<option selected>0</option>
-						<option>1</option>
-						<option>2</option>
-					</select>
-				</div>
-				<div class="form-group col-md-2 form-submit">
-					<button type="submit" class="btn-outline" id="search-btn" onclick="location.href='flight.html';">Search Flight</button>
-				</div>
-			</div>	
+		<div class="grid_3 grid_5">
+			<ol class="breadcrumb">
+				<li><a href="planner.html">Plan</a></li>
+				<li><a href="suggest.html">Suggest</a></li>
+				<li><a href="flight.html">Flight</a></li>
+				<li><a href="seat.html">Seat</a></li>
+				<li class="current">Itinerary</li>
+				<li>Personal Info</li>
+				<li>Payment</li>
+				<li>Confirm</li>
+			</ol>
+		</div>
+		<div class="clearfix"></div>
+		<h3>Itinerary Details</h3>
+		<div class="summary-main table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Type</th>
+						<th>Date</th>
+						<th>Flight</th>
+						<th>Departure</th>
+						<th>Arrival</th>
+						<th>Duration</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Outbound</td>
+						<td>18-03-2017</td>
+						<td>CS3382</td>
+						<td>HKG 09:10</td>
+						<td>NAA 11:55</td>
+						<td>3hrs 45mins</td>
+					</tr>
+					<tr>
+						<td>Inbound</td>
+						<td>23-03-2017</td>
+						<td>CS3383</td>
+						<td>NAA 15:25</td>
+						<td>HKG 18:55</td>
+						<td>3hrs 30mins</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<h3>Price Details</h3>
+		<div class="summary-main table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Passenger</th>
+						<th>Flight</th>
+						<th>Fare</th>
+						<th>Tax/Charges</th>
+						<th>Total Fare</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Adult 1</td>
+						<td>Return Ticket</td>
+						<td>$800</td>
+						<td>$343</td>
+						<td>$1143</td>
+					</tr>
+					<tr>
+						<td>Adult 2</td>
+						<td>Return Ticket</td>
+						<td>$800</td>
+						<td>$343</td>
+						<td>$1143</td>
+					</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th></th>
+					<th></th>
+					<th></th>
+					<th>Total Fare:</th>
+					<th>$2286</th>
+				</tr>
+			</tfoot>
+			</table>
+
+		</div>
+		<div class="form-group cont-btn">
+			<button type="submit" class="btn-outline" onclick="location.href='suggest.html';">Continue</button>
 		</div>
 	</div>
 </section>
-<!--search-->
-
+<!-- planner -->
+<div class="clearfix"></div>
 <!-- footer section -->
 <section class="footer-agileits">
 	<div class="container">
@@ -264,7 +288,7 @@
 <script src="js/SmoothScroll.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/top.js"></script> 
-<script src="js/bgfader.js"></script>
-<!-- /js files -->
+<!--js files-->
 </body>
 </html>
+				

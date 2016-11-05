@@ -114,6 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>Suggest</li>
 				<li>Flight</li>
 				<li>Seat</li>
+				<li>Itinerary</li>
 				<li>Personal Info</li>
 				<li>Payment</li>
 				<li>Confirm</li>
@@ -153,18 +154,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"></div>
 		<h3>What do you love?</h3>
 		<div class="tag-pic col-md-12 col-xs-12 row">
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('seafood');"><img src="images/p01seafood.jpg"><br>Seafood</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('streetfood');"><img src="images/p02streetfood.jpg"><br>Street Food</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('bbq');"><img src="images/p03barbeque.jpg"><br>Barbeque</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('landmark');"><img src="images/p04landmark.jpg"><br>Landmark</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('heritage');"><img src="images/p05heritage.jpg"><br>Heritage</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('themepark');"><img src="images/p06themepark.jpg"><br>Theme Park</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('zoo');"><img src="images/p07aquarium.jpg"><br>Zoo/Aquarium</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('museum');"><img src="images/p08museum.jpg"><br>Museum</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('nature');"><img src="images/p09nature.jpg"><br>Nature</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('outdoor');"><img src="images/p10outdoor.jpg"><br>Outdoor</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('resort');"><img src="images/p11resort.jpg"><br>Resort</div>
-			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('shopping');"><img src="images/p12shopping.jpg"><br>Shopping</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('seafood');"><img src="images/p01seafood.jpg" id="p"><br>Seafood</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('streetfood');"><img src="images/p02streetfood.jpg" id="p">id="p"br>Street Food</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('bbq');"><img src="images/p03barbeque.jpg" id="p"><br>Barbeque</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('landmark');"><img src="images/p04landmark.jpg" id="p"><br>Landmark</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('heritage');"><img src="images/p05heritage.jpg" id="p"><br>Heritage</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('themepark');"><img src="images/p06themepark.jpg" id="p"><br>Theme Park</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('zoo');"><img src="images/p07aquarium.jpg" id="p"><br>Zoo/Aquarium</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('museum');"><img src="images/p08museum.jpg" id="p"><br>Museum</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('nature');"><img src="images/p09nature.jpg" id="p"><br>Nature</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('outdoor');"><img src="images/p10outdoor.jpg" id="p"><br>Outdoor</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('resort');"><img src="images/p11resort.jpg" id="p"><br>Resort</div>
+			<div class="tagp col-md-3 col-xs-3" onclick="toggle_visibility('shopping');"><img src="images/p12shopping.jpg" id="p"><br>Shopping</div>
 		</div>
 		<div class="tag-list col-md-10 col-xs-10">
 			<label>You Have Chosen:</label>
@@ -192,9 +193,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
-          e.style.display = 'none';
+        	e.style.display = 'none';
        else
-          e.style.display = 'block';
+        	e.style.display = 'block';
     }
 //-->
 </script>

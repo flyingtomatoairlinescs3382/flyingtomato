@@ -457,7 +457,7 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 /*-- arr-and-dep --*/
 
-/*-- planner --*/
+
 .breadcrumb {
 	margin: 20px 0;
 }
@@ -470,6 +470,8 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 .breadcrumb a {
 	color: #999;
 }
+
+/*-- planner --*/
 .planner h3 {
 	font-size: 22px;
 	padding: 20px 0;
@@ -486,9 +488,13 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 	height: 200px;
 	text-align: center;
 	margin-bottom: 15px;
+	opacity: 1;
 }
 .chosen {
 	display: none;
+}
+.tagp-click {
+	opacity: 0.5;
 }
 /*-- planner --*/
 
@@ -526,6 +532,7 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 .result-content img {
 	width: 100%;
+	max-width: 350px;
 }
 .suggestlist {
 	list-style-type: none;
@@ -773,8 +780,20 @@ span.more {
 .paxinfo label {
 	font-weight: normal;
 	font-family: 'Montserrat';
+	text-align: right;
+	padding-top: 10px;
 }
 /*-- infoform --*/
+
+/*-- summary --*/
+.summary-main tfoot th{
+	text-align: center;
+}
+.cont-btn {
+	float: right;
+}
+/*-- summary --*/
+
 
 /*-- footer info section --*/
 section.footer-agileits {
