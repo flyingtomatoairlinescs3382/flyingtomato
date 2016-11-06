@@ -36,18 +36,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png"></a>
+			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse col-md-12">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Flight Info<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
 							<li><a href="tracker.html">Flight Tracker</a></li>
 							<li><a href="tracker.html">Arrival & Departure</a></li>
-							<li><a href="wherewefly.html">Where We Fly</a></li>
+							
 						</ul>
 					</div>
 				</li>
@@ -55,7 +55,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="#">Search Flight</a></li>
+							<li><a href="search.html">Fare Finder</a></li>
 							<li><a href="planner.html">Travel Planner</a></li>
 						</ul>
 					</div>
@@ -64,20 +64,29 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="#">My Flight</a></li>
-							<li><a href="#">Help Info</a></li>
+							<li><a href="manage.html">My Flight</a></li>
+							<li><a href="help.html">Help Info</a></li>
 						</ul>
 					</div>
 				</li>
-				<li><a href="experiences.html">Experiences</a></li>
-				<li><a href="#">Contact</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore<b class="caret"></b></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="whoweare.html">Who We Are</a></li>
+							<li><a href="wherewefly.html">Where We Fly</a></li>
+							<li><a href="experiences.html">Experiences</a></li>
+						</ul>
+					</div>
+				</li>
+				
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="clearfix"></div>
 <!-- navigation -->
-
+<div class="clearfix"></div>
 <!-- small-header -->
 <section class="inner-w3ls">
 	<div class="container">
@@ -523,40 +532,39 @@
 			</div>
 		</div>
 </section>
-<div class="clearfix"></div>
 <!-- where-we-fly section -->
-
+<div class="clearfix"></div>
 <!-- footer section -->
 <section class="footer-agileits">
 	<div class="container">
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<h3>Flight Info</h3>
 			<ul class="footer-links">
-				<li><a href="#">Flight Tracker</a></li>
-				<li><a href="#">Arrival & Departure</a></li>
-				<li><a href="#">Where We Fly</a></li>
+				<li><a href="tracker.html">Flight Tracker</a></li>
+				<li><a href="tracker.html">Arrival & Departure</a></li>
+				
 			</ul>
 			<h3>Plan</h3>
 			<ul class="footer-links">
-				<li><a href="#">Search Flight</a></li>
-				<li><a href="#">Travel Planner</a></li>
+				<li><a href="search.html">Fare Finder</a></li>
+				<li><a href="planner.html">Travel Planner</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
 			<h3>Manage</h3>
 			<ul class="footer-links">
-				<li><a href="#">My Flight</a></li>
-				<li><a href="#">Help Info</a></li>
-				<li style="color:rgba(0,0,0,0);">nil</li>
+				<li><a href="manage.html">My Flight</a></li>
+				<li><a href="help.html">Help Info</a></li>
 			</ul>
-			<h3>Experiences</h3>
+			<h3>Explore</h3>
 			<ul class="footer-links">
-				<li><a href="experiences.html">Our Comments</a></li>
-				<li><a href="contact.html">Feedbacks</a></li>
+				<li><a href="whoweare.html">Who We are</a></li>
+				<li><a href="wherewefly.html">Where We Fly</a></li>
+				<li><a href="experiences.html">Experiences</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6">
-			<h3>Contact Us</h3>
+			<h3><a href="contact.html">Contact Us</a></h3>
 			<div class="contact-info">
 				<div class="address">	
 					<i class="glyphicon glyphicon-globe"></i>
@@ -604,6 +612,7 @@
 	</div>
 </section>
 <!-- /footer section -->
+<div class="clearfix"></div>
 <a href="#0" class="cd-top"></a>
 <!-- js files -->
 <script src="js/jquery.min.js"></script>

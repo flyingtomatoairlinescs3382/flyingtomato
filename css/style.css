@@ -278,7 +278,7 @@ section.info-w3ls2 i.fa {
     border: solid 2px #fff;
     font-size: 14px;
     padding: 6px 8px;
-    color: #fff;
+    color: #FCFCFC;
     background-color: transparent;
     margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
@@ -287,26 +287,9 @@ section.info-w3ls2 i.fa {
 .white-btn:hover, 
 .white-btn:focus, 
 .white-btn:active {
-    border: solid 2px #fff;
-    color: #EA3858;
-    background: #fff;
-}
-#search-btn {
-	border: solid 2px #FCFCFC;
-    font-size: 14px;
-    padding: 6px 8px;
-    color: #FCFCFC;
-    background: 0 0;
-    margin: 0 auto;
-	font-family: 'Montserrat', sans-serif;
-    transition: all .3s ease-in-out;
-}
-#search-btn:hover,
-#search-btn:focus,
-#search-btn:active {
     border: solid 2px #FCFCFC;
     color: #EA3858;
-    background-color: #FCFCFC;
+    background: #FCFCFC;
 }
 /*-- small-header (inner) --*/
 section.inner-w3ls {
@@ -795,7 +778,7 @@ span.more {
 
 /*-- footer info section --*/
 section.footer-agileits {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #212121;
 	text-align:center;
     text-align: -webkit-center;
@@ -803,9 +786,9 @@ section.footer-agileits {
 }
 section.footer-agileits h3 {
     color: #fff;
-    font-size:25px;
+    font-size:18px;
     font-weight: normal;
-    padding: 25px 0 15px;
+    padding: 20px 0 15px;
     text-align: left;
    }
 section.footer-agileits ul.footer-links {
@@ -814,14 +797,14 @@ section.footer-agileits ul.footer-links {
 	margin-left: 30px;
 }
 section.footer-agileits ul.footer-links li {
-	padding-bottom:15px;
+	padding-bottom:10px;
 }
 section.footer-agileits ul.footer-links li a:hover {
 	color: #e25b71;
 }
 section.footer-agileits ul.footer-links li a {
 	text-decoration:none;
-	font-size:14px;
+	font-size:12px;
 	font-weight:lighter;
 	color:#fff;
 }
@@ -849,8 +832,8 @@ section.footer-agileits p.p3{
     display: inline-block;
     color: #fff;
     vertical-align: middle;
-    margin: -40px 0 0px;
-    font-size: 14px;
+    margin: -40px 0 0 0px;
+    font-size: 12px;
     font-weight: lighter;
 }
 section.footer-agileits p.p4 {
@@ -859,7 +842,7 @@ section.footer-agileits p.p4 {
     color: #fff;
     vertical-align: middle;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 12px;
     margin: -19px 0 0 41px;
 }
 section.footer-agileits p.p5{
@@ -868,7 +851,7 @@ section.footer-agileits p.p5{
     color: #fff;
     vertical-align: middle;
     margin:-40px 0 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
 }
 section.footer-agileits p.p6 {
@@ -877,7 +860,7 @@ section.footer-agileits p.p6 {
     color: #fff;
     vertical-align: middle;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 12px;
     margin: -19px 0 0 41px;
 }
 section.footer-agileits p.p5 a , p.p6 a {
@@ -900,7 +883,7 @@ section.footer-agileits button.btn-outline:hover,
 section.footer-agileits button.btn-outline:focus,
 section.footer-agileits button.btn-outline:active {
     border: solid 2px #fff;
-    color: #d40006;
+    color: #ea3538;
     background: #fff;
 }
 section.footer-agileits input#inputEmail1 {
