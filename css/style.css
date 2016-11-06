@@ -237,7 +237,7 @@ section.banner-w3ls a:hover {
 section.info-w3ls,
 section.banner-w3ls2,
 section.info-w3ls2 {
-	padding:40px 0;
+	padding:30px 0;
 	margin: 0 auto;
 }
 section.info-w3ls h3.text-center,
@@ -332,474 +332,6 @@ section.inner-w3ls i.fa {
 }
 /*-- small-header (inner) --*/
 /*-- common layout --*/
-
-/*--1st info--*/
-section.info-w3ls .form-group {
-	padding-top: 20px;
-}
-/*--1st info--*/
-
-/*-- 2nd banner --*/
-section.banner-w3ls2 {
-	background:url(../images/banner2.jpg) no-repeat center center;
-	background-position:center;
-	background-attachment:fixed;
-	background-repeat:no repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:350px;
-	background-color: rgba(255,255,255,0.3);
-}
-section.banner-w3ls2 p.info {
-	margin: 50px auto 0;
-	text-align: justify;
-	background-color: #FA849A;
-	padding: 15px 20px;
-	opacity: 0.7;
-	float: left;
-	color: #FCFCFC;
-}
-section.banner-w3ls2 span {
-	float: right;
-	color: #B50727;
-}
-/*-- /2nd banner --*/
-
-/*-- /2nd info --*/
-.promo-main {
-	border: 2px solid #B50727;
-	padding: 15px 10px;
-	margin: 15px 0;
-	opacity: 1;
-}
-.promo-main h4 {
-	line-height: 40px;
-	text-transform: uppercase;
-}
-.promo-main p {
-	padding-left: 30px;
-	line-height: 30px;
-}
-.promo-main .price {
-	font-size: 20px;
-	font-weight: bold;
-	color: #EA3858;
-}
-.promo-main .form-group {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	float: right;
-}
-.promo-main img {
-	width: 100%;
-	max-width: 340px;
-}
-/*-- 2nd info --*/
-
-/*-- flight-tracker --*/
-
-.content-w3ls {
-	margin:0 auto;
-	background-color:#F5F5F5;
-}
-.content1-w3ls {
-	text-align:center;
-	padding:20px;
-}
-.content1-w3ls .form-group button.btn-outline{
-	margin-top: 10px !important;
-}
-/*-- flight-tracker --*/
-
-/*-- arr-and-dep --*/
-.bs-docs-example {
-	margin-top: 30px;
-}
-section info-w3ls2 .table>thead>tr>th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
-    font-size: 15px;
-    text-align: center;
-    color: #898989;
-	font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
-section.info-w3ls2 .table>tbody>tr>td {
-	font-size:15px;
-	color:#787878;
-	line-height:25px;
-	text-align:center;
-	font-family: 'Open Sans', sans-serif;
-}
-section.info-w3ls2 .table>tbody>tr>td img.img-responsive {
-	width:70px;
-	height:auto;
-	float:left;
-}
-section.info-w3ls2 .table>tbody>tr>td h4 {
-	float: left;
-    font-size: 15px;
-    line-height: 25px;
-    margin: 20px 0 0 11px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-/*-- arr-and-dep --*/
-/*-- fare finder --*/
-.farefinder {
-	padding: 10px 15px;
-}
-.farefinder td {
-	text-align: left;
-}
-.farefinder tbody tr:hover {
-	background-color: #F2F2F2;
-}
-/*-- fare finder --*/
-/*--breacumb--*/
-.breadcrumb {
-	margin: 20px 0;
-}
-.current {
-	color: #e25b71 !important;
-}
-.breadcrumb li{
-	color: #ccc;
-}
-.breadcrumb a {
-	color: #999;
-}
-/*--breadcumb--*/
-/*-- planner --*/
-.planner h3 {
-	font-size: 22px;
-	padding: 20px 0;
-}
-.planner label {
-	color: #EA3858;
-}
-.tag-pic {
-	float: left;
-	padding: 15px 5px;
-	width: 100%;
-}
-.tagp {
-	height: 200px;
-	text-align: center;
-	margin-bottom: 15px;
-	opacity: 1;
-}
-.chosen {
-	display: none;
-}
-.tagp-click {
-	opacity: 0.5;
-}
-/*-- planner --*/
-
-/*-- suggest --*/
-.info-w3ls h3 {
-	font-size: 20px;
-}
-.info-w3ls p{
-	font-size: 14px;
-}
-.result {
-	border: 2px solid #e25b71;
-	padding: 10px 0;
-	margin-bottom: 10px;
-}
-.result-content h3 {
-	margin: 20px 0;
-}
-#rating {
-	color: #FA849A;
-	background-color: transparent;
-	font-size: 20px;
-	height: 20px;
-	width: 20px;
-	margin-right: 3px;
-	margin-left: 0;
-	line-height: 20px;
-	display: inline;
-}
-.result-content h4{ 
-	margin-top: 15px;
-}
-.suggest-tag {
-	margin: 10px 5px 10px 0;
-}
-.result-content img {
-	width: 100%;
-	max-width: 350px;
-}
-.suggestlist {
-	list-style-type: none;
-}
-.result-content .form-group {
-	float: right;
-}
-/*-- suggest --*/
-
-/*-- hashtag --*/
-span.tag {
-	border-radius: 5px;
-	padding: 5px;
-	color: #FFF;
-	margin-right: 5px;
-}
-span.seafood {background-color: #EF5698;}
-span.streetfood {background-color: #C93676;}
-span.bbq {background-color: #F799C2;}
-span.landmark {background-color: #C2344E;}
-span.heritage {background-color: #A50724;}
-span.themepark {background-color: #EA3858;}
-span.zoo {background-color: #FC4465;}
-span.museum {background-color: #FF5B79;}
-span.nature {background-color: #D80D43;}
-span.outdoor {background-color: #D85471;}
-span.resort {background-color: #BF006F;}
-span.shopping {background-color: #FA849A;}
-/*-- hashtag --*/
-
-/*-- select-flight --*/
-.select-flight label {
-	color: #EA3858;
-}
-.datematrix {
-	overflow-x: auto;
-}
-.datematrix table{
-	width: 85%;
-	margin: auto;
-}
-.datematrix th, td {
-	text-align: center;
-	margin: 15px;
-}
-.datematrix tbody td:hover {
-	background-color: rgba(253, 0, 6, 0.1);
-	cursor: pointer;
-}
-.datematrix td.lowprice {
-	color: red;
-}
-.datematrix input[type=submit] {
-	float: right;
-	margin: 50px 100px 0 0;
-}
-.search-btn {
-	float: right;
-}
-/*-- select-flight --*/
-
-/*-- where-we-fly --*/
-#map {
-	width: 99%;
-	margin: 20px auto;
-}
-ul.placelist li {
-	list-style-type: none;
-	padding-left: 30px;
-	line-height: 30px;
-}
-li.phead {
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
-	padding-left: 0px !important;
-}
-section.info-w3ls2 .placeinfo {
-	border: 1px solid #d40004;
-	margin: 30px 0;
-}
-section.info-w3ls2 .placeinfo-main {
-	margin: 20px;
-}
-section.info-w3ls2 .placeinfo-main h4 {
-	color: #d40004;
-	font-size: 25px;
-	font-weight: 700;
-}
-ul.tab {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-   	font-family: 'Montserrat', sans-serif;
-}
-/*--tab style--*/
-ul.tab li {
-	float: left;
-}
-ul.tab li a {
-    display: inline-block;
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-ul.tab li a:hover {
-    background-color: rgba(253,0,6,0.1);
-}
-ul.tab li a:focus, .active {
-    background-color: rgba(253,0,6,0.3);
-}
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    margin-top: 10px;
-}
-#closetab, #angledown {
-	width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 50%;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	-ms-border-radius:50%;
-	font-size:12px;
-	color:#000;
-	text-align: center;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-	float: right;
-	cursor: pointer;
-	background-color: rgba(255,255,255,0);
-}
-.topright:hover {
-	color: red;
-}
-/*--tab style--*/
-
-/*--tab detail style--*/
-.tabdetail {
-	margin:20px;
-	padding-top: 30px;
-}
-button.accordion {
-    background-color: rgba(253,0,6,0.1);
-    color: #888;
-    cursor: pointer;
-    padding: 12px 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-button.accordion.active, button.accordion:hover {
-    background-color: rgba(253,0,6,0.3);
-}
-div.panel {
-    padding: 25px 18px;
-    background-color: white;
-    display: none;
-    font-family: 'Open Sans', sans-serif;
-
-}
-div.panel.show {
-    display: block;
-}
-div.panel button.btn-info,
-div.panel button.btn-success,
-div.panel button.btn-primary {
-	margin-right: 15px;
-}
-div.panel button.btn-outline {
-    border: solid 1px #a40004;
-    font-size: 12px;
-    padding: 4px 8px;
-    color: #a40004;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-    float: right;
-    font-weight: 200;
-}
-div.panel button.btn-outline:hover,
-div.panel button.btn-outline:active {
-    border: solid 2px #d40006;
-    color: #d40006;
-    background: #fff;
-}
-.details button.accordion2 {
-	background-color: #FFF;
-    color: #444;
-    cursor: pointer;
-    padding: 12px 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-span.more {
-	float: right;
-}
-.panel h3 {
-	margin-bottom: 10px;
-	font-size: 32px;
-	color: #d40006;
-}
-.panel p {
-	margin-top: 10px;
-	text-align: justify;
-}
-.panel.travel {
-	margin-bottom: 20px;
-}
-.text {
-	padding-left: 50px;
-}
-/*--tab detail style--*/
-/*-- seat --*/
-#flightseat {
-	width: 100%;
-	min-width: 800px;
-	x-overflow: scroll;
-	position: center center;
-}
-.choose-seat h4{
-	padding: 20px 0;
-}
-/*-- seat --*/
-
-/*-- infoform --*/
-.paxinfo {
-	background-color: #F7F7F7;
-	padding: 10px 15px;
-	margin-bottom: 20px;
-}
-.paxinfo label {
-	font-weight: normal;
-	font-family: 'Montserrat';
-	padding-top: 10px;
-	font-size: 12px;
-}
-.paxform label{
-	display: inline-block;
-}
-/*-- infoform --*/
-
-/*-- summary --*/
-.summary-main tfoot th{
-	text-align: center;
-}
-.cont-btn {
-	float: right;
-}
-/*-- summary --*/
-
 
 /*-- footer info section --*/
 section.footer-agileits {
@@ -1127,34 +659,525 @@ section.footer-agileits p.copyright a:hover {
 }
 /*-- /back to top --*/
 
-/*-- inner pages banner --*
+/*--1st info--*/
+section.info-w3ls .form-group {
+	padding-top: 20px;
+}
+/*--1st info--*/
+
+/*-- 2nd banner --*/
+section.banner-w3ls2 {
+	background:url(../images/banner2.jpg) no-repeat center center;
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:350px;
+	background-color: rgba(255,255,255,0.3);
+}
+section.banner-w3ls2 p.info {
+	margin: 50px auto 0;
+	text-align: justify;
+	background-color: #FA849A;
+	padding: 15px 20px;
+	opacity: 0.7;
+	float: left;
+	color: #FCFCFC;
+}
+section.banner-w3ls2 span {
+	float: right;
+	color: #B50727;
+}
+/*-- /2nd banner --*/
+
+/*-- /2nd info --*/
+.promo-main {
+	border: 2px solid #B50727;
+	padding: 15px 10px;
+	margin: 15px 0;
+	opacity: 1;
+}
+.promo-main h4 {
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.promo-main p {
+	padding-left: 30px;
+	line-height: 30px;
+}
+.promo-main .price {
+	font-size: 20px;
+	font-weight: bold;
+	color: #EA3858;
+}
+.promo-main .form-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+.promo-main img {
+	width: 100%;
+	max-width: 340px;
+}
+/*-- 2nd info --*/
+
+/*-- flight-tracker --*/
+
+.content-w3ls {
+	margin:0 auto;
+	background-color:#F5F5F5;
+}
+.content1-w3ls {
+	text-align:center;
+	padding:20px;
+}
+.content1-w3ls .form-group button.btn-outline{
+	margin-top: 10px !important;
+}
+/*-- flight-tracker --*/
+
+/*-- arr-and-dep --*/
+.bs-docs-example {
+	margin-top: 30px;
+}
+section info-w3ls2 .table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    font-size: 15px;
+    text-align: center;
+    color: #898989;
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+section.info-w3ls2 .table>tbody>tr>td {
+	font-size:15px;
+	color:#787878;
+	line-height:25px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+section.info-w3ls2 .table>tbody>tr>td img.img-responsive {
+	width:70px;
+	height:auto;
+	float:left;
+}
+section.info-w3ls2 .table>tbody>tr>td h4 {
+	float: left;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px 0 0 11px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+/*-- arr-and-dep --*/
+/*-- fare finder --*/
+.farefinder {
+	padding: 10px 15px;
+}
+.farefinder td {
+	text-align: left;
+}
+.farefinder tbody tr:hover {
+	background-color: #F2F2F2;
+}
+/*-- fare finder --*/
+/*--breacumb--*/
+.breadcrumb {
+	margin: 20px 0;
+}
+.current {
+	color: #e25b71 !important;
+}
+.breadcrumb li{
+	color: #ccc;
+}
+.breadcrumb a {
+	color: #999;
+}
+/*--breadcumb--*/
+/*-- planner --*/
+.planner h3 {
+	font-size: 22px;
+	padding: 20px 0;
+}
+.planner label {
+	color: #EA3858;
+}
+.tag-pic {
+	float: left;
+	padding: 15px 5px;
+	width: 100%;
+}
+.tagp {
+	height: 200px;
+	text-align: center;
+	margin-bottom: 15px;
+	opacity: 1;
+}
+.chosen {
+	display: none;
+}
+.tagp-click {
+	opacity: 0.5;
+}
+/*-- planner --*/
+
+/*-- suggest --*/
+.info-w3ls h3 {
+	font-size: 20px;
+}
+.info-w3ls p{
+	font-size: 14px;
+}
+.result {
+	border: 2px solid #e25b71;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.result-content h3 {
+	margin: 20px 0;
+}
+#rating {
+	color: #FA849A;
+	background-color: transparent;
+	font-size: 20px;
+	height: 20px;
+	width: 20px;
+	margin-right: 3px;
+	margin-left: 0;
+	line-height: 20px;
+	display: inline;
+}
+.result-content h4{ 
+	margin-top: 15px;
+}
+.suggest-tag {
+	margin: 10px 5px 10px 0;
+}
+.result-content img {
+	width: 100%;
+	max-width: 350px;
+}
+.suggestlist {
+	list-style-type: none;
+}
+.result-content .form-group {
+	float: right;
+}
+/*-- suggest --*/
+
+/*-- hashtag --*/
+span.tag {
+	border-radius: 5px;
+	padding: 5px;
+	color: #FFF;
+	margin-right: 5px;
+}
+span.seafood {background-color: #EF5698;}
+span.streetfood {background-color: #C93676;}
+span.bbq {background-color: #F799C2;}
+span.landmark {background-color: #C2344E;}
+span.heritage {background-color: #A50724;}
+span.themepark {background-color: #EA3858;}
+span.zoo {background-color: #FC4465;}
+span.museum {background-color: #FF5B79;}
+span.nature {background-color: #D80D43;}
+span.outdoor {background-color: #D85471;}
+span.resort {background-color: #BF006F;}
+span.shopping {background-color: #FA849A;}
+/*-- hashtag --*/
+
+/*-- select-flight --*/
+.select-flight label {
+	color: #EA3858;
+}
+.datematrix {
+	overflow-x: auto;
+}
+.datematrix table{
+	width: 85%;
+	margin: auto;
+}
+.datematrix th, td {
+	text-align: center;
+	margin: 15px;
+}
+.datematrix tbody td:hover {
+	background-color: rgba(253, 0, 6, 0.1);
+	cursor: pointer;
+}
+.datematrix td.lowprice {
+	color: red;
+}
+.datematrix input[type=submit] {
+	float: right;
+	margin: 50px 100px 0 0;
+}
+.search-btn {
+	float: right;
+}
+/*-- select-flight --*/
+/*-- whoweare --*/
+.values h3 {
+	margin-bottom: 20px;
+}
+.special-p1 {
+	margin: 30px 0;
+	text-align: justify;
+}
+/*-- whoweare --*/
+/*-- where-we-fly --*/
+#map {
+	width: 99%;
+	margin: 20px auto;
+}
+ul.placelist li {
+	list-style-type: none;
+	padding-left: 30px;
+	line-height: 30px;
+}
+li.phead {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 0px !important;
+}
+section.info-w3ls2 .placeinfo {
+	border: 1px solid #d40004;
+	margin: 30px 0;
+}
+section.info-w3ls2 .placeinfo-main {
+	margin: 20px;
+}
+section.info-w3ls2 .placeinfo-main h4 {
+	color: #d40004;
+	font-size: 25px;
+	font-weight: 700;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   	font-family: 'Montserrat', sans-serif;
+}
+/*--tab style--*/
+ul.tab li {
+	float: left;
+}
+ul.tab li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.tab li a:hover {
+    background-color: rgba(253,0,6,0.1);
+}
+ul.tab li a:focus, .active {
+    background-color: rgba(253,0,6,0.3);
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+#closetab, #angledown {
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+	font-size:12px;
+	color:#000;
+	text-align: center;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	float: right;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0);
+}
+.topright:hover {
+	color: red;
+}
+/*--tab style--*/
+
+/*--tab detail style--*/
+.tabdetail {
+	margin:20px;
+	padding-top: 30px;
+}
+button.accordion {
+    background-color: rgba(253,0,6,0.1);
+    color: #888;
+    cursor: pointer;
+    padding: 12px 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: rgba(253,0,6,0.3);
+}
+div.panel {
+    padding: 25px 18px;
+    background-color: white;
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+div.panel.show {
+    display: block;
+}
+div.panel button.btn-info,
+div.panel button.btn-success,
+div.panel button.btn-primary {
+	margin-right: 15px;
+}
+div.panel button.btn-outline {
+    border: solid 1px #a40004;
+    font-size: 12px;
+    padding: 4px 8px;
+    color: #a40004;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    float: right;
+    font-weight: 200;
+}
+div.panel button.btn-outline:hover,
+div.panel button.btn-outline:active {
+    border: solid 2px #d40006;
+    color: #d40006;
+    background: #fff;
+}
+.details button.accordion2 {
+	background-color: #FFF;
+    color: #444;
+    cursor: pointer;
+    padding: 12px 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+span.more {
+	float: right;
+}
+.panel h3 {
+	margin-bottom: 10px;
+	font-size: 32px;
+	color: #d40006;
+}
+.panel p {
+	margin-top: 10px;
+	text-align: justify;
+}
+.panel.travel {
+	margin-bottom: 20px;
+}
+.text {
+	padding-left: 50px;
+}
+/*--tab detail style--*/
+/*-- seat --*/
+#flightseat {
+	width: 100%;
+	min-width: 800px;
+	x-overflow: scroll;
+	position: center center;
+}
+.choose-seat h4{
+	padding: 20px 0;
+}
+/*-- seat --*/
+/*-- summary --*/
+.summary-main tfoot th{
+	text-align: center;
+}
+.cont-btn {
+	float: right;
+}
+/*-- summary --*/
+/*-- infoform --*/
+.infoform h3 {
+	margin-bottom: 15px;
+}
+.paxinfo {
+	background-color: #F5F5F5;
+	padding: 0 25px 20px 25px;
+}
+.pax {
+	margin: 30px 0 15px;
+}
+.paxinfo .form-group label {
+	padding-right: 5px;
+	padding-left: 30px;
+}
+/*-- infoform --*/
+/*-- payment --*/
+.pay h2 {
+	color: #ea3538;
+	margin-right: 10%;
+	padding-bottom: 5%;
+	text-align: right;
+}
+.pay h3 {
+	margin-left: 10%;
+}
 .paymentinfo h4{
 	margin-bottom: 10px;
+	margin-top: 40px;
 }
 .payment {
 	margin-bottom: 10px;
 	background-color: #FFDBDC;
 	padding: 10px;
 }
-.cdno {
+.form-inline .cdno {
 	width: 60px;
 	margin-bottom: 20px;
 }
-.thankyou {
-	margin: 70px;
+.date select{
+	display: inline;
+	width: 20%;
 }
-/*-- /service page --*/
-
+.cvv input {
+	display: inline;
+	width: 20%;
+}
+/*-- payment --*/
+/*-- confirm --*/
+.thankyou {
+	margin: 12% 0;
+}
+.thankyou h3 {
+	padding-bottom: 30px;
+}
+/*-- confirm --*/
 
 /*-- help page --*/
-.faq {
-	margin: 20px 0;
-}
-.q {
+.faq .q {
 	font-size: 20px;
 	color: #e25b71;
 }
-.faq p.a {
+.faq .a {
 	margin-bottom: 25px;
 }
 /*-- help page --*/
@@ -1208,6 +1231,9 @@ iframe.googlemaps {
 	}
 	.tag-pic img {
 		width: 130px;
+	}
+	.paxinfo .form-group label {
+		padding-left: 0px;
 	}
 }
 @media (max-width:680px) {
@@ -1263,7 +1289,6 @@ iframe.googlemaps {
 		width: 70px;
 	}
 }
-
 /*-- responsive --*/
 
 
