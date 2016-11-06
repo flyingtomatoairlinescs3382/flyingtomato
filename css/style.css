@@ -843,7 +843,6 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 .tag-pic {
 	float: left;
 	padding: 15px 5px;
-	width: 100%;
 }
 .tagp {
 	height: 200px;
@@ -1203,8 +1202,13 @@ div.panel button.btn-outline:active {
 }
 /*-- payment --*/
 /*-- confirm --*/
+.thankyou-bg {
+	background: url(../images/banner4.jpg) center top;
+	background-size: 100%;
+}
 .thankyou {
-	margin: 12% 0;
+	padding: 12% 0;
+	background-color: rgba(255,255,255,0.5);
 }
 .thankyou h3 {
 	padding-bottom: 30px;
@@ -1212,12 +1216,16 @@ div.panel button.btn-outline:active {
 /*-- confirm --*/
 
 /*-- help page --*/
+.question {
+	margin: 40px 0;
+}
 .faq .q {
 	font-size: 20px;
 	color: #e25b71;
+	padding-bottom: 5px;
 }
 .faq .a {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
 /*-- help page --*/
 
@@ -1303,10 +1311,13 @@ iframe.googlemaps {
 		margin: 10px;
 	}
 	.tag-pic img {
-		width: 90px;
+		width: 85px;
 	}
 	.panel h3 {
 		font-size: 22px;
+	}
+	.tag-list label, .chosen {
+		font-size: 12px;
 	}
 }
 
@@ -1321,7 +1332,7 @@ iframe.googlemaps {
 		height: 110px;
 	}
 	.tag-pic img {
-		width: 80px;
+		width: 75px;
 	}
 }
 
@@ -1336,7 +1347,10 @@ iframe.googlemaps {
 		width: 100%;
 	}
 	.tag-pic img {
-		width: 70px;
+		width: 60px;
+	}
+	.tagp {
+		font-size: 10px;
 	}
 	.col-md-15 {
 		width: 100%;
