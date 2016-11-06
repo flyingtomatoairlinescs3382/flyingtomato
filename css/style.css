@@ -905,9 +905,10 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 /*-- hashtag --*/
 span.tag {
 	border-radius: 5px;
-	padding: 5px;
+	padding: 5px 8px;
 	color: #FFF;
 	margin-right: 5px;
+	font-family: 'Montserrat' !important;
 }
 span.seafood {background-color: #EF5698;}
 span.streetfood {background-color: #C93676;}
@@ -982,6 +983,9 @@ li.phead {
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 0px !important;
 }
+.booknow {
+	text-align: right;
+}
 .travel {
 	margin-bottom: 15px;
 }
@@ -1023,10 +1027,10 @@ ul.tab li a {
     font-size: 17px;
 }
 ul.tab li a:hover {
-    background-color: rgba(253,0,6,0.1);
+    background-color: rgba(226, 91, 113, 0.1);
 }
 ul.tab li a:focus, .active {
-    background-color: rgba(253,0,6,0.3);
+    background-color: rgba(226, 91, 113, 0.3);
 }
 .tabcontent {
     display: none;
@@ -1054,6 +1058,24 @@ ul.tab li a:focus, .active {
 	cursor: pointer;
 	background-color: rgba(255,255,255,0);
 }
+.booknow {
+	float: right;
+	padding-top: 5px;
+	margin-right: 10px;
+	padding-right: 8px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: 'Montserrat' !important;
+	color: #FFF;
+	font-size: 16px;
+	width: 115px;
+	height: 30px;
+	background-color: #EA3858;
+	border-radius: 5px;
+}
+.booknow:hover {
+	background-color: #FFF;
+}
 .topright:hover {
 	color: red;
 }
@@ -1065,8 +1087,8 @@ ul.tab li a:focus, .active {
 	padding-top: 20px;
 }
 button.accordion {
-    background-color: rgba(253,0,6,0.1);
-    color: #888;
+    background-color: rgba(226, 91, 113, 0.1);
+    color: #000;
     cursor: pointer;
     padding: 12px 18px;
     width: 100%;
@@ -1076,7 +1098,7 @@ button.accordion {
     transition: 0.4s;
 }
 button.accordion.active, button.accordion:hover {
-    background-color: rgba(253,0,6,0.3);
+    background-color: rgba(226, 91, 113, 0.3);
 }
 div.panel {
     padding: 20px 10px;
