@@ -591,7 +591,7 @@ span.shopping {background-color: #FA849A;}
 	float: right;
 	margin: 50px 100px 0 0;
 }
-.select-flight .search-btn {
+.search-btn {
 	float: right;
 }
 /*-- select-flight --*/
@@ -763,14 +763,15 @@ span.more {
 }
 /*--tab detail style--*/
 /*-- seat --*/
-.seatingplan {
-	border: 1px solid gra	y;
+#flightseat {
+	width: 100%;
+	min-width: 800px;
+	x-overflow: scroll;
+	position: center center;
 }
-.seatingplan-main {
-	padding: 10px 20px;
-	margin: 10px auto;
+.choose-seat h4{
+	padding: 20px 0;
 }
-
 /*-- seat --*/
 
 /*-- infoform --*/
@@ -782,8 +783,11 @@ span.more {
 .paxinfo label {
 	font-weight: normal;
 	font-family: 'Montserrat';
-	text-align: right;
 	padding-top: 10px;
+	font-size: 12px;
+}
+.paxform label{
+	display: inline-block;
 }
 /*-- infoform --*/
 

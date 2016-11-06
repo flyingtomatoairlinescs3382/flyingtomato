@@ -103,7 +103,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-        </div><!--/.nav-collapse -->
+        </div>
+        <!--/.nav-collapse -->
     </div>
 </nav>
 <!-- navigation -->
@@ -117,7 +118,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </section>
 <div class="clearfix"></div>
 <!-- small-header -->
-
 <section class="info-w3ls">
 	<div class="container">
 		<div class="grid_3 grid_5">
@@ -136,6 +136,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3>Enter your personal Information:</h3>
 		<div class="paxinfo">
 			<label>Adult 1 Information:</label>
+			<div class="form-group paxform">
+				<label>Title:</label>
+				<select class="custom-select form-control">
+					<option>Mr.</option>
+					<option>Ms.</option>
+					<option>Mrs.</option>
+				</select>
+				<label>Surname:</label>
+				<input class="form-control" type="text" placeholder="Enter your surname" id="surname">
+				<label>First Name:</label>
+				<input class="form-control" type="text" placeholder="Enter your first name" id="firstname">
+			</div>
+		</div>
+		<div class="paxinfo">
+			<label>Adult 1 Information:</label>
 			<div class="form-group row">
 				<div class="col-xs-2">
 					<select class="custom-select form-control">
@@ -151,7 +166,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<input class="form-control" type="text" placeholder="Enter your first name" id="firstname">
 				</div>
 			</div>
-
 			<div class="form-group row">
 				<label class="col-xs-1">Sex:</label>
 				<div class="col-xs-2">
@@ -173,6 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 			<div class="form-group row">
+				<label class="col-md-2">Passport No.:</label>
 				<div class="col-xs-4">
 					<input class="form-control" type="text" placeholder="Enter your passport number">
 				</div>
@@ -199,70 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<div class="paxinfo">
-			<label>Adult 2 Information:</label>
-			<div class="form-group row">
-				<div class="col-xs-2">
-					<select class="custom-select form-control">
-						<option>Mr.</option>
-						<option>Ms.</option>
-						<option>Mrs.</option>
-					</select>
-				</div>
-				<div class="col-xs-5">
-					<input class="form-control" type="text" placeholder="Enter your surname" id="surname">
-				</div>
-				<div class="col-xs-5">
-					<input class="form-control" type="text" placeholder="Enter your first name" id="firstname">
-				</div>
-			</div>
-
-			<div class="form-group row">
-				<label class="col-xs-1">Sex:</label>
-				<div class="col-xs-2">
-					<select class="custom-select form-control">
-						<option>Male</option>
-						<option>Female</option>
-					</select>
-				</div>
-				<label class="col-xs-2">Day of Birth:</label>
-				<div class="col-xs-1">
-					<input class="form-control" type="number" placeholder="dd" name="dd" maxlength="2" min="1" max="31">
-				</div>
-				<div class="col-xs-1">
-					<input class="form-control" type="number" placeholder="mm" name="mm" maxlength="2" min="1" max="12">
-				</div>
-				<div class="col-xs-2">
-					<input class="form-control" type="number" placeholder="yyyy" name="yyyy" maxlength="4" min="1900" max="2016">
-				</div>
-			</div>
-
-			<div class="form-group row">
-				<div class="col-xs-4">
-					<input class="form-control" type="text" placeholder="Enter your passport number">
-				</div>
-				<label class="col-xs-2">Expiry Date:</label>
-				<div class="col-xs-1">
-					<input class="form-control" type="number" placeholder="dd" name="dd" maxlength="2" min="1" max="31">
-				</div>
-				<div class="col-xs-1">
-					<input class="form-control" type="number" placeholder="mm" name="mm" maxlength="2" min="1" max="12">
-				</div>
-				<div class="col-xs-2">
-					<input class="form-control" type="number" placeholder="yyyy" name="yyyy" maxlength="4" min="1900" max="2100">
-				</div>
-			</div>
-			<div class="form-group row">
-				<label class="col-xs-1">Email:</label>
-				<div class="col-xs-7">
-    				<input class="form-control" type="email" placeholder="bootstrap@example.com" id="example-email-input">
-  				</div>
-  				<label class="col-xs-1">Mobile:</label>
-  				<div class="col-xs-2">
-  					<input class="form-control" type="tel" placeholder="1234 1234" id="example-tel-input">
-  				</div>
-			</div>
-		</div>
+		
 		<div class="clearfix"></div>
 		<div class="form-group">
 			<button style="float:right;" type="submit" class="btn-outline" onclick="location.href='payment.html';">Proceed to Payment</button>
