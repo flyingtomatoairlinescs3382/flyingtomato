@@ -449,6 +449,9 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 /*-- arr-and-dep --*/
 /*-- fare finder --*/
+.farefinder {
+	padding: 10px 15px;
+}
 .farefinder td {
 	text-align: left;
 }
