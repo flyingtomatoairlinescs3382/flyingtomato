@@ -188,7 +188,13 @@ section.banner-w3ls{
 	padding: 30px 0;
 	color: #FFF;
 }
-
+section.banner-w3ls p,
+section.banner-w3ls a{
+	color: #FCFCFC;
+}
+section.banner-w3ls a:hover {
+	color:#ea3538;
+}
 /*--banner--*/
 
 /*--bgfader--*/
