@@ -853,7 +853,7 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 .chosen {
 	display: none;
 }
-.tagp-click {
+.tagp:hover {
 	opacity: 0.5;
 }
 /*-- planner --*/
