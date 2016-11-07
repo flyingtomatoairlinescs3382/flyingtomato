@@ -869,7 +869,6 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 	border: 2px solid #e25b71;
 	padding: 10px 0;
 	margin-bottom: 10px;
-	cursor: pointer;
 }
 .result-content h3 {
 	margin: 20px 0;
@@ -901,79 +900,6 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 .result-content .form-group {
 	float: right;
 }
-
-/*-- Modal --*/
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 350px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 0 10px;
-    background-color: #e25b71;
-    color: white;
-}
-
-.modal-body {
-	padding: 15px 16px;
-	text-align: justify;
-}
-.modal-pic {
-	width: 32%;
-}
-/*-- Modal --*/
-
 /*-- suggest --*/
 
 /*-- hashtag --*/
