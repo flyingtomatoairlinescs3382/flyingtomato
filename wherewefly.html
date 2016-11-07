@@ -47,7 +47,6 @@
 						<ul>
 							<li><a href="tracker.html">Flight Tracker</a></li>
 							<li><a href="tracker.html">Arrival & Departure</a></li>
-							
 						</ul>
 					</div>
 				</li>
@@ -102,7 +101,7 @@
 		<p class="text-center">Based in Hong Kong, Flying Tomato Airlines’ network currently covers over 10 cities across the Asia Pacific region, including major cities in Japan, South Korea, Taiwan and Thailand. We hope to provide direclt and low cost flights to enjoy your trip with best experiences.</p>
 		<img src="images/map.png" id="map">
 		<div class="clearfix"></div>
-		<div class="place-main row">
+		<div class="place-main row"  id="top">
 			<ul class="placelist col-sm-6 col-xs-4 col-md-15">
 				<li class="phead">Hong Kong</li>
 				<li>1. Hong Kong HKG</li>
@@ -142,12 +141,11 @@
 				  	<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Japan')" id="defaultOpen">Japan</a></li>
 					<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'SouthKorea')">South Korea</a></li>
 				</ul>
-				
 				<div id="HongKong" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
-						<button class="accordion">
-							Hong Kong<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a>
+						<button class="accordion" id="hkg">
+							Hong Kong HKG<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a>
 						</button>
 						<div class="panel">
 							<div class="travel row">
@@ -181,14 +179,15 @@
 									<p>The view from The Peak is one of the most popular attrac- tions in HK. By day your eyes stretch across sparkling skyscrapers and Victoria Harbour all the way to the green hills of New Territories. In early evening this panorama melts into orange before reincarnating as a galaxy of light, shimmering beneath you. And if you listen carefully enough, you can hear Asia’s world city humming below.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
+
 						</div>
 				  	</div>
 				</div>
-				
 				<div id="Thailand" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
-						<button class="accordion">Bangkok<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="bkk">Bangkok BKK<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -220,9 +219,9 @@
 									<p>Lumpini Park is an oasis of vegetation in the middle of Bangkok’s urban jungle. One of the oldest recreational parks in Bangkok, it is a popular place for people of all ages and walks to life to convene for exercise, picnics, social gatherings and other pastimes. There are also some animals in the park. You can spot not only birds, street cats and street dogs, but also huge lizards!</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						
-						<button class="accordion">Phuket<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="hkt">Phuket HKT<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -254,9 +253,9 @@
 									<p>The GRP was set up in 1992 as a non-government orga- nization (NGO) with the aim of taking captive gibbons and retraining them so that they have a chance of returning to the wild. It is not a petting zoo, but a conservation area to avoid hunters from killing gibbons. Gibbons are an essen- tial part of the health of the jungle. Visitors can understand the habitat and get some conservative msgs here.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-			
-						<button class="accordion">Chiang Mai<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="cnx">Chiang Mai CNX<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -288,14 +287,14 @@
 									<p>Wat Chedi Luang (lit. temple of the big stupa) is a Buddhist temple in the historic centre of Chiang Mai. It made up of made up of Wat Chedi Luang, Wat Ho Tham and Wat Sukmin. This was possibly the largest structure in ancient Chiang Mai but the top of the chedi was destroyed by either a 16th-century earthquake or by cannon fire during the recapture of Chiang Mai.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
 				  	</div>
 				</div>
-
 				<div id="Taiwan" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
-						<button class="accordion">Taipei<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="tpe">Taipei TPE<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -327,9 +326,9 @@
 									<p>Shilin Night Market is considered to be the largest and most famous night market in the city. It containing mostly food vendors and small restaurants; and the surrounding businesses and shops selling other nonfood items. It is famous for Fried chicken steak, Small Sausage in Large Sausage (大腸包小腸), Oyster omelet, Tempura (甜不辣), Bubble tea (珍珠奶茶) and Oyster vermicelli (蚵仔麵線).</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						
-						<button class="accordion">Taichung<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="txg">Taichung TXG<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						 	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -361,9 +360,9 @@
 									<p>The name of the lake is inspired by the beauty of the area. The east side of the lake is round, like the sun, while the west side is long and narrow, like a crescent moon. The aboriginal Thao tribe lives around the lake, and are the proprietors of many local businesses. The town Ita Thao (伊達邵) is located across the lake from the pier area and next to the Sun Moon Lake Ropeway.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						
-						<button class="accordion">Kaohsiung<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="khh">Kaohsiung KHH<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						  	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -395,14 +394,14 @@
 									<p>The Liuhe Night Market is a must visit market if you are in Kaohsiung. It is one of the most popular markets in Taiwan where seafood, handicrafts, clothing, knives, cam- eras and live animals are sold. During the day, Liuhe 2nd Road looks like any other road with thru traffic and store- fronts. But after 6:00pm, the barriers go up and it becomes a pedestrian market.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
 				  	</div>
 				</div>
-
 				<div id="Japan" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
-						<button class="accordion">Tokyo<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="naa">Tokyo NAA<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -436,7 +435,7 @@
 							</div>
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
-									<img src="images/25tokyo.jpg">
+									<img src="images/25tokyo.jpg" id="25">
 								</div>
 								<div class="text col-md-7">
 									<h3>Tokyo Disneyland</h3>
@@ -444,9 +443,10 @@
 									<p>Tokyo Disneyland is a theme park based on the films produced by Walt Disney. It was opened in 1983 as the first Disney theme park outside of the United States. Mod- eled after Disneyland in California and the Magic King- dom in Florida, Tokyo Disneyland is made up of seven themed lands and features seasonal decorations and parades!</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
 						
-						<button class="accordion">Osaka<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="kix">Osaka KIX<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						 	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -491,8 +491,9 @@
 									<p>"Okonomiyaki" (savory pancakes) is a dish made by mixing ingredients like finely sliced squid, shrimp, pork, beef, and cabbage into a batter made from flour and grilling on a flat iron grill. Many places let customers grill their own okonomiyaki on large flat iron grills on top of the table. It is a lot of fun to grill up your own okonomiyaki with a group of friends or family.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						<button class="accordion">Okinawa<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="oka">Okinawa OKA<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						  	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -525,13 +526,14 @@
 									<p>Being an island, Okinawa offers plenty of seafood all year round. The best places to find fresh seafood are the fish markets in fishing ports throughout the island. Not only can you purchase the best-quality seafood, you can also enjoy tempura and reasonably priced seafood meals. Along with fresh tuna and bonito, many colorful tropical fish are displayed at fish markets.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
 				  	</div>
 				</div>
 				<div id="SouthKorea" class="tabcontent">
 				  	<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fa fa-times" aria-hidden="true" id="closetab"></i></span>
 					<div class="tabdetail">
-						<button class="accordion">Seoul<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="icn">Seoul ICN<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 							<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -563,8 +565,9 @@
 									<p>If you're planning a trip to Seoul, be prepared to EAT. Try the famous Korean BBQ in one of the many traditional Korean Restaurants in Seoul. And there are s many tradi- tional Korean BBQ can be found in Yongsan-gu, like Maple Tree House Itaewon, Two Plus Itaewon, Southside Parlour & Manimal Smokehouse etc. If you have no idea to start with, give Yongsan-gu a visit!</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						<button class="accordion">Busan<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="pus">Busan PUS<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						 	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -597,8 +600,9 @@
 									<p>Haedong Yonggung Temple is a Buddhist temple in Gijang-gun, Busan, South Korea. The temple was built in 1376 by the teacher known as Naong during the Goryeo Dynasty. The temple complex is a large one and one of few in Korea to be set on the seaside. As such, combined with its proximity to Haeundae Beach and the east side of Busan, the temple is popular with sightseers.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
-						<button class="accordion">Jeju<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
+						<button class="accordion" id="cju">Jeju CJU<i class="fa fa-angle-down" aria-hidden="true" id="angledown"></i><a href="flight.html" class="booknow">Book Now!</a></button>
 						<div class="panel">
 						  	<div class="travel row">
 								<div class="pic col-md-5 text-center">
@@ -632,6 +636,7 @@
 									<p>Hello Kitty Island is a special exhibition hall, themed around Hello Kitty, beloved by many people all over the world. Visitors can enjoy the many various exhibits, com- prised of a gift shop, Kitty History Hall, Art Education Hall, Music Education Hall, Art Gallery, World Gallery Hall, Trip around the World Gallery Hall, Constellation Education Hall, Planned Gallery, Hello Kitty Café, and more.</p>
 								</div>
 							</div>
+							<div class="top"><a href="wherewefly.html#top">TOP</a></div>
 						</div>
 				  	</div>
 				</div>
@@ -649,31 +654,8 @@
 				    document.getElementById(cityName).style.display = "block";
 				    evt.currentTarget.className += " active";
 				}
-
 				// Get the element with id="defaultOpen" and click on it
 				document.getElementById("defaultOpen").click();
-				</script>
-				<script>
-					var acc = document.getElementsByClassName("accordion");
-					var i;
-
-					for (i = 0; i < acc.length; i++) {
-    					acc[i].onclick = function(){
-        					this.classList.toggle("active");
-        					this.nextElementSibling.classList.toggle("show");
-					    }
-					}
-				</script>
-				<script>
-					var acc = document.getElementsByClassName("accordion2");
-					var i;
-
-					for (i = 0; i < acc.length; i++) {
-    					acc[i].onclick = function(){
-        					this.classList.toggle("active");
-        					this.nextElementSibling.classList.toggle("show");
-					    }
-					}
 				</script>
 			</div>
 		</div>
