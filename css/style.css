@@ -960,6 +960,15 @@ span.shopping {background-color: #FA849A;}
 .search-btn {
 	float: right;
 }
+#angle{
+	background-color: transparent;
+	font-size: 20px;
+	color: #555;
+	vertical-align: middle;
+	display: inline-block;
+	margin-bottom: 0px;
+	max-width: 25px;
+}
 /*-- select-flight --*/
 /*-- who-we-are --*/
 #b3 {
