@@ -852,9 +852,15 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 .chosen {
 	display: none;
+	font-size: 16px;
+	padding: 5px 0;
 }
 .tagp:hover {
 	opacity: 0.5;
+}
+.tag-list label {
+	font-size: 20px;
+	margin-bottom: 5%;
 }
 /*-- planner --*/
 
