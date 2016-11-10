@@ -852,8 +852,10 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 }
 .chosen {
 	display: none;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 5px 0;
+	margin: 10px 0;
+	font-family: 'Montserrat' sans-serif;
 }
 .tagp:hover {
 	opacity: 0.5;
@@ -862,6 +864,7 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 	font-size: 20px;
 	margin-bottom: 5%;
 }
+
 /*-- planner --*/
 
 /*-- suggest --*/
