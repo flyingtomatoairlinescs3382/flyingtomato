@@ -909,7 +909,7 @@ section.info-w3ls2 .table>tbody>tr>td h4 {
 	width: 100%;
 	max-width: 350px;
 }
-.suggestlist {
+.suggestlist ul {
 	list-style-type: none;
 }
 .result-content .form-group {
