@@ -43,6 +43,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="index.html"><img id="longlogo" src="images/logo_head.png" alt="Flying Tomato Logo"></a>
+			<a href="#content" class="skip">Skip to content</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse col-md-12">
 			<ul class="nav navbar-nav navbar-right">
@@ -95,7 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="clearfix"></div>
 <!-- banner section -->
 <section class="banner-w3ls">
-	<div class="header">
+	<div class="header" id="content">
 		<div class="container">
 			<div class="col-md-12 banner-form">
 				<div class="booking-info">
@@ -142,29 +143,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</datalist>
 					</div>
 					<div class="form-group col-md-3">
-						<label for="depart-date">Depart date:</label>
-						<input type="date" class="form-control" id="depart-date">
+						<label for="depart-date">Depart date:
+						<input type="date" class="form-control" id="depart-date"></label>
 					</div>
 					<div class="form-group col-md-3">
-						<label for="return-date">Return date:</label>
-						<input type="date" class="form-control" id="return-date">
+						<label for="return-date">Return date:
+						<input type="date" class="form-control" id="return-date"></label>
 					</div>
 					<div class="form-group col-md-2">
-						<label for="adultno">Adults (12+) :</label>
+						<label for="adultno">Adults (12+) :
 						<select class="custom-select form-control">
-							<option selected>1</option>
-							<option>2</option>
+							<option>1</option>
+							<option selected>2</option>
 							<option>3</option>
-							<option>3</option>
-						</select>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+						</select></label>
 					</div>
 					<div class="form-group col-md-2">
-						<label for="childno">Child (<12) :</label>
+						<label for="childno">Child (<12) :
 						<select class="custom-select form-control" id="childno">
 							<option selected>0</option>
 							<option>1</option>
 							<option>2</option>
-						</select>
+							<option>3</option>
+							<option>4</option>
+						</select></label>
 					</div>
 					<div class="form-group col-md-2 form-submit">
 						<button type="submit" class="btn-outline white-btn" onclick="location.href='flight.html';">Search Flight</button>
@@ -361,10 +366,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="subscribe">
 				<form action="#" method="post">
 					<div class="form-group">
-						<input type="email" name="email2" class="form-control" id="inputEmail1" placeholder="Email">
+						<input type="email" name="email2" class="form-control" id="inputEmail1" title="input email" placeholder="Email">
 					</div>
 					<div class="form-group">
-						<input type="text" name="user" class="form-control" id="text1" placeholder="Your Name">
+						<input type="text" name="user" class="form-control" id="text1" title="input your name" placeholder="Your Name">
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn-outline">Subscribe</button>
