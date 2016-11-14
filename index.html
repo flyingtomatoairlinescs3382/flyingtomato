@@ -104,7 +104,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h3 class="text-center wthree w3-agileits">Book Your Flight Now!</h3>
 					</div>
 					<div class="clearfix"></div>
-					<div class="form-group col-md-6">
+					<div class="form-group col-md-4">
 						<label for="depart">Depart:</label>
 						<input class="form-control" list="place" placeholder="HKG Hong Kong" id="depart">
 						<datalist id="place1">	
@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<option>CJU Jeju</option>
 						</datalist>
 					</div>
-					<div class="form-group col-md-6">
+					<div class="form-group col-md-4">
 						<label for="return">Return:</label>
 						<input class="form-control" list="place" placeholder="ICN Seoul" id="return">
 						<datalist id="place">	
@@ -141,6 +141,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<option>PUS Busan</option>
 							<option>CJU Jeju</option>
 						</datalist>
+					</div>
+					<div class="form-group col-md-3" id="trip"><br>
+							<input type="radio" name="trip" value="round" checked> &nbsp Round-trip <br>
+					 		<input type="radio" name="trip" value="oneway" > &nbsp One-way <br>
 					</div>
 					<div class="form-group col-md-3">
 						<label for="depart-date">Depart date:
@@ -171,6 +175,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<option>4</option>
 						</select></label>
 					</div>
+					
 					<div class="form-group col-md-2 form-submit">
 						<button type="submit" class="btn-outline white-btn" onclick="location.href='flight.html';">Search Flight</button>
 					</div>

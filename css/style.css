@@ -1374,6 +1374,10 @@ iframe.googlemaps {
 }
 /*-- responsive --*/
 
+#trip {
+    color: #fff;
+}
+
 /*-- skip to content --*/
 .skip {
         position: absolute;
