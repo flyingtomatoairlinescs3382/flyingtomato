@@ -1,3 +1,4 @@
+
 /*--
 	Author: W3layouts
 	Author URL: http://w3layouts.com
@@ -115,14 +116,14 @@ h3 {
     color:#FFC107;
     margin-bottom: 7px;
 }
-.from,.to,.date,.depart,.return{
+.from,.to,.date,.depart1,.depart2,.return{
 	width:48%;
 	float:left;
 }
 .from,.to,.date{
 	margin-bottom:40px;
 }
-.from,.date,.depart{
+.from,.date,.depart1,.depart2{
 	margin-right:4%;
 }
 input[type="text"]{
@@ -376,11 +377,11 @@ form.blackbg{
 	}
 }
  @media (max-width:991px){
-	.from, .to, .date, .depart, .return {
+	.from, .to, .date, .depart1,.depart2, .return {
 		width: 49%;
 		float: left;
 	}
-	.from, .date, .depart {
+	.from, .date, .depart1,.depart2 {
 		margin-right: 2%;
 	}
 }
@@ -453,7 +454,7 @@ form.blackbg{
 		width:30%;
 		float:left;
 	}
-	.oneway .depart,.multicity .depart{
+	.oneway .depart1,.multicity .depart1, .oneway .depart2,.multicity .depart2{
 		width: 68%;
 	}
 }
@@ -499,7 +500,7 @@ form.blackbg{
 	.numofppl {
 		width: 80%;
 	}
-	.oneway .depart, .multicity .depart {
+	.oneway .depart1, .multicity .depart1, .oneway .depart2, .multicity .depart2 {
 		width: 100%;
 	}
 }
@@ -524,7 +525,7 @@ form.blackbg{
 	h3 {
 		font-size: 15px;
 	}
-	.from, .to, .date, .depart, .return {
+	.from, .to, .date, .depart1, .depart2, .return {
 		width: 100%;
 		float: left;
 		margin-bottom:25px;
