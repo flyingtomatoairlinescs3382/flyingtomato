@@ -1307,6 +1307,9 @@ iframe.googlemaps {
 		width: 33.3333333333%;
 		margin-bottom: 25px;
 	}
+		#your_choice{
+		font-size: 12px;
+	}
 }
 
 @media (max-width:560px) {
@@ -1340,7 +1343,7 @@ iframe.googlemaps {
 
 	.booknow {
 		font-size: 13px;
-}
+	}
 }
 
 @media (max-width:375px) {
@@ -1383,6 +1386,15 @@ iframe.googlemaps {
 
 #trip {
     color: #fff;
+}
+
+#your_choice{
+	margin:0;
+	font-size: 20px;
+	margin-bottom: 5%;
+	color: #EA3858;
+	padding-right: 5px; 
+	font-weight: bolder;
 }
 
 /*-- skip to content --*/
