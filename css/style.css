@@ -1065,7 +1065,10 @@ ul.tab li a:focus, .active {
     border: 1px solid #ccc;
     margin-top: 10px;
 }
-#closetab, #angledown {
+#closetab, #angledown1, #angledown2, #angledown3, 
+#angledown4, #angledown5, #angledown6, #angledown7, 
+#angledown8, #angledown9, #angledown10, #angledown11, 
+#angledown12, #angledown13  {
 	width: 20px;
     height: 20px;
     line-height: 20px;
