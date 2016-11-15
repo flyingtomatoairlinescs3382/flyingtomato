@@ -1334,6 +1334,10 @@ iframe.googlemaps {
 	.tag-list label, .chosen {
 		font-size: 12px;
 	}
+
+	.booknow {
+		font-size: 12px;
+}
 }
 
 @media (max-width:375px) {
